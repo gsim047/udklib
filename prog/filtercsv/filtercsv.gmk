@@ -1,0 +1,75 @@
+# This file was created by MkExe ver. 1.0.12.47 [2016-07-30 09:14:40]
+
+NAME=filtercsv
+MKFILE=$(NAME).gmk
+
+CC=g++
+RCC=windres
+CPPFLAGS=-s -I ~/include -std=c++11
+CFLAGS=$(CPPFLAGS)
+
+UNAME_O = $(shell uname -o)
+ifeq ($(UNAME_O),Cygwin)
+TARGET=$(NAME).exe
+RES=$(NAME)_res.o
+LIBS=-L ~/lib -lcMain -ludk -lpthread -lversion
+else
+TARGET=$(NAME)
+RES=$(NAME).res
+LIBS=-L ~/lib -lcMain -ludk -lpthread
+endif
+
+ARC=$(NAME)_src
+RC=$(NAME).rc
+LLIBS=
+
+MM=$(NAME).d
+
+OBJS=\
+	$(NAME).o
+
+#	$(NAME).o
+
+
+all: $(TARGET) $(OBJS) # $(ARC).rar
+
+$(TARGET) : $(OBJS) $(RES) $(LLIBS) $(MKFILE)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS) $(RES) $(LIBS) $(LLIBS)
+
+#include $(MM)
+
+%.o : %.cpp
+	$(CC) $(CPPFLAGS) -c -o $@ $<
+
+%.o : %.c
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+
+ifeq ($(UNAME_O),Cygwin)
+$(RES) : $(RC) $(OBJS) $(MKFILE)
+	vinc $(RC)
+	$(RCC) -o $(RES) $(RC)
+else
+$(RES) : $(RC) $(OBJS) $(MKFILE)
+	vinc $(RC)
+	objcopy -I binary -O elf64-x86-64 -B i386 $(RC) $(RES)
+endif
+
+$(ARC).rar : $(OBJS) $(MKFILE)
+	-1 @rar u $(ARC) *.h *.cpp *.c *.rc *.mak *.def *.gmk
+# cp $(ARC).rar \Doc\h
+
+clean:
+	-rm $(TARGET)
+	-rm $(OBJS)
+	-rm $(RES)
+
+install: all copy
+
+copy: all
+	cp -v -u $(TARGET) ~/bin
+	cp -v -u $(TARGET).cfg ~/bin
+
+
+#$(MM): *.cpp *.h $(MKFILE)
+#	$(CC) $(CFLAGS) -MM *.cpp *.h > $(MM)

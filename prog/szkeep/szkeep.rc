@@ -1,0 +1,51 @@
+// This file was created by MkExe ver. 1.0.15.60 [2018-04-25 17:22:45]
+
+#define VERSIONINFO_1 1
+VERSIONINFO_1 VERSIONINFO
+
+FILEVERSION 1, 0, 0, 37
+PRODUCTVERSION 1, 0, 0, 1
+
+FILEOS 0x40004L
+// FILEOS 0x0L - 
+// FILEOS 0x1L - DOS
+// FILEOS 0x2L - for 16-bit Presentation Manager
+// FILEOS 0x3L - for 32-bit Presentation Manager
+// FILEOS 0x4L - NT
+
+FILETYPE 0x01L
+//FILETYPE 0x02L
+// FILETYPE 0x00L - unknown
+// FILETYPE 0x01L - Application
+// FILETYPE 0x02L - DLL
+// FILETYPE 0x03L - Device Driver
+// FILETYPE 0x04L - Font
+// FILETYPE 0x05L - Virtual Device
+// FILETYPE 0x07L - Static link Library
+FILESUBTYPE    0x0L
+
+{
+	BLOCK "StringFileInfo"
+	{
+		BLOCK "040904E4"
+		{
+			VALUE "CompanyName", "Gerasim#\0"
+			VALUE "FileDescription", "szkeep\0"
+			VALUE "FileVersion", "1.0.0.37\0"
+			VALUE "Date", "2018-04-28\0"
+			VALUE "Time", "15:51:58\0"
+			VALUE "ProductName", "szkeep\0"
+			VALUE "ProductVersion", "1.0.0.1\0"
+			VALUE "InternalName", "szkeep\0"
+			VALUE "LegalCopyright", "Copyright (c)  Gerasim# 2018\0"
+			VALUE "OriginalFilename", "szkeep.exe\0"
+		}
+	}
+
+	BLOCK "VarFileInfo"
+	{
+		VALUE "Translation", 0x409, 0x04E4
+	}
+}
+
+128           ICON    DISCARDABLE     "szkeep.ico"

@@ -1,0 +1,117 @@
+!ifndef CPPINC
+!error CPPINC must be defined !!!
+!endif
+!ifndef VCLIB
+!error VCLIB must be defined !!!
+!endif
+
+!ifdef LIBVER
+OUTDIR=.\$(LIBVER)
+!else
+OUTDIR=.\vc
+!endif
+
+CPPFLAGS=/nologo /MT /W3 /O2 /EHsc /GR /D_CRT_SECURE_NO_WARNINGS /Fo"$(OUTDIR)\\" /I "..\zlib"
+CFLAGS=$(CPPFLAGS)
+LIBO=udk
+LIBN=$(LIBO)
+LIBP=$(OUTDIR)\$(LIBN)
+LIBPE=$(LIBP).lib
+ARC=$(LIBN)_src
+ARL=$(LIBO)_lib
+MYLIB=$(VCLIB)
+MYH=$(CPPINC)
+LIB32=link.exe -lib
+LIB32_FLAGS=/nologo /out:"$(LIBPE)" 
+
+#CPP_PROJ=/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"$(INTDIR)\tPicMan.pch" /YX /Fo"$(INTDIR)\\" /Fd"$(INTDIR)\\" /FD /c 
+
+OBJS = \
+	"$(OUTDIR)\_sha.obj"                \
+	"$(OUTDIR)\fBase64.obj"             \
+	"$(OUTDIR)\fConfig.obj"             \
+	"$(OUTDIR)\fCPU.obj"                \
+	"$(OUTDIR)\fFile.obj"               \
+	"$(OUTDIR)\fKey.obj"                \
+	"$(OUTDIR)\fLong.obj"               \
+	"$(OUTDIR)\fRand.obj"               \
+	"$(OUTDIR)\fString.obj"             \
+	"$(OUTDIR)\fTime.obj"               \
+	"$(OUTDIR)\fVector.obj"             \
+	"$(OUTDIR)\fZip.obj"                \
+	"$(OUTDIR)\mt19937ar.obj"           \
+	"$(OUTDIR)\nError.obj"              \
+	"$(OUTDIR)\tBits.obj"               \
+	"$(OUTDIR)\tCGI.obj"                \
+	"$(OUTDIR)\tConfiguration.obj"	     \
+	"$(OUTDIR)\tCrc32.obj"              \
+	"$(OUTDIR)\tCrc64.obj"              \
+	"$(OUTDIR)\tDataRow.obj"            \
+	"$(OUTDIR)\tDateTime.obj"           \
+	"$(OUTDIR)\tDebug.obj"	             \
+	"$(OUTDIR)\tFile.obj"               \
+	"$(OUTDIR)\tFillBuff.obj"           \
+	"$(OUTDIR)\tFList.obj"              \
+	"$(OUTDIR)\tHKey.obj"               \
+	"$(OUTDIR)\tHtml.obj"               \
+	"$(OUTDIR)\tHtmlTags.obj"           \
+	"$(OUTDIR)\tImgInf.obj"             \
+	"$(OUTDIR)\tLogQue.obj"             \
+	"$(OUTDIR)\tMutex.obj"              \
+	"$(OUTDIR)\tNumber.obj"             \
+	"$(OUTDIR)\tPidFile.obj"            \
+	"$(OUTDIR)\tRdBuff.obj"             \
+	"$(OUTDIR)\tRecodeCC.obj"           \
+	"$(OUTDIR)\tRefer.obj"              \
+	"$(OUTDIR)\tResult.obj"             \
+	"$(OUTDIR)\tSHA.obj"                \
+	"$(OUTDIR)\tSHA512.obj"             \
+	"$(OUTDIR)\tSimGamma.obj"           \
+	"$(OUTDIR)\tThread.obj"             \
+	"$(OUTDIR)\tTimer.obj"              \
+	"$(OUTDIR)\tTimTrace.obj"           \
+	"$(OUTDIR)\tTmpFile.obj"
+
+
+all: "$(OUTDIR)" $(LIBPE) $(OBJS) $(ARC).rar
+
+
+"$(OUTDIR)" :
+	if not exist "$(OUTDIR)/$(NULL)" mkdir "$(OUTDIR)"
+
+
+clean: 
+	del $(LIBPE)
+	del $(OUTDIR)\*.obj
+
+build: clean all
+
+copy:
+	@xcopy /Y /D /R *.h $(MYH)\*.*
+	@xcopy /Y /D /R $(LIBPE) $(MYLIB)\*.*	
+
+install: all copy
+
+
+$(LIBPE) : "$(OUTDIR)" $(OBJS) $(MKFILE)
+	$(LIB32) @<<
+	$(LIB32_FLAGS) $(OBJS)
+<<
+
+.c{$(OUTDIR)}.obj::
+	$(CC) @<<
+	$(CFLAGS) /c $< 
+<<
+
+.cpp{$(OUTDIR)}.obj::
+	$(CPP) @<<
+	$(CPPFLAGS) /c $< 
+<<
+
+$(ARL).rar : $(LIBPE)
+	-1 @rar u -r $(ARL) *.lib
+
+$(ARC).rar : $(OBJS) Makefile*.*
+	-1 @rar u $(ARC) *.h *.cpp *.c *.bat Makefile*.*
+	if exist c:/doc cp -f $(ARC).rar /doc/h/
+

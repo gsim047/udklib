@@ -1,0 +1,2016 @@
+/home/gsim/Milldrv:
+итого 20736
+drwxr-xr-x 5 gsim gsim     4096 2018-04-28 15:20:44.444774823 +0300 milldrv
+drwxr-xr-x 5 gsim gsim     4096 2018-04-28 11:48:03.291230611 +0300 milldrv__mB
+drwxr-xr-x 5 gsim gsim     4096 2018-04-24 10:57:12.643743653 +0300 milldrv__mA
+drwxr-xr-x 5 gsim gsim     4096 2018-04-23 16:03:43.904644334 +0300 milldrv__m9
+drwxr-xr-x 5 gsim gsim     4096 2018-04-18 17:19:16.245861474 +0300 milldrv__m8
+drwxr-xr-x 6 gsim gsim     4096 2018-04-17 18:10:46.010586771 +0300 m.bk
+-rw-r--r-- 1 gsim gsim 10415275 2018-04-17 17:27:33.405773340 +0300 milldrv_pp.tgz
+drwxr-xr-x 5 gsim gsim     4096 2018-04-17 11:48:19.425560501 +0300 milldrv__m6
+drwxr-xr-x 5 gsim gsim     4096 2018-04-17 11:48:15.553575337 +0300 milldrv__m7
+-rw-r--r-- 1 gsim gsim  9952629 2018-04-13 17:25:58.942998764 +0300 milldrv_bk.tgz
+drwxr-xr-x 6 gsim gsim     4096 2018-04-13 10:48:10.798348004 +0300 m
+drwxr-xr-x 5 gsim gsim     4096 2018-03-29 19:17:24.023253564 +0300 milldrv__m5
+drwxr-xr-x 6 gsim gsim     4096 2018-03-20 17:55:55.180599687 +0300 milldrv__m4
+drwxr-xr-x 5 gsim gsim     4096 2018-03-16 12:16:13.324321367 +0300 milldrv__m3
+drwxr-xr-x 5 gsim gsim     4096 2018-03-15 10:15:54.882759808 +0300 milldrv__m2
+drwxr-xr-x 5 gsim gsim     4096 2018-03-14 17:23:36.723669091 +0300 milldrv__m
+drwxr-xr-x 3 gsim gsim     4096 2018-02-28 12:01:56.648465868 +0300 50_cur
+drwxr-xr-x 3 gsim gsim     4096 2018-02-13 17:53:51.323421905 +0300 192_cur
+-rwxr-xr-x 1 gsim gsim      109 2018-01-08 15:57:55.559574976 +0300 pk-050.sh
+-rwxr-xr-x 1 gsim gsim      108 2018-01-08 15:57:55.559574976 +0300 pk-204.sh
+-rwxr-xr-x 1 gsim gsim       57 2017-12-13 15:08:21.276423437 +0300 get.sh
+drwxr-xr-x 2 gsim gsim     4096 2017-12-11 10:18:40.459193365 +0300 50
+-rw-r--r-- 1 gsim gsim   383636 2017-11-24 10:38:12.630256291 +0300 milldrv_xxx.tgz
+-rw-r--r-- 1 gsim gsim   381987 2017-11-23 10:11:34.076595043 +0300 milldrv_20171122.tgz
+-rwxr-xr-x 1 gsim gsim      111 2017-11-17 10:45:41.619038447 +0300 pk&cp.sh
+-rwxr-xr-x 1 gsim gsim       48 2017-11-02 18:18:25.861892615 +0300 pk.sh
+-rwxr-xr-x 1 gsim gsim       43 2017-10-23 10:49:26.947427555 +0300 cp_2_share.sh
+
+/home/gsim/Milldrv/milldrv:
+итого 1048
+-rw-r--r-- 1 gsim gsim 174202 2018-04-28 15:20:44.448774804 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim   1105 2018-04-28 12:24:10.113547981 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim   2736 2018-04-28 12:24:10.113547981 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim   3783 2018-04-28 12:24:10.113547981 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim  42090 2018-04-28 12:24:10.113547981 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim   6622 2018-04-28 12:24:10.113547981 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim  48781 2018-04-28 12:24:10.113547981 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim   9453 2018-04-28 12:24:10.113547981 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim   3384 2018-04-28 12:24:10.113547981 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim    802 2018-04-28 12:24:10.113547981 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim   3715 2018-04-28 12:24:10.113547981 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim   2552 2018-04-28 12:24:10.113547981 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim   1963 2018-04-28 12:24:10.113547981 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim  49196 2018-04-28 12:24:10.113547981 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim   9604 2018-04-28 12:24:10.113547981 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim   2758 2018-04-28 12:24:10.113547981 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim    676 2018-04-28 12:24:10.113547981 +0300 m2bio_t.h
+-rw-r--r-- 1 gsim gsim   1309 2018-04-28 12:24:10.113547981 +0300 Makefile
+-rw-r--r-- 1 gsim gsim   5093 2018-04-28 12:24:10.113547981 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim    463 2018-04-28 12:24:10.113547981 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim  80625 2018-04-28 12:24:10.113547981 +0300 milld.c
+-rw-r--r-- 1 gsim gsim   9141 2018-04-28 12:24:10.113547981 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim   2365 2018-04-28 12:24:10.113547981 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim    604 2018-04-28 12:24:10.113547981 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim   2048 2018-04-28 12:24:10.113547981 +0300 mill_list.c
+-rw-r--r-- 1 gsim gsim   1357 2018-04-28 12:24:10.113547981 +0300 mill_list.h
+-rw-r--r-- 1 gsim gsim   3067 2018-04-28 12:24:10.113547981 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim   3017 2018-04-28 12:24:10.113547981 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim  15619 2018-04-28 12:24:10.113547981 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim   7965 2018-04-28 12:24:10.113547981 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim    381 2018-04-28 12:24:10.113547981 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim  16898 2018-04-28 12:24:10.113547981 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim   4533 2018-04-28 12:24:10.113547981 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim   3565 2018-04-28 12:24:10.113547981 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim    882 2018-04-28 12:24:10.113547981 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim  20121 2018-04-28 12:24:10.113547981 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim   4493 2018-04-28 12:24:10.113547981 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim   1668 2018-04-28 12:24:10.113547981 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim    336 2018-04-28 12:24:10.113547981 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim  38310 2018-04-28 12:24:10.113547981 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim  31477 2018-04-28 12:24:10.113547981 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  36032 2018-04-28 12:24:10.113547981 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim  34916 2018-04-28 12:24:10.113547981 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim  56200 2018-04-28 12:24:10.113547981 +0300 raid60.c
+-rw-r--r-- 1 gsim gsim  65432 2018-04-28 12:24:10.113547981 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim   7549 2018-04-28 12:24:10.113547981 +0300 raid.c
+-rw-r--r-- 1 gsim gsim   4067 2018-04-28 12:24:10.113547981 +0300 raid.h
+-rw-r--r-- 1 gsim gsim   2737 2018-04-28 12:24:10.113547981 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim   3367 2018-04-28 12:24:10.113547981 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim  68991 2018-04-28 12:24:10.113547981 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim   2881 2018-04-28 12:24:10.113547981 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim  14522 2018-04-28 12:24:10.113547981 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim   1548 2018-04-28 12:24:10.113547981 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim   2414 2018-04-28 12:24:10.113547981 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim    654 2018-04-28 12:24:10.113547981 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim   9426 2018-04-28 12:24:10.113547981 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim    637 2018-04-28 12:24:10.113547981 +0300 tier_t.h
+drwxr-xr-x 3 gsim gsim   4096 2018-04-28 12:14:52.051975809 +0300 util
+drwxr-xr-x 3 gsim gsim   4096 2018-04-28 12:13:29.116307254 +0300 tests
+-rwxr-xr-x 1 gsim gsim    348 2018-04-28 12:13:29.112307269 +0300 map_drive.sh
+-rwxr-xr-x 1 gsim gsim    277 2018-04-28 12:13:29.112307269 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim     72 2018-04-28 12:13:29.108307285 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim      9 2018-04-28 12:13:29.108307285 +0300 init
+-rwxr-xr-x 1 gsim gsim     78 2018-04-28 12:13:29.108307285 +0300 in.sh
+
+/home/gsim/Milldrv/milldrv/util:
+итого 136
+-rw-r--r-- 1 gsim gsim 2213 2018-04-28 12:14:52.051975809 +0300 rebuild.c
+drwxr-xr-x 2 gsim gsim 4096 2018-04-28 12:13:29.116307254 +0300 admin
+-rwxr-xr-x 1 gsim gsim   30 2018-04-28 12:13:29.116307254 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim 2480 2018-04-28 12:13:29.116307254 +0300 createdisk.c
+-rw-r--r-- 1 gsim gsim 3378 2018-04-28 12:13:29.116307254 +0300 createlun.c
+-rw-r--r-- 1 gsim gsim 1127 2018-04-28 12:13:29.116307254 +0300 deletedisk.c
+-rw-r--r-- 1 gsim gsim 1067 2018-04-28 12:13:29.116307254 +0300 deletegroup.c
+-rw-r--r-- 1 gsim gsim 1096 2018-04-28 12:13:29.116307254 +0300 deletelun.c
+-rwxr-xr-x 1 gsim gsim 6643 2018-04-28 12:13:29.116307254 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-04-28 12:13:29.116307254 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-04-28 12:13:29.116307254 +0300 init
+-rw-r--r-- 1 gsim gsim 3083 2018-04-28 12:13:29.116307254 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim 1348 2018-04-28 12:13:29.116307254 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 9060 2018-04-28 12:13:29.116307254 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 3908 2018-04-28 12:13:29.116307254 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 1483 2018-04-28 12:13:29.116307254 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 4650 2018-04-28 12:13:29.116307254 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim  111 2018-04-28 12:13:29.116307254 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   70 2018-04-28 12:13:29.116307254 +0300 mill_list_luns.ini
+-rw-r--r-- 1 gsim gsim 3128 2018-04-28 12:13:29.116307254 +0300 millstatblk.c
+-rwxr-xr-x 1 gsim gsim 9610 2018-04-28 12:13:29.116307254 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   62 2018-04-28 12:13:29.116307254 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 1476 2018-04-28 12:13:29.116307254 +0300 o_lunstat.py
+-rw-r--r-- 1 gsim gsim 1866 2018-04-28 12:13:29.116307254 +0300 resizing.c
+-rwxr-xr-x 1 gsim gsim 4992 2018-04-28 12:13:29.116307254 +0300 sctiering.py
+-rw-r--r-- 1 gsim gsim 2048 2018-04-28 12:13:29.116307254 +0300 ssdcache.c
+-rwxr-xr-x 1 gsim gsim 2389 2018-04-28 12:13:29.116307254 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv/util/admin:
+итого 16
+-rw-r--r-- 1 gsim gsim 1343 2018-04-28 12:13:29.116307254 +0300 kernoutput.c
+-rw-r--r-- 1 gsim gsim  227 2018-04-28 12:13:29.116307254 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 3885 2018-04-28 12:13:29.116307254 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 1320 2018-04-28 12:13:29.116307254 +0300 testmode.c
+
+/home/gsim/Milldrv/milldrv/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-04-28 12:13:29.116307254 +0300 test512
+
+/home/gsim/Milldrv/milldrv/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-04-28 12:13:29.116307254 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-04-28 12:13:29.116307254 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-04-28 12:13:29.116307254 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-04-28 12:13:29.116307254 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/milldrv__mB:
+итого 1048
+-rw-r--r-- 1 gsim gsim  68963 2018-04-28 11:48:03.291230611 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim   2881 2018-04-28 11:47:08.835489139 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim  65431 2018-04-28 11:46:53.695560700 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim   7550 2018-04-28 11:46:43.839607209 +0300 raid.c
+-rw-r--r-- 1 gsim gsim   4067 2018-04-28 11:46:33.391656443 +0300 raid.h
+-rw-r--r-- 1 gsim gsim  38310 2018-04-28 11:46:05.327788327 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim  80625 2018-04-28 11:45:54.467839219 +0300 milld.c
+-rw-r--r-- 1 gsim gsim   9141 2018-04-28 11:45:22.683987674 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 173472 2018-04-28 11:45:12.264036180 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim  15619 2018-04-28 11:44:35.484206712 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim  49196 2018-04-28 11:44:16.176295792 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim   9618 2018-04-28 11:43:03.556627861 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim  48746 2018-04-28 11:42:21.748816712 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim  42090 2018-04-28 11:41:54.036940862 +0300 chunk_t.c
+drwxr-xr-x 3 gsim gsim   4096 2018-04-28 11:40:57.357192024 +0300 util
+-rw-r--r-- 1 gsim gsim   7940 2018-04-27 17:01:25.843644116 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim    381 2018-04-27 16:59:43.732168912 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim   3565 2018-04-27 16:59:43.732168912 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim    882 2018-04-27 16:59:43.732168912 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim   6622 2018-04-27 16:59:43.724168952 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim   9453 2018-04-27 16:59:43.724168952 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim   2758 2018-04-27 16:59:43.724168952 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim    676 2018-04-27 16:59:43.724168952 +0300 m2bio_t.h
+-rw-r--r-- 1 gsim gsim  34916 2018-04-27 16:58:40.012496518 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim  31477 2018-04-27 16:58:26.108568017 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  36032 2018-04-27 16:58:19.644601259 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim  56200 2018-04-27 16:58:06.408669331 +0300 raid60.c
+-rw-r--r-- 1 gsim gsim   2414 2018-04-27 16:57:57.284716258 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim    654 2018-04-27 16:57:45.828775182 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim   1105 2018-04-27 13:44:08.672451772 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim   2736 2018-04-27 13:44:08.672451772 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim   3783 2018-04-27 13:44:08.672451772 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim   3384 2018-04-27 13:44:08.672451772 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim    802 2018-04-27 13:44:08.672451772 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim   3715 2018-04-27 13:44:08.672451772 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim   2552 2018-04-27 13:44:08.672451772 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim   1963 2018-04-27 13:44:08.672451772 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim   1309 2018-04-27 13:44:08.672451772 +0300 Makefile
+-rw-r--r-- 1 gsim gsim   5093 2018-04-27 13:44:08.672451772 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim    463 2018-04-27 13:44:08.672451772 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim   2365 2018-04-27 13:44:08.672451772 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim    604 2018-04-27 13:44:08.672451772 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim   2048 2018-04-27 13:44:08.672451772 +0300 mill_list.c
+-rw-r--r-- 1 gsim gsim   1357 2018-04-27 13:44:08.672451772 +0300 mill_list.h
+-rw-r--r-- 1 gsim gsim   3067 2018-04-27 13:44:08.672451772 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim   3017 2018-04-27 13:44:08.672451772 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim  16898 2018-04-27 13:44:08.672451772 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim   4533 2018-04-27 13:44:08.672451772 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim  20121 2018-04-27 13:44:08.672451772 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim   4493 2018-04-27 13:44:08.672451772 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim   1668 2018-04-27 13:44:08.672451772 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim    336 2018-04-27 13:44:08.672451772 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim   2737 2018-04-27 13:44:08.672451772 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim   3367 2018-04-27 13:44:08.672451772 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim  14522 2018-04-27 13:44:08.672451772 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim   1548 2018-04-27 13:44:08.672451772 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim   9426 2018-04-27 13:44:08.672451772 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim    637 2018-04-27 13:44:08.672451772 +0300 tier_t.h
+drwxr-xr-x 3 gsim gsim   4096 2018-04-24 10:57:17.987714931 +0300 tests
+-rwxr-xr-x 1 gsim gsim     72 2018-04-24 10:57:17.983714952 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim      9 2018-04-24 10:57:17.983714952 +0300 init
+-rwxr-xr-x 1 gsim gsim     78 2018-04-24 10:57:17.983714952 +0300 in.sh
+-rwxr-xr-x 1 gsim gsim    348 2018-04-24 10:57:17.983714952 +0300 map_drive.sh
+-rwxr-xr-x 1 gsim gsim    277 2018-04-24 10:57:17.983714952 +0300 mk.sh
+
+/home/gsim/Milldrv/milldrv__mB/util:
+итого 136
+-rw-r--r-- 1 gsim gsim 3908 2018-04-28 11:40:57.357192024 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 3378 2018-04-28 11:40:48.885229228 +0300 createlun.c
+-rw-r--r-- 1 gsim gsim 2213 2018-04-24 11:16:07.201566504 +0300 rebuild.c
+drwxr-xr-x 2 gsim gsim 4096 2018-04-24 10:57:17.987714931 +0300 admin
+-rwxr-xr-x 1 gsim gsim   30 2018-04-24 10:57:17.987714931 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim 2480 2018-04-24 10:57:17.987714931 +0300 createdisk.c
+-rw-r--r-- 1 gsim gsim 1127 2018-04-24 10:57:17.987714931 +0300 deletedisk.c
+-rw-r--r-- 1 gsim gsim 1067 2018-04-24 10:57:17.987714931 +0300 deletegroup.c
+-rw-r--r-- 1 gsim gsim 1096 2018-04-24 10:57:17.987714931 +0300 deletelun.c
+-rwxr-xr-x 1 gsim gsim 6643 2018-04-24 10:57:17.987714931 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-04-24 10:57:17.987714931 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-04-24 10:57:17.987714931 +0300 init
+-rw-r--r-- 1 gsim gsim 3083 2018-04-24 10:57:17.987714931 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim 1348 2018-04-24 10:57:17.987714931 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 9060 2018-04-24 10:57:17.987714931 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 1483 2018-04-24 10:57:17.987714931 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 4650 2018-04-24 10:57:17.987714931 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim  111 2018-04-24 10:57:17.987714931 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   70 2018-04-24 10:57:17.987714931 +0300 mill_list_luns.ini
+-rw-r--r-- 1 gsim gsim 3128 2018-04-24 10:57:17.987714931 +0300 millstatblk.c
+-rwxr-xr-x 1 gsim gsim 9610 2018-04-24 10:57:17.987714931 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   62 2018-04-24 10:57:17.987714931 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 1476 2018-04-24 10:57:17.987714931 +0300 o_lunstat.py
+-rw-r--r-- 1 gsim gsim 1866 2018-04-24 10:57:17.987714931 +0300 resizing.c
+-rwxr-xr-x 1 gsim gsim 4992 2018-04-24 10:57:17.987714931 +0300 sctiering.py
+-rw-r--r-- 1 gsim gsim 2048 2018-04-24 10:57:17.987714931 +0300 ssdcache.c
+-rwxr-xr-x 1 gsim gsim 2389 2018-04-24 10:57:17.987714931 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__mB/util/admin:
+итого 16
+-rw-r--r-- 1 gsim gsim 1343 2018-04-24 10:57:17.987714931 +0300 kernoutput.c
+-rw-r--r-- 1 gsim gsim  227 2018-04-24 10:57:17.987714931 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 3885 2018-04-24 10:57:17.987714931 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 1320 2018-04-24 10:57:17.987714931 +0300 testmode.c
+
+/home/gsim/Milldrv/milldrv__mB/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-04-24 10:57:17.987714931 +0300 test512
+
+/home/gsim/Milldrv/milldrv__mB/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-04-24 10:57:17.987714931 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-04-24 10:57:17.987714931 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-04-24 10:57:17.987714931 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-04-24 10:57:17.987714931 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/milldrv__mA:
+итого 1036
+-rw-r--r-- 1 gsim gsim  44874 2018-04-23 18:00:56.575824682 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim   7533 2018-04-23 18:00:56.571824701 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim  48059 2018-04-23 18:00:56.571824701 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim  47158 2018-04-23 18:00:56.567824718 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim 165154 2018-04-23 18:00:56.567824718 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim  89211 2018-04-23 18:00:56.559824754 +0300 milld.c
+-rw-r--r-- 1 gsim gsim  36042 2018-04-23 18:00:56.555824771 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim  56210 2018-04-23 18:00:56.551824790 +0300 raid60.c
+-rw-r--r-- 1 gsim gsim  55034 2018-04-23 18:00:56.551824790 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim  68621 2018-04-23 18:00:56.547824807 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim   9316 2018-04-23 18:00:56.543824825 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim   2758 2018-04-23 18:00:56.543824825 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim    676 2018-04-23 18:00:56.543824825 +0300 m2bio_t.h
+-rw-r--r-- 1 gsim gsim  15213 2018-04-23 18:00:56.543824825 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim  16843 2018-04-23 18:00:56.543824825 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim   3565 2018-04-23 18:00:56.543824825 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim    882 2018-04-23 18:00:56.543824825 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim  38122 2018-04-23 18:00:56.543824825 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim   2847 2018-04-23 18:00:56.543824825 +0300 remap_req.h
+drwxr-xr-x 3 gsim gsim   4096 2018-04-23 17:59:37.892175455 +0300 util
+-rw-r--r-- 1 gsim gsim   1105 2018-04-23 17:59:28.516217118 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim   2736 2018-04-23 17:59:28.516217118 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim   3783 2018-04-23 17:59:28.516217118 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim   3384 2018-04-23 17:59:28.516217118 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim    802 2018-04-23 17:59:28.516217118 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim   3715 2018-04-23 17:59:28.516217118 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim   2552 2018-04-23 17:59:28.516217118 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim   1963 2018-04-23 17:59:28.516217118 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim   9191 2018-04-23 17:59:28.516217118 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim   1309 2018-04-23 17:59:28.516217118 +0300 Makefile
+-rw-r--r-- 1 gsim gsim   5093 2018-04-23 17:59:28.516217118 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim    463 2018-04-23 17:59:28.516217118 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim   9109 2018-04-23 17:59:28.516217118 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim   2365 2018-04-23 17:59:28.516217118 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim    604 2018-04-23 17:59:28.516217118 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim   2048 2018-04-23 17:59:28.516217118 +0300 mill_list.c
+-rw-r--r-- 1 gsim gsim   1357 2018-04-23 17:59:28.516217118 +0300 mill_list.h
+-rw-r--r-- 1 gsim gsim   3067 2018-04-23 17:59:28.516217118 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim   3017 2018-04-23 17:59:28.516217118 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim   6897 2018-04-23 17:59:28.516217118 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim    353 2018-04-23 17:59:28.516217118 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim   4533 2018-04-23 17:59:28.516217118 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim  20019 2018-04-23 17:59:28.516217118 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim   4493 2018-04-23 17:59:28.516217118 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim   1668 2018-04-23 17:59:28.516217118 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim    336 2018-04-23 17:59:28.516217118 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim  31488 2018-04-23 17:59:28.516217118 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  34804 2018-04-23 17:59:28.516217118 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim   4119 2018-04-23 17:59:28.516217118 +0300 raid.c
+-rw-r--r-- 1 gsim gsim   3272 2018-04-23 17:59:28.516217118 +0300 raid.h
+-rw-r--r-- 1 gsim gsim   2737 2018-04-23 17:59:28.516217118 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim   3367 2018-04-23 17:59:28.516217118 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim  14522 2018-04-23 17:59:28.516217118 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim   1548 2018-04-23 17:59:28.516217118 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim   2286 2018-04-23 17:59:28.516217118 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim    655 2018-04-23 17:59:28.516217118 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim   9426 2018-04-23 17:59:28.516217118 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim    637 2018-04-23 17:59:28.516217118 +0300 tier_t.h
+drwxr-xr-x 3 gsim gsim   4096 2018-04-23 15:58:10.518080241 +0300 tests
+-rwxr-xr-x 1 gsim gsim    277 2018-04-23 15:58:10.514080258 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim     72 2018-04-23 15:58:10.510080273 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim      9 2018-04-23 15:58:10.510080273 +0300 init
+-rwxr-xr-x 1 gsim gsim     78 2018-04-23 15:58:10.510080273 +0300 in.sh
+-rwxr-xr-x 1 gsim gsim    348 2018-04-23 15:58:10.510080273 +0300 map_drive.sh
+
+/home/gsim/Milldrv/milldrv__mA/util:
+итого 136
+-rw-r--r-- 1 gsim gsim 2480 2018-04-23 17:59:35.124187758 +0300 createdisk.c
+-rw-r--r-- 1 gsim gsim 3245 2018-04-23 17:59:35.124187758 +0300 createlun.c
+-rw-r--r-- 1 gsim gsim 1127 2018-04-23 17:59:35.124187758 +0300 deletedisk.c
+-rw-r--r-- 1 gsim gsim 1067 2018-04-23 17:59:35.124187758 +0300 deletegroup.c
+-rw-r--r-- 1 gsim gsim 1096 2018-04-23 17:59:35.124187758 +0300 deletelun.c
+-rw-r--r-- 1 gsim gsim 3083 2018-04-23 17:59:35.124187758 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim 1348 2018-04-23 17:59:35.124187758 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 9060 2018-04-23 17:59:35.124187758 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 3885 2018-04-23 17:59:35.124187758 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 1483 2018-04-23 17:59:35.124187758 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 4650 2018-04-23 17:59:35.124187758 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim 3128 2018-04-23 17:59:35.124187758 +0300 millstatblk.c
+-rw-r--r-- 1 gsim gsim 2213 2018-04-23 17:59:35.124187758 +0300 rebuild.c
+-rw-r--r-- 1 gsim gsim 1866 2018-04-23 17:59:35.124187758 +0300 resizing.c
+-rw-r--r-- 1 gsim gsim 2048 2018-04-23 17:59:35.124187758 +0300 ssdcache.c
+drwxr-xr-x 2 gsim gsim 4096 2018-04-23 15:58:10.518080241 +0300 admin
+-rwxr-xr-x 1 gsim gsim   30 2018-04-23 15:58:10.518080241 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim 6643 2018-04-23 15:58:10.518080241 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-04-23 15:58:10.518080241 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-04-23 15:58:10.518080241 +0300 init
+-rw-r--r-- 1 gsim gsim  111 2018-04-23 15:58:10.518080241 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   70 2018-04-23 15:58:10.518080241 +0300 mill_list_luns.ini
+-rwxr-xr-x 1 gsim gsim 9610 2018-04-23 15:58:10.518080241 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   62 2018-04-23 15:58:10.518080241 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 1476 2018-04-23 15:58:10.518080241 +0300 o_lunstat.py
+-rwxr-xr-x 1 gsim gsim 4992 2018-04-23 15:58:10.518080241 +0300 sctiering.py
+-rwxr-xr-x 1 gsim gsim 2389 2018-04-23 15:58:10.518080241 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__mA/util/admin:
+итого 16
+-rw-r--r-- 1 gsim gsim 1343 2018-04-23 15:58:10.518080241 +0300 kernoutput.c
+-rw-r--r-- 1 gsim gsim  227 2018-04-23 15:58:10.518080241 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 3885 2018-04-23 15:58:10.518080241 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 1320 2018-04-23 15:58:10.518080241 +0300 testmode.c
+
+/home/gsim/Milldrv/milldrv__mA/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-04-23 15:58:10.518080241 +0300 test512
+
+/home/gsim/Milldrv/milldrv__mA/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-04-23 15:58:10.518080241 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-04-23 15:58:10.518080241 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-04-23 15:58:10.518080241 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-04-23 15:58:10.518080241 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/milldrv__m9:
+итого 972
+drwxr-xr-x 3 gsim gsim   4096 2018-04-23 16:06:39.391860082 +0300 util
+-rw-r--r-- 1 gsim gsim   5093 2018-04-23 16:03:43.904644334 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim   3067 2018-04-23 16:03:27.848715306 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim   3017 2018-04-23 16:02:34.804948688 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim   9105 2018-04-23 16:02:02.037091966 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim  88165 2018-04-23 16:01:50.485142304 +0300 milld.c
+-rw-r--r-- 1 gsim gsim  46587 2018-04-23 15:59:37.045716407 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim   9191 2018-04-23 15:58:44.905936541 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim  34801 2018-04-20 11:45:33.405885409 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim  36196 2018-04-20 09:59:18.095867764 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim  32979 2018-04-19 17:50:13.914357537 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  54549 2018-04-19 17:49:55.990433947 +0300 raid60.c
+-rw-r--r-- 1 gsim gsim  53376 2018-04-19 17:47:19.303101494 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim  34468 2018-04-19 17:45:27.695576442 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim   1105 2018-04-18 17:50:06.242352350 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim   2736 2018-04-18 17:50:06.242352350 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim   3783 2018-04-18 17:50:06.242352350 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim  32516 2018-04-18 17:50:06.242352350 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim   5976 2018-04-18 17:50:06.242352350 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim  42970 2018-04-18 17:50:06.242352350 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim   8666 2018-04-18 17:50:06.242352350 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim   3384 2018-04-18 17:50:06.242352350 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim    802 2018-04-18 17:50:06.242352350 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim   3715 2018-04-18 17:50:06.242352350 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim   2552 2018-04-18 17:50:06.242352350 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim   1963 2018-04-18 17:50:06.242352350 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim   2758 2018-04-18 17:50:06.242352350 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim    676 2018-04-18 17:50:06.242352350 +0300 m2bio_t.h
+-rw-r--r-- 1 gsim gsim   1309 2018-04-18 17:50:06.242352350 +0300 Makefile
+-rw-r--r-- 1 gsim gsim    463 2018-04-18 17:50:06.242352350 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim   2365 2018-04-18 17:50:06.242352350 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim    604 2018-04-18 17:50:06.242352350 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim   2048 2018-04-18 17:50:06.242352350 +0300 mill_list.c
+-rw-r--r-- 1 gsim gsim   1357 2018-04-18 17:50:06.242352350 +0300 mill_list.h
+-rw-r--r-- 1 gsim gsim 137913 2018-04-18 17:50:06.242352350 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim  15019 2018-04-18 17:50:06.242352350 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim   6897 2018-04-18 17:50:06.242352350 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim    353 2018-04-18 17:50:06.242352350 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim  16596 2018-04-18 17:50:06.242352350 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim   4533 2018-04-18 17:50:06.242352350 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim   3565 2018-04-18 17:50:06.242352350 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim    882 2018-04-18 17:50:06.242352350 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim  19563 2018-04-18 17:50:06.242352350 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim   4493 2018-04-18 17:50:06.242352350 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim   1668 2018-04-18 17:50:06.242352350 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim    336 2018-04-18 17:50:06.242352350 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim   4119 2018-04-18 17:50:06.242352350 +0300 raid.c
+-rw-r--r-- 1 gsim gsim   3272 2018-04-18 17:50:06.242352350 +0300 raid.h
+-rw-r--r-- 1 gsim gsim   2737 2018-04-18 17:50:06.242352350 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim   3367 2018-04-18 17:50:06.242352350 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim  46768 2018-04-18 17:50:06.242352350 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim   2512 2018-04-18 17:50:06.242352350 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim  14408 2018-04-18 17:50:06.242352350 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim   1548 2018-04-18 17:50:06.242352350 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim   2286 2018-04-18 17:50:06.242352350 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim    655 2018-04-18 17:50:06.242352350 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim   9426 2018-04-18 17:50:06.242352350 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim    637 2018-04-18 17:50:06.242352350 +0300 tier_t.h
+drwxr-xr-x 3 gsim gsim   4096 2018-04-18 17:19:21.261840632 +0300 tests
+-rwxr-xr-x 1 gsim gsim     72 2018-04-18 17:19:21.257840649 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim      9 2018-04-18 17:19:21.257840649 +0300 init
+-rwxr-xr-x 1 gsim gsim     78 2018-04-18 17:19:21.257840649 +0300 in.sh
+-rwxr-xr-x 1 gsim gsim    348 2018-04-18 17:19:21.257840649 +0300 map_drive.sh
+-rwxr-xr-x 1 gsim gsim    277 2018-04-18 17:19:21.257840649 +0300 mk.sh
+
+/home/gsim/Milldrv/milldrv__m9/util:
+итого 136
+-rw-r--r-- 1 gsim gsim 1096 2018-04-23 16:06:39.395860063 +0300 deletelun.c
+-rw-r--r-- 1 gsim gsim 1067 2018-04-23 16:06:37.551868376 +0300 deletegroup.c
+-rw-r--r-- 1 gsim gsim 1127 2018-04-23 16:06:35.567877319 +0300 deletedisk.c
+-rw-r--r-- 1 gsim gsim 3245 2018-04-23 16:06:34.099883933 +0300 createlun.c
+-rw-r--r-- 1 gsim gsim 2480 2018-04-23 16:06:31.491895685 +0300 createdisk.c
+drwxr-xr-x 2 gsim gsim 4096 2018-04-23 16:06:27.299914567 +0300 admin
+-rw-r--r-- 1 gsim gsim 1348 2018-04-23 16:06:15.219968938 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 2048 2018-04-23 16:05:53.852064964 +0300 ssdcache.c
+-rw-r--r-- 1 gsim gsim 2213 2018-04-23 16:05:45.368103036 +0300 rebuild.c
+-rw-r--r-- 1 gsim gsim 4650 2018-04-23 16:04:47.204363160 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim 9060 2018-04-23 16:04:30.324438344 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 3885 2018-04-23 16:03:56.868586923 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 3083 2018-04-20 09:59:18.095867764 +0300 lunstats.c
+-rwxr-xr-x 1 gsim gsim   30 2018-04-18 17:19:21.261840632 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim 6643 2018-04-18 17:19:21.261840632 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-04-18 17:19:21.261840632 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-04-18 17:19:21.261840632 +0300 init
+-rw-r--r-- 1 gsim gsim 1483 2018-04-18 17:19:21.261840632 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim  111 2018-04-18 17:19:21.261840632 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   70 2018-04-18 17:19:21.261840632 +0300 mill_list_luns.ini
+-rw-r--r-- 1 gsim gsim 3128 2018-04-18 17:19:21.261840632 +0300 millstatblk.c
+-rwxr-xr-x 1 gsim gsim 9610 2018-04-18 17:19:21.261840632 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   62 2018-04-18 17:19:21.261840632 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 1476 2018-04-18 17:19:21.261840632 +0300 o_lunstat.py
+-rw-r--r-- 1 gsim gsim 1866 2018-04-18 17:19:21.261840632 +0300 resizing.c
+-rwxr-xr-x 1 gsim gsim 4992 2018-04-18 17:19:21.261840632 +0300 sctiering.py
+-rwxr-xr-x 1 gsim gsim 2389 2018-04-18 17:19:21.261840632 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__m9/util/admin:
+итого 16
+-rw-r--r-- 1 gsim gsim 1343 2018-04-23 16:06:27.299914567 +0300 kernoutput.c
+-rw-r--r-- 1 gsim gsim  227 2018-04-23 16:06:27.299914567 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 3885 2018-04-23 16:06:27.299914567 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 1320 2018-04-23 16:06:27.299914567 +0300 testmode.c
+
+/home/gsim/Milldrv/milldrv__m9/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-04-18 17:19:21.261840632 +0300 test512
+
+/home/gsim/Milldrv/milldrv__m9/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-04-18 17:19:21.261840632 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-04-18 17:19:21.261840632 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-04-18 17:19:21.261840632 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-04-18 17:19:21.261840632 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/milldrv__m8:
+итого 964
+-rw-r--r-- 1 gsim gsim  32512 2018-04-18 17:18:47.293981670 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim  87718 2018-04-18 17:18:47.293981670 +0300 milld.c
+-rw-r--r-- 1 gsim gsim  34941 2018-04-18 17:18:47.285981703 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim  54476 2018-04-18 17:18:47.285981703 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim  55956 2018-04-18 17:18:47.281981720 +0300 raid60.c
+drwxr-xr-x 2 gsim gsim   4096 2018-04-18 17:18:47.277981737 +0300 util
+-rw-r--r-- 1 gsim gsim  36196 2018-04-18 17:18:47.273981754 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim  32939 2018-04-18 17:18:47.273981754 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  34386 2018-04-18 17:18:47.273981754 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim   4119 2018-04-18 17:18:47.273981754 +0300 raid.c
+-rw-r--r-- 1 gsim gsim  46768 2018-04-18 17:18:47.273981754 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim  14408 2018-04-18 17:18:47.273981754 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim   2286 2018-04-18 17:18:47.273981754 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim   9441 2018-04-18 17:18:47.273981754 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim  46700 2018-04-18 17:18:47.269981770 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim   5140 2018-04-18 17:18:47.269981770 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim   9031 2018-04-18 17:18:47.269981770 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim   3024 2018-04-18 17:18:47.269981770 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim   2882 2018-04-18 17:18:47.269981770 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim 137911 2018-04-18 17:18:47.269981770 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim  16596 2018-04-18 17:18:47.269981770 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim   3565 2018-04-18 17:18:47.269981770 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim  19563 2018-04-18 17:18:47.269981770 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim   1105 2018-04-18 17:18:47.265981787 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim  42966 2018-04-18 17:18:47.265981787 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim   8666 2018-04-18 17:18:47.265981787 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim   3384 2018-04-18 17:18:47.265981787 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim   2552 2018-04-18 17:18:47.265981787 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim   2736 2018-04-18 17:17:47.766228235 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim   3783 2018-04-18 17:17:47.766228235 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim   5976 2018-04-18 17:17:47.766228235 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim    802 2018-04-18 17:17:47.766228235 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim   3715 2018-04-18 17:17:47.766228235 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim   1963 2018-04-18 17:17:47.766228235 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim   9189 2018-04-18 17:17:47.766228235 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim   1309 2018-04-18 17:17:47.766228235 +0300 Makefile
+-rw-r--r-- 1 gsim gsim    463 2018-04-18 17:17:47.766228235 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim   2365 2018-04-18 17:17:47.766228235 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim    604 2018-04-18 17:17:47.766228235 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim   2048 2018-04-18 17:17:47.766228235 +0300 mill_list.c
+-rw-r--r-- 1 gsim gsim   1357 2018-04-18 17:17:47.766228235 +0300 mill_list.h
+-rw-r--r-- 1 gsim gsim  15019 2018-04-18 17:17:47.766228235 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim   6898 2018-04-18 17:17:47.766228235 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim    353 2018-04-18 17:17:47.766228235 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim   4533 2018-04-18 17:17:47.766228235 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim   4493 2018-04-18 17:17:47.766228235 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim   1668 2018-04-18 17:17:47.766228235 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim    336 2018-04-18 17:17:47.766228235 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim   3272 2018-04-18 17:17:47.766228235 +0300 raid.h
+-rw-r--r-- 1 gsim gsim   2737 2018-04-18 17:17:47.766228235 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim   3367 2018-04-18 17:17:47.766228235 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim   2512 2018-04-18 17:17:47.766228235 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim   1548 2018-04-18 17:17:47.766228235 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim    655 2018-04-18 17:17:47.766228235 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim    637 2018-04-18 17:17:47.766228235 +0300 tier_t.h
+-rwxr-xr-x 1 gsim gsim    109 2018-04-17 17:09:55.202436788 +0300 pk-050.sh
+drwxr-xr-x 3 gsim gsim   4096 2018-04-17 11:48:26.949531669 +0300 tests
+-rwxr-xr-x 1 gsim gsim    348 2018-04-17 11:48:26.945531684 +0300 map_drive.sh
+-rwxr-xr-x 1 gsim gsim    277 2018-04-17 11:48:26.945531684 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim     72 2018-04-17 11:48:26.941531700 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim      9 2018-04-17 11:48:26.941531700 +0300 init
+-rwxr-xr-x 1 gsim gsim     78 2018-04-17 11:48:26.941531700 +0300 in.sh
+
+/home/gsim/Milldrv/milldrv__m8/util:
+итого 108
+-rw-r--r-- 1 gsim gsim 3816 2018-04-18 17:18:47.277981737 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 3086 2018-04-18 17:18:47.273981754 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim 8580 2018-04-18 17:18:47.273981754 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim  111 2018-04-18 17:18:47.273981754 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   70 2018-04-18 17:18:47.273981754 +0300 mill_list_luns.ini
+-rwxr-xr-x 1 gsim gsim 9610 2018-04-18 17:18:47.273981754 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   30 2018-04-17 11:48:26.949531669 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim 6643 2018-04-17 11:48:26.949531669 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-04-17 11:48:26.949531669 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-04-17 11:48:26.949531669 +0300 init
+-rw-r--r-- 1 gsim gsim  716 2018-04-17 11:48:26.949531669 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 1483 2018-04-17 11:48:26.949531669 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 5027 2018-04-17 11:48:26.949531669 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim 3128 2018-04-17 11:48:26.949531669 +0300 millstatblk.c
+-rwxr-xr-x 1 gsim gsim   62 2018-04-17 11:48:26.949531669 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 1476 2018-04-17 11:48:26.949531669 +0300 o_lunstat.py
+-rw-r--r-- 1 gsim gsim 1659 2018-04-17 11:48:26.949531669 +0300 rebuild.c
+-rw-r--r-- 1 gsim gsim 1866 2018-04-17 11:48:26.949531669 +0300 resizing.c
+-rwxr-xr-x 1 gsim gsim 4992 2018-04-17 11:48:26.949531669 +0300 sctiering.py
+-rwxr-xr-x 1 gsim gsim 2389 2018-04-17 11:48:26.949531669 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__m8/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-04-17 11:48:26.949531669 +0300 test512
+
+/home/gsim/Milldrv/milldrv__m8/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-04-17 11:48:26.949531669 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-04-17 11:48:26.949531669 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-04-17 11:48:26.949531669 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-04-17 11:48:26.949531669 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/m.bk:
+итого 27568
+-rw-r--r-- 1 gsim gsim   19221 2018-04-17 18:10:46.010586771 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim   34492 2018-04-17 17:35:01.503928955 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim   46661 2018-04-17 17:34:22.564088243 +0300 lun_t.c
+-rw-rw---- 1 gsim gsim   56461 2018-04-17 17:25:57.998170533 +0300 raid60.c
+-rw-r--r-- 1 gsim gsim   65073 2018-04-17 17:25:48.094211890 +0300 raid6.c
+-rw-rw---- 1 gsim gsim   34136 2018-04-17 17:25:39.266248776 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim    4533 2018-04-17 17:25:30.014287457 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim   84161 2018-04-17 17:25:20.810325959 +0300 milld.c
+-rw-r--r-- 1 gsim gsim    9189 2018-04-17 17:24:58.666418688 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim 9030176 2018-04-17 17:08:27.654872950 +0300 milldrv.ko
+-rw-r--r-- 1 gsim gsim  153416 2018-04-17 17:08:27.598873233 +0300 milldrv.mod.o
+-rw-r--r-- 1 gsim gsim    7114 2018-04-17 17:08:27.450873982 +0300 milldrv.mod.c
+-rw-r--r-- 1 gsim gsim       0 2018-04-17 17:08:27.450873982 +0300 Module.symvers
+-rw-r--r-- 1 gsim gsim      42 2018-04-17 17:08:27.326874610 +0300 modules.order
+-rw-r--r-- 1 gsim gsim 8878344 2018-04-17 17:08:27.322874631 +0300 milldrv.o
+-rw-r--r-- 1 gsim gsim  395464 2018-04-17 17:08:27.294874772 +0300 raid60.o
+-rw-r--r-- 1 gsim gsim  287840 2018-04-17 17:08:26.634878117 +0300 mill_list.o
+-rw-r--r-- 1 gsim gsim  349224 2018-04-17 17:08:26.314879738 +0300 raid50.o
+-rw-r--r-- 1 gsim gsim  394200 2018-04-17 17:08:25.846882109 +0300 raid6.o
+-rw-r--r-- 1 gsim gsim  348200 2018-04-17 17:08:25.182885475 +0300 raid5.o
+-rw-r--r-- 1 gsim gsim  323504 2018-04-17 17:08:24.718887827 +0300 raid10.o
+-rw-r--r-- 1 gsim gsim  301064 2018-04-17 17:08:24.338889754 +0300 raid.o
+-rw-r--r-- 1 gsim gsim  470360 2018-04-17 17:08:24.010891417 +0300 milld.o
+-rw-r--r-- 1 gsim gsim  310624 2018-04-17 17:08:23.334894847 +0300 mill_scsi.o
+-rw-r--r-- 1 gsim gsim  293792 2018-04-17 17:08:22.982896632 +0300 stat_t.o
+-rw-r--r-- 1 gsim gsim  317912 2018-04-17 17:08:22.666898237 +0300 ssdc_t.o
+-rw-r--r-- 1 gsim gsim  562816 2018-04-17 17:08:22.290900144 +0300 mill_meta.o
+-rw-r--r-- 1 gsim gsim  297288 2018-04-17 17:08:21.286905240 +0300 nam_t.o
+-rw-r--r-- 1 gsim gsim  314248 2018-04-17 17:08:20.958906906 +0300 tier_t.o
+-rw-r--r-- 1 gsim gsim  295152 2018-04-17 17:08:20.594908755 +0300 distrib_t.o
+-rw-r--r-- 1 gsim gsim  294584 2018-04-17 17:08:20.262910441 +0300 mill_idr.o
+-rw-r--r-- 1 gsim gsim  386728 2018-04-17 17:08:19.926912147 +0300 remap_req.o
+-rw-r--r-- 1 gsim gsim  341944 2018-04-17 17:08:19.358915034 +0300 mill_t.o
+-rw-r--r-- 1 gsim gsim  339704 2018-04-17 17:08:18.914917290 +0300 mxbio_t.o
+-rw-r--r-- 1 gsim gsim  345216 2018-04-17 17:08:18.466919568 +0300 chunk_t.o
+-rw-r--r-- 1 gsim gsim  396336 2018-04-17 17:08:17.998921945 +0300 disk_t.o
+-rw-r--r-- 1 gsim gsim  293472 2018-04-17 17:08:17.418924896 +0300 job_req.o
+-rw-r--r-- 1 gsim gsim  361976 2018-04-17 17:08:17.094926542 +0300 procfs.o
+-rw-r--r-- 1 gsim gsim  406088 2018-04-17 17:08:16.646928821 +0300 lun_t.o
+-rw-r--r-- 1 gsim gsim  296880 2018-04-17 17:08:16.030931955 +0300 mill_log_t.o
+-rw-r--r-- 1 gsim gsim  298040 2018-04-17 17:08:15.702933625 +0300 mill_check.o
+-rw-r--r-- 1 gsim gsim     953 2018-04-17 17:08:14.746938490 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim    2736 2018-04-17 17:08:14.746938490 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim    3783 2018-04-17 17:08:14.746938490 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim   32278 2018-04-17 17:08:14.746938490 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim    5976 2018-04-17 17:08:14.746938490 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim   42116 2018-04-17 17:08:14.746938490 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim    8571 2018-04-17 17:08:14.746938490 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim    3242 2018-04-17 17:08:14.746938490 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim     802 2018-04-17 17:08:14.746938490 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim    3715 2018-04-17 17:08:14.746938490 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim    2518 2018-04-17 17:08:14.746938490 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim    1963 2018-04-17 17:08:14.746938490 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim    1309 2018-04-17 17:08:14.746938490 +0300 Makefile
+-rw-r--r-- 1 gsim gsim    4969 2018-04-17 17:08:14.746938490 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim     463 2018-04-17 17:08:14.746938490 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim    8689 2018-04-17 17:08:14.746938490 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim    2365 2018-04-17 17:08:14.746938490 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim     604 2018-04-17 17:08:14.746938490 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim    2048 2018-04-17 17:08:14.746938490 +0300 mill_list.c
+-rw-r--r-- 1 gsim gsim    1357 2018-04-17 17:08:14.746938490 +0300 mill_list.h
+-rw-r--r-- 1 gsim gsim    4547 2018-04-17 17:08:14.746938490 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim     314 2018-04-17 17:08:14.746938490 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim      26 2018-04-17 17:08:14.746938490 +0300 mill_magic.h
+-rw-r--r-- 1 gsim gsim  137681 2018-04-17 17:08:14.746938490 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim   15019 2018-04-17 17:08:14.746938490 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim    7336 2018-04-17 17:08:14.746938490 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim     353 2018-04-17 17:08:14.746938490 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim   16435 2018-04-17 17:08:14.746938490 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim    4493 2018-04-17 17:08:14.746938490 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim    1668 2018-04-17 17:08:14.746938490 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim     336 2018-04-17 17:08:14.746938490 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim   36304 2018-04-17 17:08:14.746938490 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim   32778 2018-04-17 17:08:14.746938490 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim    4091 2018-04-17 17:08:14.746938490 +0300 raid.c
+-rw-r--r-- 1 gsim gsim    3272 2018-04-17 17:08:14.746938490 +0300 raid.h
+-rw-r--r-- 1 gsim gsim    2737 2018-04-17 17:08:14.746938490 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim    3367 2018-04-17 17:08:14.746938490 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim   45894 2018-04-17 17:08:14.746938490 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim    2512 2018-04-17 17:08:14.746938490 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim   14359 2018-04-17 17:08:14.746938490 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim    1548 2018-04-17 17:08:14.746938490 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim    2244 2018-04-17 17:08:14.746938490 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim     655 2018-04-17 17:08:14.746938490 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim    9257 2018-04-17 17:08:14.746938490 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim     637 2018-04-17 17:08:14.746938490 +0300 tier_t.h
+drwxr-xr-x 2 gsim gsim    4096 2018-04-17 11:48:49.285446077 +0300 util
+-rwxr-xr-x 1 gsim gsim     277 2018-04-16 17:02:20.541169917 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim     109 2018-04-13 12:34:47.403422819 +0300 pk.sh
+-rwxrwx--- 1 gsim gsim      60 2018-04-13 10:47:47.646481107 +0300 ts_l02_r0001M.sh
+-rwxrwx--- 1 gsim gsim      62 2018-04-13 10:47:47.646481107 +0300 ts_l02_r0128M.sh
+-rwxrwx--- 1 gsim gsim      63 2018-04-13 10:47:47.646481107 +0300 ts_l02_r1024M.sh
+-rwxrwx--- 1 gsim gsim     113 2018-04-13 10:47:47.646481107 +0300 ts_l02_r16G.sh
+-rwxrwx--- 1 gsim gsim      69 2018-04-13 10:47:47.646481107 +0300 ts_l02_w0001M.sh
+-rwxrwx--- 1 gsim gsim      70 2018-04-13 10:47:47.646481107 +0300 ts_l02_w0016M.sh
+-rwxrwx--- 1 gsim gsim      70 2018-04-13 10:47:47.646481107 +0300 ts_l02_w0032M.sh
+-rwxrwx--- 1 gsim gsim      70 2018-04-13 10:47:47.646481107 +0300 ts_l02_w0064M.sh
+-rwxrwx--- 1 gsim gsim      71 2018-04-13 10:47:47.646481107 +0300 ts_l02_w0128M.sh
+-rwxrwx--- 1 gsim gsim      71 2018-04-13 10:47:47.646481107 +0300 ts_l02_w0256M.sh
+-rwxrwx--- 1 gsim gsim      72 2018-04-13 10:47:47.646481107 +0300 ts_l02_w1024M.sh
+-rwxrwx--- 1 gsim gsim     122 2018-04-13 10:47:47.646481107 +0300 ts_l02_w16G.sh
+-rwxrwx--- 1 gsim gsim     422 2018-04-13 10:47:47.646481107 +0300 ts_l02_w64G.sh
+-rwxr-xr-x 1 gsim gsim     109 2018-04-13 10:47:47.634481176 +0300 pk-050.sh
+-rwxr-xr-x 1 gsim gsim      94 2018-04-13 10:47:47.634481176 +0300 pk-192.sh
+-rwxr-xr-x 1 gsim gsim     103 2018-04-13 10:47:47.634481176 +0300 pk-193.sh
+-rwxr-xr-x 1 gsim gsim     108 2018-04-13 10:47:47.634481176 +0300 pk-204.sh
+-rwxrwx--- 1 gsim gsim     292 2018-04-13 10:47:47.630481199 +0300 mk2.sh
+-rwxr-xr-x 1 gsim gsim     348 2018-04-13 10:47:47.602481360 +0300 map_drive.sh
+-rw-r--r-- 1 gsim gsim       9 2018-04-13 10:47:47.598481383 +0300 init
+-rwxr-xr-x 1 gsim gsim      78 2018-04-13 10:47:47.598481383 +0300 in.sh
+-rwxr-xr-x 1 gsim gsim      94 2018-04-13 10:47:47.594481406 +0300 00-ins.sh
+-rwxr-xr-x 1 gsim gsim     990 2018-04-13 10:47:47.594481406 +0300 10-disks.sh
+-rwxr-xr-x 1 gsim gsim    1007 2018-04-13 10:47:47.594481406 +0300 22-lun02-r5_3.sh
+-rwxr-xr-x 1 gsim gsim      72 2018-04-13 10:47:47.594481406 +0300 clr.sh
+drwxr-xr-x 3 gsim gsim    4096 2018-04-13 10:47:47.582481475 +0300 tests
+
+/home/gsim/Milldrv/m.bk/util:
+итого 248
+-rw-r--r-- 1 gsim gsim  3514 2018-04-17 11:48:49.285446077 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim  1866 2018-04-16 15:57:46.226939272 +0300 resizing.c
+-rw-r--r-- 1 gsim gsim   716 2018-04-16 15:57:17.479028781 +0300 Makefile
+-rwxr-xr-x 1 gsim gsim 13112 2018-04-13 10:47:47.586481452 +0300 lunstats
+-rw-r--r-- 1 gsim gsim  3009 2018-04-13 10:47:47.586481452 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim  5576 2018-04-13 10:47:47.586481452 +0300 lunstats.o
+-rwxr-xr-x 1 gsim gsim 17752 2018-04-13 10:47:47.586481452 +0300 millconf
+-rw-r--r-- 1 gsim gsim 12552 2018-04-13 10:47:47.586481452 +0300 millconf.o
+-rwxr-xr-x 1 gsim gsim  8936 2018-04-13 10:47:47.586481452 +0300 millerr
+-rwxr-xr-x 1 gsim gsim 13200 2018-04-13 10:47:47.586481452 +0300 millinfolun
+-rwxr-xr-x 1 gsim gsim 13232 2018-04-13 10:47:47.586481452 +0300 millstatblk
+-rw-r--r-- 1 gsim gsim  3128 2018-04-13 10:47:47.586481452 +0300 millstatblk.c
+-rwxr-xr-x 1 gsim gsim  9259 2018-04-13 10:47:47.586481452 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim  1476 2018-04-13 10:47:47.586481452 +0300 o_lunstat.py
+-rwxr-xr-x 1 gsim gsim  8968 2018-04-13 10:47:47.586481452 +0300 rebuild
+-rw-r--r-- 1 gsim gsim  3248 2018-04-13 10:47:47.586481452 +0300 rebuild.o
+-rwxr-xr-x 1 gsim gsim  4992 2018-04-13 10:47:47.586481452 +0300 sctiering.py
+-rwxr-xr-x 1 gsim gsim  2389 2018-04-13 10:47:47.586481452 +0300 stats_all_lun.py
+-rwxrwx--- 1 gsim gsim    30 2018-04-13 10:47:47.582481475 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim  6643 2018-04-13 10:47:47.582481475 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim  1814 2018-04-13 10:47:47.582481475 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim    12 2018-04-13 10:47:47.582481475 +0300 init
+-rw-r--r-- 1 gsim gsim  8220 2018-04-13 10:47:47.582481475 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim  1483 2018-04-13 10:47:47.582481475 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim  3088 2018-04-13 10:47:47.582481475 +0300 millerr.o
+-rw-r--r-- 1 gsim gsim  5027 2018-04-13 10:47:47.582481475 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim  8136 2018-04-13 10:47:47.582481475 +0300 millinfolun.o
+-rw-r--r-- 1 gsim gsim    35 2018-04-13 10:47:47.582481475 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim    20 2018-04-13 10:47:47.582481475 +0300 mill_list_luns.ini
+-rw-r--r-- 1 gsim gsim  4736 2018-04-13 10:47:47.582481475 +0300 millstatblk.o
+-rwxr-xr-x 1 gsim gsim    62 2018-04-13 10:47:47.582481475 +0300 mk.sh
+-rw-r--r-- 1 gsim gsim  1659 2018-04-13 10:47:47.582481475 +0300 rebuild.c
+
+/home/gsim/Milldrv/m.bk/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-04-13 10:47:47.582481475 +0300 test512
+
+/home/gsim/Milldrv/m.bk/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-04-13 10:47:47.582481475 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-04-13 10:47:47.582481475 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-04-13 10:47:47.582481475 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-04-13 10:47:47.582481475 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/milldrv__m6:
+итого 968
+-rw-r--r-- 1 gsim gsim   2512 2018-04-06 19:23:04.851821875 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim  45894 2018-04-06 19:22:57.163856819 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim  40651 2018-04-06 19:22:07.724081370 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim   1668 2018-04-06 19:20:51.156428542 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim  84331 2018-04-06 19:19:58.104668612 +0300 milld.c
+-rw-r--r-- 1 gsim gsim  16435 2018-04-06 19:18:23.613095089 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim   7334 2018-04-06 19:18:12.201146488 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim  14397 2018-04-06 19:18:11.225150883 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim 137706 2018-04-06 19:18:09.545158448 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim  45284 2018-04-06 19:16:53.141501856 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim   8868 2018-04-06 19:15:27.605884750 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim  42118 2018-04-06 19:15:04.781986606 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim   8633 2018-04-06 19:14:48.974057068 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim  32170 2018-04-06 19:14:41.726089350 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim   5963 2018-04-06 19:13:41.018359131 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim   1309 2018-04-06 19:12:41.018624587 +0300 Makefile
+drwxr-xr-x 2 gsim gsim   4096 2018-04-06 19:12:30.830669535 +0300 util
+-rw-r--r-- 1 gsim gsim   8688 2018-04-06 19:12:06.498776726 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim   2736 2018-04-06 19:09:33.955442977 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim   3783 2018-04-06 19:09:25.835478128 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim  23262 2018-04-06 19:08:26.523750237 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim   3150 2018-04-06 19:07:26.548030461 +0300 raid.h
+drwxr-xr-x 3 gsim gsim   4096 2018-04-06 18:09:08.192541672 +0300 tests
+-rw-r--r-- 1 gsim gsim  32672 2018-04-02 16:53:11.610131303 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  39323 2018-04-02 16:52:30.202307532 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim  60126 2018-04-02 16:52:14.262375137 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim  51200 2018-04-02 16:51:33.586547023 +0300 raid60.c
+-rw-r--r-- 1 gsim gsim    953 2018-03-30 14:09:53.736846602 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim   3242 2018-03-30 14:09:53.736846602 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim    802 2018-03-30 14:09:53.736846602 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim   3715 2018-03-30 14:09:53.736846602 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim   2518 2018-03-30 14:09:53.736846602 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim   1963 2018-03-30 14:09:53.736846602 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim   2758 2018-03-30 14:09:53.736846602 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim    676 2018-03-30 14:09:53.736846602 +0300 m2bio_t.h
+-rw-r--r-- 1 gsim gsim   4969 2018-03-30 14:09:53.736846602 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim    463 2018-03-30 14:09:53.736846602 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim   2365 2018-03-30 14:09:53.736846602 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim    604 2018-03-30 14:09:53.736846602 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim   4547 2018-03-30 14:09:53.736846602 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim    314 2018-03-30 14:09:53.736846602 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim    353 2018-03-30 14:09:53.736846602 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim   4532 2018-03-30 14:09:53.736846602 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim   3537 2018-03-30 14:09:53.736846602 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim    882 2018-03-30 14:09:53.736846602 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim   4493 2018-03-30 14:09:53.736846602 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim    336 2018-03-30 14:09:53.736846602 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim  36210 2018-03-30 14:09:53.736846602 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim   4091 2018-03-30 14:09:53.736846602 +0300 raid.c
+-rw-r--r-- 1 gsim gsim   2737 2018-03-30 14:09:53.736846602 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim   3367 2018-03-30 14:09:53.736846602 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim  14359 2018-03-30 14:09:53.736846602 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim   1548 2018-03-30 14:09:53.736846602 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim   2244 2018-03-30 14:09:53.736846602 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim    655 2018-03-30 14:09:53.736846602 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim   9256 2018-03-30 14:09:53.736846602 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim    637 2018-03-30 14:09:53.736846602 +0300 tier_t.h
+-rwxr-xr-x 1 gsim gsim     72 2018-03-29 19:22:46.273795084 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim      9 2018-03-29 19:17:30.899222257 +0300 init
+-rwxr-xr-x 1 gsim gsim     78 2018-03-29 19:17:30.899222257 +0300 in.sh
+-rwxr-xr-x 1 gsim gsim    348 2018-03-29 19:17:30.899222257 +0300 map_drive.sh
+-rwxr-xr-x 1 gsim gsim    277 2018-03-29 19:17:30.899222257 +0300 mk.sh
+
+/home/gsim/Milldrv/milldrv__m6/util:
+итого 104
+-rw-r--r-- 1 gsim gsim  716 2018-04-06 19:12:30.830669535 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 3520 2018-04-06 19:11:44.026875517 +0300 milldrv.h
+-rwxr-xr-x 1 gsim gsim   30 2018-03-29 19:17:30.903222239 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim 6643 2018-03-29 19:17:30.903222239 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-03-29 19:17:30.903222239 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-03-29 19:17:30.903222239 +0300 init
+-rw-r--r-- 1 gsim gsim 3009 2018-03-29 19:17:30.903222239 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim 8220 2018-03-29 19:17:30.903222239 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 1483 2018-03-29 19:17:30.903222239 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 5027 2018-03-29 19:17:30.903222239 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim   35 2018-03-29 19:17:30.903222239 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   20 2018-03-29 19:17:30.903222239 +0300 mill_list_luns.ini
+-rw-r--r-- 1 gsim gsim 3128 2018-03-29 19:17:30.903222239 +0300 millstatblk.c
+-rwxr-xr-x 1 gsim gsim 9259 2018-03-29 19:17:30.903222239 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   62 2018-03-29 19:17:30.903222239 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 1476 2018-03-29 19:17:30.903222239 +0300 o_lunstat.py
+-rw-r--r-- 1 gsim gsim 1659 2018-03-29 19:17:30.903222239 +0300 rebuild.c
+-rwxr-xr-x 1 gsim gsim 4992 2018-03-29 19:17:30.903222239 +0300 sctiering.py
+-rwxr-xr-x 1 gsim gsim 2389 2018-03-29 19:17:30.903222239 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__m6/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-03-29 19:17:30.903222239 +0300 test512
+
+/home/gsim/Milldrv/milldrv__m6/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-03-29 19:17:30.903222239 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-03-29 19:17:30.903222239 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-03-29 19:17:30.903222239 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-03-29 19:17:30.903222239 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/milldrv__m7:
+итого 956
+-rw-r--r-- 1 gsim gsim 137628 2018-04-16 18:20:55.991496190 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim  15019 2018-04-16 18:17:24.453651493 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim  83941 2018-04-16 18:10:38.486903777 +0300 milld.c
+-rw-r--r-- 1 gsim gsim  30685 2018-04-16 17:53:30.000071760 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim   2737 2018-04-16 17:11:03.592906680 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim   3367 2018-04-16 17:10:55.168916508 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim  36229 2018-04-16 17:10:39.868934029 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim  32778 2018-04-16 17:07:20.917117120 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim   1668 2018-04-16 17:05:10.233180546 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim  19827 2018-04-16 17:04:49.361185465 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim  45894 2018-04-16 17:01:50.809154691 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim  45691 2018-04-16 16:40:50.385503379 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim   8891 2018-04-16 16:13:43.083574910 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim  42117 2018-04-16 16:12:34.639829299 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim   8572 2018-04-16 16:10:00.536397689 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim  32170 2018-04-16 16:07:14.928999774 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim   5976 2018-04-16 16:00:58.586314136 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim   3783 2018-04-16 15:55:35.715335556 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim   2736 2018-04-16 15:55:15.491394461 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim   4091 2018-04-16 15:54:54.555454647 +0300 raid.c
+-rw-r--r-- 1 gsim gsim  40199 2018-04-16 15:54:04.423595297 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim  61817 2018-04-16 15:53:36.191672206 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim  52894 2018-04-16 15:51:46.603952993 +0300 raid60.c
+-rw-r--r-- 1 gsim gsim    953 2018-04-09 12:28:08.294187090 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim   3242 2018-04-09 12:28:08.294187090 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim    802 2018-04-09 12:28:08.294187090 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim   3715 2018-04-09 12:28:08.294187090 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim   2518 2018-04-09 12:28:08.294187090 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim   1963 2018-04-09 12:28:08.294187090 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim   1309 2018-04-09 12:28:08.294187090 +0300 Makefile
+-rw-r--r-- 1 gsim gsim   4969 2018-04-09 12:28:08.294187090 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim    463 2018-04-09 12:28:08.294187090 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim   8689 2018-04-09 12:28:08.294187090 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim   2365 2018-04-09 12:28:08.294187090 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim    604 2018-04-09 12:28:08.294187090 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim   1909 2018-04-09 12:28:08.294187090 +0300 mill_list.c
+-rw-r--r-- 1 gsim gsim   1482 2018-04-09 12:28:08.294187090 +0300 mill_list.h
+-rw-r--r-- 1 gsim gsim   4547 2018-04-09 12:28:08.294187090 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim    314 2018-04-09 12:28:08.294187090 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim   7336 2018-04-09 12:28:08.294187090 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim    353 2018-04-09 12:28:08.294187090 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim  16435 2018-04-09 12:28:08.294187090 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim   4532 2018-04-09 12:28:08.294187090 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim   4493 2018-04-09 12:28:08.294187090 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim    336 2018-04-09 12:28:08.294187090 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim   3204 2018-04-09 12:28:08.294187090 +0300 raid.h
+-rw-r--r-- 1 gsim gsim   2512 2018-04-09 12:28:08.294187090 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim  14359 2018-04-09 12:28:08.294187090 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim   1548 2018-04-09 12:28:08.294187090 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim   2244 2018-04-09 12:28:08.294187090 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim    655 2018-04-09 12:28:08.294187090 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim   9256 2018-04-09 12:28:08.294187090 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim    637 2018-04-09 12:28:08.294187090 +0300 tier_t.h
+drwxr-xr-x 2 gsim gsim   4096 2018-04-06 19:11:41.682885811 +0300 util
+drwxr-xr-x 3 gsim gsim   4096 2018-04-06 19:11:09.563026623 +0300 tests
+-rwxr-xr-x 1 gsim gsim    277 2018-04-06 19:11:09.559026640 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim     72 2018-04-06 19:11:09.551026676 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim      9 2018-04-06 19:11:09.551026676 +0300 init
+-rwxr-xr-x 1 gsim gsim     78 2018-04-06 19:11:09.551026676 +0300 in.sh
+-rwxr-xr-x 1 gsim gsim    348 2018-04-06 19:11:09.551026676 +0300 map_drive.sh
+
+/home/gsim/Milldrv/milldrv__m7/util:
+итого 108
+-rw-r--r-- 1 gsim gsim 3520 2018-04-06 19:11:41.682885811 +0300 milldrv.h
+-rwxr-xr-x 1 gsim gsim   30 2018-04-06 19:11:09.563026623 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim 6643 2018-04-06 19:11:09.563026623 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-04-06 19:11:09.563026623 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-04-06 19:11:09.563026623 +0300 init
+-rw-r--r-- 1 gsim gsim 3009 2018-04-06 19:11:09.563026623 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim  716 2018-04-06 19:11:09.563026623 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 8220 2018-04-06 19:11:09.563026623 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 1483 2018-04-06 19:11:09.563026623 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 5027 2018-04-06 19:11:09.563026623 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim   35 2018-04-06 19:11:09.563026623 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   20 2018-04-06 19:11:09.563026623 +0300 mill_list_luns.ini
+-rw-r--r-- 1 gsim gsim 3128 2018-04-06 19:11:09.563026623 +0300 millstatblk.c
+-rwxr-xr-x 1 gsim gsim 9259 2018-04-06 19:11:09.563026623 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   62 2018-04-06 19:11:09.563026623 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 1476 2018-04-06 19:11:09.563026623 +0300 o_lunstat.py
+-rw-r--r-- 1 gsim gsim 1659 2018-04-06 19:11:09.563026623 +0300 rebuild.c
+-rw-r--r-- 1 gsim gsim 1866 2018-04-06 19:11:09.563026623 +0300 resizing.c
+-rwxr-xr-x 1 gsim gsim 4992 2018-04-06 19:11:09.563026623 +0300 sctiering.py
+-rwxr-xr-x 1 gsim gsim 2389 2018-04-06 19:11:09.563026623 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__m7/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-04-06 19:11:09.563026623 +0300 test512
+
+/home/gsim/Milldrv/milldrv__m7/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-04-06 19:11:09.563026623 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-04-06 19:11:09.563026623 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-04-06 19:11:09.563026623 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-04-06 19:11:09.563026623 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/m:
+итого 26056
+-rw-r--r-- 1 gsim gsim    1288 2018-04-13 10:48:08.450361506 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim     336 2018-04-13 10:48:08.450361506 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim  295528 2018-04-13 10:48:08.450361506 +0300 nam_t.o
+-rw-r--r-- 1 gsim gsim   32216 2018-04-13 10:48:08.450361506 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim  360216 2018-04-13 10:48:08.450361506 +0300 procfs.o
+-rw-r--r-- 1 gsim gsim   32934 2018-04-13 10:48:08.450361506 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  321384 2018-04-13 10:48:08.450361506 +0300 raid10.o
+-rw-r--r-- 1 gsim gsim   40849 2018-04-13 10:48:08.450361506 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim  338168 2018-04-13 10:48:08.450361506 +0300 raid50.o
+-rw-r--r-- 1 gsim gsim   40669 2018-04-13 10:48:08.450361506 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim  337312 2018-04-13 10:48:08.450361506 +0300 raid5.o
+-rw-r--r-- 1 gsim gsim   62590 2018-04-13 10:48:08.450361506 +0300 raid60.c
+-rw-r--r-- 1 gsim gsim  384144 2018-04-13 10:48:08.450361506 +0300 raid60.o
+-rw-r--r-- 1 gsim gsim   62445 2018-04-13 10:48:08.450361506 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim  383464 2018-04-13 10:48:08.450361506 +0300 raid6.o
+-rw-r--r-- 1 gsim gsim    4091 2018-04-13 10:48:08.450361506 +0300 raid.c
+-rw-r--r-- 1 gsim gsim    3201 2018-04-13 10:48:08.450361506 +0300 raid.h
+-rw-r--r-- 1 gsim gsim  299088 2018-04-13 10:48:08.450361506 +0300 raid.o
+-rw-r--r-- 1 gsim gsim    2737 2018-04-13 10:48:08.450361506 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim    3367 2018-04-13 10:48:08.450361506 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim   41048 2018-04-13 10:48:08.450361506 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim    2341 2018-04-13 10:48:08.450361506 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim  374048 2018-04-13 10:48:08.450361506 +0300 remap_req.o
+-rw-r--r-- 1 gsim gsim   14359 2018-04-13 10:48:08.450361506 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim    1548 2018-04-13 10:48:08.450361506 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim  316120 2018-04-13 10:48:08.450361506 +0300 ssdc_t.o
+-rw-r--r-- 1 gsim gsim    2244 2018-04-13 10:48:08.450361506 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim     655 2018-04-13 10:48:08.450361506 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim  292024 2018-04-13 10:48:08.450361506 +0300 stat_t.o
+-rw-r--r-- 1 gsim gsim    7319 2018-04-13 10:48:08.450361506 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim     523 2018-04-13 10:48:08.450361506 +0300 tier_t.h
+-rw-r--r-- 1 gsim gsim  306728 2018-04-13 10:48:08.450361506 +0300 tier_t.o
+-rw-r--r-- 1 gsim gsim   83258 2018-04-13 10:48:08.446361529 +0300 milld.c
+-rw-r--r-- 1 gsim gsim  466856 2018-04-13 10:48:08.446361529 +0300 milld.o
+-rw-r--r-- 1 gsim gsim    8495 2018-04-13 10:48:08.446361529 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 8553120 2018-04-13 10:48:08.446361529 +0300 milldrv.ko
+-rw-r--r-- 1 gsim gsim    7055 2018-04-13 10:48:08.446361529 +0300 milldrv.mod.c
+-rw-r--r-- 1 gsim gsim  153360 2018-04-13 10:48:08.446361529 +0300 milldrv.mod.o
+-rw-r--r-- 1 gsim gsim 8401312 2018-04-13 10:48:08.446361529 +0300 milldrv.o
+-rw-r--r-- 1 gsim gsim    2365 2018-04-13 10:48:08.446361529 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim     604 2018-04-13 10:48:08.446361529 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim  292816 2018-04-13 10:48:08.446361529 +0300 mill_idr.o
+-rw-r--r-- 1 gsim gsim    4547 2018-04-13 10:48:08.446361529 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim     314 2018-04-13 10:48:08.446361529 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim  295112 2018-04-13 10:48:08.446361529 +0300 mill_log_t.o
+-rw-r--r-- 1 gsim gsim      26 2018-04-13 10:48:08.446361529 +0300 mill_magic.h
+-rw-r--r-- 1 gsim gsim   94299 2018-04-13 10:48:08.446361529 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim    9797 2018-04-13 10:48:08.446361529 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim  480848 2018-04-13 10:48:08.446361529 +0300 mill_meta.o
+-rw-r--r-- 1 gsim gsim    7181 2018-04-13 10:48:08.446361529 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim     353 2018-04-13 10:48:08.446361529 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim  308808 2018-04-13 10:48:08.446361529 +0300 mill_scsi.o
+-rw-r--r-- 1 gsim gsim   16817 2018-04-13 10:48:08.446361529 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim    4532 2018-04-13 10:48:08.446361529 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim  341448 2018-04-13 10:48:08.446361529 +0300 mill_t.o
+-rwxr-xr-x 1 gsim gsim     277 2018-04-13 10:48:08.446361529 +0300 mk.sh
+-rw-r--r-- 1 gsim gsim    3537 2018-04-13 10:48:08.446361529 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim     882 2018-04-13 10:48:08.446361529 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim      47 2018-04-13 10:48:08.446361529 +0300 modules.order
+-rw-r--r-- 1 gsim gsim   21632 2018-04-13 10:48:08.446361529 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim    4493 2018-04-13 10:48:08.446361529 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim  337416 2018-04-13 10:48:08.446361529 +0300 mxbio_t.o
+-rwxr-xr-x 1 gsim gsim      97 2018-04-13 10:48:08.442361551 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim   43346 2018-04-13 10:48:08.442361551 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim    8556 2018-04-13 10:48:08.442361551 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim  397968 2018-04-13 10:48:08.442361551 +0300 disk_t.o
+-rw-r--r-- 1 gsim gsim    3242 2018-04-13 10:48:08.442361551 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim     802 2018-04-13 10:48:08.442361551 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim  293384 2018-04-13 10:48:08.442361551 +0300 distrib_t.o
+-rw-r--r-- 1 gsim gsim       9 2018-04-13 10:48:08.442361551 +0300 init
+-rwxr-xr-x 1 gsim gsim      78 2018-04-13 10:48:08.442361551 +0300 in.sh
+-rw-r--r-- 1 gsim gsim    3715 2018-04-13 10:48:08.442361551 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim    2518 2018-04-13 10:48:08.442361551 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim    1963 2018-04-13 10:48:08.442361551 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim  291704 2018-04-13 10:48:08.442361551 +0300 job_req.o
+-rw-r--r-- 1 gsim gsim   41122 2018-04-13 10:48:08.442361551 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim    8651 2018-04-13 10:48:08.442361551 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim  391664 2018-04-13 10:48:08.442361551 +0300 lun_t.o
+-rw-r--r-- 1 gsim gsim    2758 2018-04-13 10:48:08.442361551 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim     676 2018-04-13 10:48:08.442361551 +0300 m2bio_t.h
+-rwxr-xr-x 1 gsim gsim     348 2018-04-13 10:48:08.442361551 +0300 map_drive.sh
+-rw-r--r-- 1 gsim gsim    4969 2018-04-13 10:48:08.442361551 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim     463 2018-04-13 10:48:08.442361551 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim  296280 2018-04-13 10:48:08.442361551 +0300 mill_check.o
+-rw-r--r-- 1 gsim gsim     953 2018-04-13 10:48:08.438361576 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim    2736 2018-04-13 10:48:08.438361576 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim    3783 2018-04-13 10:48:08.438361576 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim   31002 2018-04-13 10:48:08.438361576 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim    4658 2018-04-13 10:48:08.438361576 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim  338232 2018-04-13 10:48:08.438361576 +0300 chunk_t.o
+-rw-r--r-- 1 gsim gsim    1294 2018-04-13 10:48:08.438361576 +0300 Makefile
+-rw-r--r-- 1 gsim gsim       0 2018-04-13 10:48:08.438361576 +0300 Module.symvers
+drwxr-xr-x 3 gsim gsim    4096 2018-04-13 10:48:08.430361621 +0300 tests
+drwxr-xr-x 2 gsim gsim    4096 2018-04-13 10:48:08.430361621 +0300 util
+
+/home/gsim/Milldrv/m/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-04-13 10:40:01.561141921 +0300 test512
+
+/home/gsim/Milldrv/m/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-04-13 10:40:01.561141921 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-04-13 10:40:01.561141921 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-04-13 10:40:01.561141921 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-04-13 10:40:01.561141921 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/m/util:
+итого 104
+-rw-r--r-- 1 gsim gsim  621 2018-04-13 10:40:46.560887097 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 3327 2018-04-13 10:40:46.560887097 +0300 milldrv.h
+-rwxr-xr-x 1 gsim gsim   30 2018-04-13 10:40:01.561141921 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim 6643 2018-04-13 10:40:01.561141921 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-04-13 10:40:01.561141921 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-04-13 10:40:01.561141921 +0300 init
+-rw-r--r-- 1 gsim gsim 3009 2018-04-13 10:40:01.561141921 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim 8220 2018-04-13 10:40:01.561141921 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 1483 2018-04-13 10:40:01.561141921 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 5027 2018-04-13 10:40:01.561141921 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim   35 2018-04-13 10:40:01.561141921 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   20 2018-04-13 10:40:01.561141921 +0300 mill_list_luns.ini
+-rw-r--r-- 1 gsim gsim 3128 2018-04-13 10:40:01.561141921 +0300 millstatblk.c
+-rwxr-xr-x 1 gsim gsim 9259 2018-04-13 10:40:01.561141921 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   62 2018-04-13 10:40:01.561141921 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 1476 2018-04-13 10:40:01.561141921 +0300 o_lunstat.py
+-rw-r--r-- 1 gsim gsim 1659 2018-04-13 10:40:01.561141921 +0300 rebuild.c
+-rwxr-xr-x 1 gsim gsim 4992 2018-04-13 10:40:01.561141921 +0300 sctiering.py
+-rwxr-xr-x 1 gsim gsim 2389 2018-04-13 10:40:01.561141921 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__m5:
+итого 928
+-rw-r--r-- 1 gsim gsim 41898 2018-03-28 17:25:14.427314968 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim 83387 2018-03-28 17:23:44.451668121 +0300 milld.c
+-rw-r--r-- 1 gsim gsim 21922 2018-03-28 17:22:20.063995265 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim 44613 2018-03-28 17:19:16.376748909 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim 14359 2018-03-28 17:17:49.557114617 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim 42271 2018-03-28 17:16:30.225448513 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim  8558 2018-03-28 17:16:30.225448513 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim  2397 2018-03-28 17:16:30.225448513 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim  9256 2018-03-28 17:16:30.225448513 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim   637 2018-03-28 17:16:30.225448513 +0300 tier_t.h
+-rw-r--r-- 1 gsim gsim   953 2018-03-23 18:19:54.802365909 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim  2736 2018-03-23 18:19:54.802365909 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim  3783 2018-03-23 18:19:54.802365909 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim 31002 2018-03-23 18:19:54.802365909 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim  4658 2018-03-23 18:19:54.802365909 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim  3242 2018-03-23 18:19:54.802365909 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim   802 2018-03-23 18:19:54.802365909 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim  3715 2018-03-23 18:19:54.802365909 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim  2518 2018-03-23 18:19:54.802365909 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim  1963 2018-03-23 18:19:54.802365909 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim  8651 2018-03-23 18:19:54.802365909 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim  2758 2018-03-23 18:19:54.802365909 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim   676 2018-03-23 18:19:54.802365909 +0300 m2bio_t.h
+-rw-r--r-- 1 gsim gsim  1294 2018-03-23 18:19:54.802365909 +0300 Makefile
+-rw-r--r-- 1 gsim gsim  4969 2018-03-23 18:19:54.802365909 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim   463 2018-03-23 18:19:54.802365909 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim  8495 2018-03-23 18:19:54.802365909 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim  2365 2018-03-23 18:19:54.802365909 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim   604 2018-03-23 18:19:54.802365909 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim  4547 2018-03-23 18:19:54.802365909 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim   314 2018-03-23 18:19:54.802365909 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim 94299 2018-03-23 18:19:54.802365909 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim  9797 2018-03-23 18:19:54.802365909 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim  7181 2018-03-23 18:19:54.802365909 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim   353 2018-03-23 18:19:54.802365909 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim 16817 2018-03-23 18:19:54.802365909 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim  4532 2018-03-23 18:19:54.802365909 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim  3537 2018-03-23 18:19:54.802365909 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim   882 2018-03-23 18:19:54.802365909 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim  4493 2018-03-23 18:19:54.802365909 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim  1288 2018-03-23 18:19:54.802365909 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim   336 2018-03-23 18:19:54.802365909 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim 36210 2018-03-23 18:19:54.802365909 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim 32934 2018-03-23 18:19:54.802365909 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim 39710 2018-03-23 18:19:54.802365909 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim 39071 2018-03-23 18:19:54.802365909 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim 61384 2018-03-23 18:19:54.802365909 +0300 raid60.c
+-rw-r--r-- 1 gsim gsim 60418 2018-03-23 18:19:54.802365909 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim  4091 2018-03-23 18:19:54.802365909 +0300 raid.c
+-rw-r--r-- 1 gsim gsim  3167 2018-03-23 18:19:54.802365909 +0300 raid.h
+-rw-r--r-- 1 gsim gsim  2737 2018-03-23 18:19:54.802365909 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim  3367 2018-03-23 18:19:54.802365909 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim  1548 2018-03-23 18:19:54.802365909 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim  2244 2018-03-23 18:19:54.802365909 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim   655 2018-03-23 18:19:54.802365909 +0300 stat_t.h
+drwxr-xr-x 2 gsim gsim  4096 2018-03-23 15:29:49.976258247 +0300 util
+drwxr-xr-x 3 gsim gsim  4096 2018-03-20 17:50:12.180790140 +0300 tests
+-rwxr-xr-x 1 gsim gsim    97 2018-03-20 17:50:12.176790142 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim     9 2018-03-20 17:50:12.176790142 +0300 init
+-rwxr-xr-x 1 gsim gsim    78 2018-03-20 17:50:12.176790142 +0300 in.sh
+-rwxr-xr-x 1 gsim gsim   348 2018-03-20 17:50:12.176790142 +0300 map_drive.sh
+-rwxr-xr-x 1 gsim gsim   277 2018-03-20 17:50:12.176790142 +0300 mk.sh
+
+/home/gsim/Milldrv/milldrv__m5/util:
+итого 104
+-rw-r--r-- 1 gsim gsim 3327 2018-03-23 15:29:49.976258247 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 3009 2018-03-21 11:27:11.896683802 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim  621 2018-03-21 11:27:11.896683802 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 8220 2018-03-21 11:27:11.896683802 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 1483 2018-03-21 11:27:11.896683802 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 5027 2018-03-21 11:27:11.896683802 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim 3128 2018-03-21 11:27:11.896683802 +0300 millstatblk.c
+-rw-r--r-- 1 gsim gsim 1659 2018-03-21 11:27:11.896683802 +0300 rebuild.c
+-rwxr-xr-x 1 gsim gsim   62 2018-03-20 17:57:50.444545428 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim   30 2018-03-20 17:50:12.180790140 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim 6643 2018-03-20 17:50:12.180790140 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-03-20 17:50:12.180790140 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-03-20 17:50:12.180790140 +0300 init
+-rw-r--r-- 1 gsim gsim   35 2018-03-20 17:50:12.180790140 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   20 2018-03-20 17:50:12.180790140 +0300 mill_list_luns.ini
+-rwxr-xr-x 1 gsim gsim 9259 2018-03-20 17:50:12.180790140 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim 1476 2018-03-20 17:50:12.180790140 +0300 o_lunstat.py
+-rwxr-xr-x 1 gsim gsim 4992 2018-03-20 17:50:12.180790140 +0300 sctiering.py
+-rwxr-xr-x 1 gsim gsim 2389 2018-03-20 17:50:12.180790140 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__m5/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-03-20 17:50:12.180790140 +0300 test512
+
+/home/gsim/Milldrv/milldrv__m5/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-03-20 17:50:12.180790140 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-03-20 17:50:12.180790140 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-03-20 17:50:12.180790140 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-03-20 17:50:12.180790140 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/milldrv__m4:
+итого 3940
+drwxr-xr-x 2 gsim gsim   4096 2018-03-20 17:58:21.272531510 +0300 util
+-rw-r--r-- 1 gsim gsim  40974 2018-03-20 17:55:55.180599687 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim   7181 2018-03-20 17:54:22.936646064 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim   8486 2018-03-20 17:53:49.360663706 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim  41088 2018-03-20 17:52:56.936692162 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim  31002 2018-03-20 17:51:26.336744281 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim   4641 2018-03-20 17:51:03.584758022 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim 341400 2018-03-20 17:49:39.832811170 +0300 mill_t.o
+-rw-r--r-- 1 gsim gsim 337248 2018-03-20 17:49:39.372811474 +0300 mxbio_t.o
+-rw-r--r-- 1 gsim gsim 338064 2018-03-20 17:49:38.908811780 +0300 chunk_t.o
+-rw-r--r-- 1 gsim gsim 397912 2018-03-20 17:49:38.456812078 +0300 disk_t.o
+-rw-r--r-- 1 gsim gsim 291648 2018-03-20 17:49:37.860812472 +0300 job_req.o
+-rw-r--r-- 1 gsim gsim 360120 2018-03-20 17:49:37.544812681 +0300 procfs.o
+-rw-r--r-- 1 gsim gsim 391792 2018-03-20 17:49:37.100812976 +0300 lun_t.o
+-rw-r--r-- 1 gsim gsim 295064 2018-03-20 17:49:36.532813353 +0300 mill_log_t.o
+-rw-r--r-- 1 gsim gsim 296224 2018-03-20 17:49:36.188813581 +0300 mill_check.o
+-rw-r--r-- 1 gsim gsim    953 2018-03-20 17:49:35.196814237 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim   2736 2018-03-20 17:49:35.196814237 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim   3783 2018-03-20 17:49:35.196814237 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim  43346 2018-03-20 17:49:35.196814237 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim   8556 2018-03-20 17:49:35.196814237 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim   3242 2018-03-20 17:49:35.196814237 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim    802 2018-03-20 17:49:35.196814237 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim   3715 2018-03-20 17:49:35.196814237 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim   2518 2018-03-20 17:49:35.196814237 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim   1963 2018-03-20 17:49:35.196814237 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim   8651 2018-03-20 17:49:35.196814237 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim   2758 2018-03-20 17:49:35.196814237 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim    676 2018-03-20 17:49:35.196814237 +0300 m2bio_t.h
+-rw-r--r-- 1 gsim gsim   1294 2018-03-20 17:49:35.196814237 +0300 Makefile
+-rw-r--r-- 1 gsim gsim   4969 2018-03-20 17:49:35.196814237 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim    463 2018-03-20 17:49:35.196814237 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim  82837 2018-03-20 17:49:35.196814237 +0300 milld.c
+-rw-r--r-- 1 gsim gsim   2365 2018-03-20 17:49:35.196814237 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim    604 2018-03-20 17:49:35.196814237 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim   4547 2018-03-20 17:49:35.196814237 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim    314 2018-03-20 17:49:35.196814237 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim     26 2018-03-20 17:49:35.196814237 +0300 mill_magic.h
+-rw-r--r-- 1 gsim gsim  94299 2018-03-20 17:49:35.196814237 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim   9797 2018-03-20 17:49:35.196814237 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim    353 2018-03-20 17:49:35.196814237 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim  16817 2018-03-20 17:49:35.196814237 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim   4532 2018-03-20 17:49:35.196814237 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim   3537 2018-03-20 17:49:35.196814237 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim    882 2018-03-20 17:49:35.196814237 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim  21612 2018-03-20 17:49:35.196814237 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim   4493 2018-03-20 17:49:35.196814237 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim   1288 2018-03-20 17:49:35.196814237 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim    336 2018-03-20 17:49:35.196814237 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim  32199 2018-03-20 17:49:35.196814237 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim  32905 2018-03-20 17:49:35.196814237 +0300 raid10.c
+-rw-rw---- 1 gsim gsim  39103 2018-03-20 17:49:35.196814237 +0300 raid50.c
+-rw-r--r-- 1 gsim gsim  40003 2018-03-20 17:49:35.196814237 +0300 raid5.c
+-rw-rw---- 1 gsim gsim  60028 2018-03-20 17:49:35.196814237 +0300 raid60.c
+-rw-r--r-- 1 gsim gsim  60298 2018-03-20 17:49:35.196814237 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim   4091 2018-03-20 17:49:35.196814237 +0300 raid.c
+-rw-r--r-- 1 gsim gsim   3160 2018-03-20 17:49:35.196814237 +0300 raid.h
+-rw-r--r-- 1 gsim gsim   2737 2018-03-20 17:49:35.196814237 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim   3367 2018-03-20 17:49:35.196814237 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim   2341 2018-03-20 17:49:35.196814237 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim  14359 2018-03-20 17:49:35.196814237 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim   1548 2018-03-20 17:49:35.196814237 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim   2244 2018-03-20 17:49:35.196814237 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim    655 2018-03-20 17:49:35.196814237 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim   7319 2018-03-20 17:49:35.196814237 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim    523 2018-03-20 17:49:35.196814237 +0300 tier_t.h
+-rwxr-xr-x 1 gsim gsim     97 2018-03-16 15:10:50.501761779 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim    277 2018-03-16 12:34:25.752496811 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim     94 2018-03-16 12:16:46.168322368 +0300 pk-192.sh
+-rwxr-xr-x 1 gsim gsim    103 2018-03-16 12:16:46.168322368 +0300 pk-193.sh
+-rwxr-xr-x 1 gsim gsim    108 2018-03-16 12:16:46.168322368 +0300 pk-204.sh
+-rwxr-xr-x 1 gsim gsim    109 2018-03-16 12:16:46.164322368 +0300 pk-050.sh
+drwxr-xr-x 3 gsim gsim   4096 2018-03-16 12:12:51.248303498 +0300 tests
+-rwxr-xr-x 1 gsim gsim    348 2018-03-16 12:12:51.240303497 +0300 map_drive.sh
+-rw-r--r-- 1 gsim gsim      9 2018-03-16 12:12:51.236303496 +0300 init
+-rwxr-xr-x 1 gsim gsim     78 2018-03-16 12:12:51.236303496 +0300 in.sh
+
+/home/gsim/Milldrv/milldrv__m4/util:
+итого 104
+-rw-r--r-- 1 gsim gsim 8220 2018-03-20 17:58:21.272531510 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 1483 2018-03-20 17:58:13.828534851 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 5027 2018-03-20 17:58:07.256537810 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim 3128 2018-03-20 17:57:59.644541251 +0300 millstatblk.c
+-rw-r--r-- 1 gsim gsim 3009 2018-03-16 12:33:48.244496764 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim  621 2018-03-16 12:33:48.244496764 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 3327 2018-03-16 12:33:48.244496764 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 1659 2018-03-16 12:33:48.244496764 +0300 rebuild.c
+-rwxr-xr-x 1 gsim gsim   62 2018-03-16 12:33:46.568496754 +0300 mk.sh
+-rwxrwx--- 1 gsim gsim   30 2018-03-16 12:29:12.904485242 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim 6643 2018-03-16 12:12:51.248303498 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-03-16 12:12:51.248303498 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-03-16 12:12:51.248303498 +0300 init
+-rw-r--r-- 1 gsim gsim   35 2018-03-16 12:12:51.248303498 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   20 2018-03-16 12:12:51.248303498 +0300 mill_list_luns.ini
+-rwxr-xr-x 1 gsim gsim 9259 2018-03-16 12:12:51.248303498 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim 1476 2018-03-16 12:12:51.248303498 +0300 o_lunstat.py
+-rwxr-xr-x 1 gsim gsim 4992 2018-03-16 12:12:51.248303498 +0300 sctiering.py
+-rwxr-xr-x 1 gsim gsim 2389 2018-03-16 12:12:51.248303498 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__m4/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-03-16 12:12:51.248303498 +0300 test512
+
+/home/gsim/Milldrv/milldrv__m4/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-03-16 12:12:51.248303498 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-03-16 12:12:51.248303498 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-03-16 12:12:51.248303498 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-03-16 12:12:51.248303498 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/milldrv__m3:
+итого 800
+-rw-r--r-- 1 gsim gsim    49 2018-03-16 12:16:10.608321264 +0300 modules.order
+-rw-r--r-- 1 gsim gsim 59681 2018-03-16 12:15:47.520320249 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim 37968 2018-03-16 12:15:08.816317991 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim 34383 2018-03-16 12:12:21.248298805 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim  8440 2018-03-16 12:12:21.248298805 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 43357 2018-03-16 12:12:21.244298804 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim  8510 2018-03-16 12:12:21.244298804 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim  3251 2018-03-16 12:12:21.244298804 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim  7607 2018-03-16 12:12:21.244298804 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim 81835 2018-03-16 12:12:21.244298804 +0300 milld.c
+-rw-r--r-- 1 gsim gsim 31909 2018-03-16 12:12:21.244298804 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim 38347 2018-03-16 12:12:21.244298804 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim  2166 2018-03-16 12:12:21.244298804 +0300 remap_req.h
+drwxr-xr-x 2 gsim gsim  4096 2018-03-16 12:12:21.244298804 +0300 util
+-rw-r--r-- 1 gsim gsim  4406 2018-03-16 12:12:21.240298803 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim  7179 2018-03-16 12:10:40.280278212 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim  4532 2018-03-15 11:58:46.521719042 +0300 mill_t.h
+-rwxr-xr-x 1 gsim gsim    71 2018-03-15 10:20:47.542609970 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim 94299 2018-03-15 10:12:18.910835949 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim  9797 2018-03-15 10:08:21.742881344 +0300 mill_meta.h
+-rwxr-xr-x 1 gsim gsim   276 2018-03-15 10:00:25.203302479 +0300 mk.sh
+-rw-r--r-- 1 gsim gsim  3537 2018-03-15 10:00:25.203302479 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim   882 2018-03-15 10:00:25.203302479 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim 21612 2018-03-15 10:00:25.203302479 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim  4493 2018-03-15 10:00:25.203302479 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim  1288 2018-03-15 10:00:25.203302479 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim   336 2018-03-15 10:00:25.203302479 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim 32259 2018-03-15 10:00:25.203302479 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  2450 2018-03-15 10:00:25.203302479 +0300 raid.c
+-rw-r--r-- 1 gsim gsim  2235 2018-03-15 10:00:25.203302479 +0300 raid.h
+-rw-r--r-- 1 gsim gsim  2737 2018-03-15 10:00:25.203302479 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim  3367 2018-03-15 10:00:25.203302479 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim 14359 2018-03-15 10:00:25.203302479 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim  1548 2018-03-15 10:00:25.203302479 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim  2244 2018-03-15 10:00:25.203302479 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim   655 2018-03-15 10:00:25.203302479 +0300 stat_t.h
+drwxr-xr-x 3 gsim gsim  4096 2018-03-15 10:00:25.203302479 +0300 tests
+-rw-r--r-- 1 gsim gsim  7319 2018-03-15 10:00:25.203302479 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim   523 2018-03-15 10:00:25.203302479 +0300 tier_t.h
+-rw-r--r-- 1 gsim gsim   953 2018-03-15 10:00:25.199302482 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim  2736 2018-03-15 10:00:25.199302482 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim  3783 2018-03-15 10:00:25.199302482 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim 30820 2018-03-15 10:00:25.199302482 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim   802 2018-03-15 10:00:25.199302482 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim     9 2018-03-15 10:00:25.199302482 +0300 init
+-rwxr-xr-x 1 gsim gsim    78 2018-03-15 10:00:25.199302482 +0300 in.sh
+-rw-r--r-- 1 gsim gsim  3715 2018-03-15 10:00:25.199302482 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim  2518 2018-03-15 10:00:25.199302482 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim  1963 2018-03-15 10:00:25.199302482 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim  2758 2018-03-15 10:00:25.199302482 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim   676 2018-03-15 10:00:25.199302482 +0300 m2bio_t.h
+-rw-r--r-- 1 gsim gsim  1262 2018-03-15 10:00:25.199302482 +0300 Makefile
+-rwxr-xr-x 1 gsim gsim   348 2018-03-15 10:00:25.199302482 +0300 map_drive.sh
+-rw-r--r-- 1 gsim gsim  4969 2018-03-15 10:00:25.199302482 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim   463 2018-03-15 10:00:25.199302482 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim  2365 2018-03-15 10:00:25.199302482 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim   604 2018-03-15 10:00:25.199302482 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim  4547 2018-03-15 10:00:25.199302482 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim   314 2018-03-15 10:00:25.199302482 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim   353 2018-03-15 10:00:25.199302482 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim 16817 2018-03-15 10:00:25.199302482 +0300 mill_t.c
+
+/home/gsim/Milldrv/milldrv__m3/util:
+итого 100
+-rw-r--r-- 1 gsim gsim 8220 2018-03-16 12:12:21.244298804 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 3327 2018-03-16 12:12:21.244298804 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 1483 2018-03-16 12:12:21.244298804 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 5027 2018-03-16 12:12:21.244298804 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim 3128 2018-03-16 12:12:21.244298804 +0300 millstatblk.c
+-rw-r--r-- 1 gsim gsim 1685 2018-03-16 12:12:21.244298804 +0300 rebuild.c
+-rw-r--r-- 1 gsim gsim 3009 2018-03-15 10:16:31.118743694 +0300 lunstats.c
+-rwxr-xr-x 1 gsim gsim 6643 2018-03-15 10:00:25.203302479 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-03-15 10:00:25.203302479 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-03-15 10:00:25.203302479 +0300 init
+-rw-r--r-- 1 gsim gsim  621 2018-03-15 10:00:25.203302479 +0300 Makefile
+-rw-r--r-- 1 gsim gsim   35 2018-03-15 10:00:25.203302479 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   20 2018-03-15 10:00:25.203302479 +0300 mill_list_luns.ini
+-rwxr-xr-x 1 gsim gsim 9259 2018-03-15 10:00:25.203302479 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   36 2018-03-15 10:00:25.203302479 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 1476 2018-03-15 10:00:25.203302479 +0300 o_lunstat.py
+-rwxr-xr-x 1 gsim gsim 4992 2018-03-15 10:00:25.203302479 +0300 sctiering.py
+-rwxr-xr-x 1 gsim gsim 2389 2018-03-15 10:00:25.203302479 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__m3/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-03-16 12:12:21.244298804 +0300 test512
+
+/home/gsim/Milldrv/milldrv__m3/tests/test512:
+итого 20
+-rwxr-xr-x 1 gsim gsim  227 2018-03-15 10:00:25.203302479 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-03-15 10:00:25.203302479 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-03-15 10:00:25.203302479 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-03-15 10:00:25.203302479 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/milldrv__m2:
+итого 808
+drwxr-xr-x 2 gsim gsim  4096 2018-03-15 10:16:15.066750933 +0300 util
+-rw-r--r-- 1 gsim gsim 30820 2018-03-15 10:15:54.882759808 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim 42653 2018-03-15 10:15:38.430766846 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim  8113 2018-03-15 10:13:27.130816039 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim 34012 2018-03-15 10:12:49.506827551 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim 94299 2018-03-15 10:12:20.338835577 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim  9797 2018-03-15 10:08:22.974880268 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim  7176 2018-03-15 10:06:44.614966411 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim   353 2018-03-15 10:05:38.635024378 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim 81585 2018-03-15 10:05:24.883036480 +0300 milld.c
+-rw-r--r-- 1 gsim gsim 32259 2018-03-15 10:02:13.103206135 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  7372 2018-03-14 17:22:29.343752981 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim  4531 2018-03-14 17:19:59.447948003 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim 34762 2018-03-14 17:15:47.128312160 +0300 remap_req.c
+-rwxr-xr-x 1 gsim gsim   109 2018-03-14 16:59:07.222011765 +0300 pk-050.sh
+-rwxr-xr-x 1 gsim gsim    94 2018-03-14 16:59:07.222011765 +0300 pk-192.sh
+-rwxr-xr-x 1 gsim gsim   103 2018-03-14 16:59:07.222011765 +0300 pk-193.sh
+-rwxr-xr-x 1 gsim gsim   108 2018-03-14 16:59:07.222011765 +0300 pk-204.sh
+-rwxr-xr-x 1 gsim gsim    71 2018-03-14 16:58:58.350018619 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim 58810 2018-03-14 16:51:16.250380476 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim    45 2018-03-14 16:45:22.630668697 +0300 modules.order
+-rw-r--r-- 1 gsim gsim 37096 2018-03-14 16:45:04.402683994 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim 31845 2018-03-14 16:03:20.457157955 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim  8261 2018-03-14 16:02:35.637234869 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim  2235 2018-03-13 17:00:31.644320529 +0300 raid.h
+-rw-r--r-- 1 gsim gsim  7319 2018-03-13 14:41:22.299019641 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim   523 2018-03-13 14:41:22.299019641 +0300 tier_t.h
+-rw-r--r-- 1 gsim gsim  4493 2018-03-13 14:41:22.295019644 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim  1288 2018-03-13 14:41:22.295019644 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim   336 2018-03-13 14:41:22.295019644 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim  2450 2018-03-13 14:41:22.295019644 +0300 raid.c
+-rw-r--r-- 1 gsim gsim  2737 2018-03-13 14:41:22.295019644 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim  3367 2018-03-13 14:41:22.295019644 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim  2161 2018-03-13 14:41:22.295019644 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim 14359 2018-03-13 14:41:22.295019644 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim  1548 2018-03-13 14:41:22.295019644 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim  2244 2018-03-13 14:41:22.295019644 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim   655 2018-03-13 14:41:22.295019644 +0300 stat_t.h
+drwxr-xr-x 3 gsim gsim  4096 2018-03-13 14:41:22.295019644 +0300 tests
+-rw-r--r-- 1 gsim gsim   604 2018-03-13 14:41:22.291019648 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim  4547 2018-03-13 14:41:22.291019648 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim   314 2018-03-13 14:41:22.291019648 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim 16817 2018-03-13 14:41:22.291019648 +0300 mill_t.c
+-rwxr-xr-x 1 gsim gsim   276 2018-03-13 14:41:22.291019648 +0300 mk.sh
+-rw-r--r-- 1 gsim gsim  3537 2018-03-13 14:41:22.291019648 +0300 mlbio_t.c
+-rw-r--r-- 1 gsim gsim   882 2018-03-13 14:41:22.291019648 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim 21612 2018-03-13 14:41:22.291019648 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim   953 2018-03-13 14:41:22.287019651 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim  2736 2018-03-13 14:41:22.287019651 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim  3783 2018-03-13 14:41:22.287019651 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim  4343 2018-03-13 14:41:22.287019651 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim  3242 2018-03-13 14:41:22.287019651 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim   802 2018-03-13 14:41:22.287019651 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim     9 2018-03-13 14:41:22.287019651 +0300 init
+-rwxr-xr-x 1 gsim gsim    78 2018-03-13 14:41:22.287019651 +0300 in.sh
+-rw-r--r-- 1 gsim gsim  3715 2018-03-13 14:41:22.287019651 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim  2518 2018-03-13 14:41:22.287019651 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim  1963 2018-03-13 14:41:22.287019651 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim  2758 2018-03-13 14:41:22.287019651 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim   676 2018-03-13 14:41:22.287019651 +0300 m2bio_t.h
+-rw-r--r-- 1 gsim gsim  1262 2018-03-13 14:41:22.287019651 +0300 Makefile
+-rwxr-xr-x 1 gsim gsim   348 2018-03-13 14:41:22.287019651 +0300 map_drive.sh
+-rw-r--r-- 1 gsim gsim  4969 2018-03-13 14:41:22.287019651 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim   463 2018-03-13 14:41:22.287019651 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim  2365 2018-03-13 14:41:22.287019651 +0300 mill_idr.c
+
+/home/gsim/Milldrv/milldrv__m2/util:
+итого 96
+-rwxr-xr-x 1 gsim gsim 4992 2018-03-15 10:16:15.066750933 +0300 sctiering.py
+-rw-r--r-- 1 gsim gsim 8192 2018-03-14 17:23:05.399707833 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 3009 2018-03-13 14:44:31.298857756 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim 5025 2018-03-13 14:43:27.026913351 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim 3126 2018-03-13 14:43:12.218926086 +0300 millstatblk.c
+-rwxr-xr-x 1 gsim gsim 6643 2018-03-13 14:41:22.299019641 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-03-13 14:41:22.299019641 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-03-13 14:41:22.299019641 +0300 init
+-rw-r--r-- 1 gsim gsim  621 2018-03-13 14:41:22.299019641 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 3263 2018-03-13 14:41:22.299019641 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 1481 2018-03-13 14:41:22.299019641 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim   35 2018-03-13 14:41:22.299019641 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   20 2018-03-13 14:41:22.299019641 +0300 mill_list_luns.ini
+-rwxr-xr-x 1 gsim gsim 9259 2018-03-13 14:41:22.299019641 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   36 2018-03-13 14:41:22.299019641 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 1476 2018-03-13 14:41:22.299019641 +0300 o_lunstat.py
+-rw-r--r-- 1 gsim gsim 1633 2018-03-13 14:41:22.299019641 +0300 rebuild.c
+-rwxr-xr-x 1 gsim gsim 2389 2018-03-13 14:41:22.299019641 +0300 stats_all_lun.py
+
+/home/gsim/Milldrv/milldrv__m2/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-03-13 14:41:22.299019641 +0300 test512
+
+/home/gsim/Milldrv/milldrv__m2/tests/test512:
+итого 24
+-rw-r--r-- 1 gsim gsim   44 2018-03-14 18:10:38.791546902 +0300 modules.order
+-rw-r--r-- 1 gsim gsim    0 2018-03-14 18:10:38.791546902 +0300 Module.symvers
+-rw-r--r-- 1 gsim gsim  763 2018-03-14 18:10:28.147560742 +0300 Makefile
+-rwxr-xr-x 1 gsim gsim  227 2018-03-13 14:41:22.299019641 +0300 loadNoZero.sh
+-rw-r--r-- 1 gsim gsim 4422 2018-03-13 14:41:22.299019641 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-03-13 14:41:22.299019641 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/milldrv__m:
+итого 780
+-rw-r--r-- 1 gsim gsim  7950 2018-03-14 17:23:36.723669091 +0300 disk_t.h
+drwxr-xr-x 2 gsim gsim  4096 2018-03-14 17:23:25.951682366 +0300 util
+-rw-r--r-- 1 gsim gsim 16817 2018-03-14 17:20:11.727931530 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim  4531 2018-03-14 17:20:01.487945260 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim 82070 2018-03-14 17:19:37.451977759 +0300 milld.c
+-rw-r--r-- 1 gsim gsim  8298 2018-03-14 17:17:58.972115236 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 31845 2018-03-14 17:16:45.704222642 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim  2289 2018-03-14 17:16:18.196264250 +0300 raid.h
+-rw-r--r-- 1 gsim gsim 34548 2018-03-14 17:15:48.816309531 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim  2161 2018-03-14 17:12:50.672605876 +0300 remap_req.h
+-rw-r--r-- 1 gsim gsim  1262 2018-03-13 14:40:54.243043215 +0300 Makefile
+-rw-r--r-- 1 gsim gsim   463 2018-03-13 14:40:54.243043215 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim   336 2018-03-13 14:40:54.243043215 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim   655 2018-03-13 14:40:54.243043215 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim   604 2018-03-13 14:40:54.111043326 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim  9389 2018-03-13 14:40:54.111043326 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim  5138 2018-03-13 14:40:54.111043326 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim  3783 2018-03-13 14:40:54.107043329 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim 30689 2018-03-13 14:40:54.107043329 +0300 chunk_t.c
+-rwxr-xr-x 1 gsim gsim    71 2018-03-13 14:40:54.107043329 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim    78 2018-03-13 14:40:54.107043329 +0300 in.sh
+-rw-r--r-- 1 gsim gsim  3715 2018-03-13 14:40:54.107043329 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim  1963 2018-03-13 14:40:54.107043329 +0300 job_req.h
+-rw-r--r-- 1 gsim gsim  4969 2018-03-13 14:40:54.107043329 +0300 mill_check.c
+-rwxr-xr-x 1 gsim gsim   109 2018-03-13 14:40:54.107043329 +0300 pk-050.sh
+-rw-r--r-- 1 gsim gsim  2518 2018-03-13 14:40:54.103043332 +0300 job_req.c
+-rwxr-xr-x 1 gsim gsim   103 2018-03-13 14:40:54.103043332 +0300 pk-193.sh
+-rw-r--r-- 1 gsim gsim  2365 2018-03-13 14:40:54.095043339 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim 90971 2018-03-13 14:40:54.095043339 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim   303 2018-03-13 14:40:54.095043339 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim  4493 2018-03-13 14:40:54.095043339 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim  1288 2018-03-13 14:40:54.095043339 +0300 nam_t.c
+-rw-r--r-- 1 gsim gsim  2244 2018-03-13 14:40:54.095043339 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim   523 2018-03-13 14:40:54.095043339 +0300 tier_t.h
+-rw-r--r-- 1 gsim gsim 40647 2018-03-13 14:40:54.091043342 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim  3242 2018-03-13 14:40:54.091043342 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim   802 2018-03-13 14:40:54.091043342 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim    45 2018-03-13 14:40:54.091043342 +0300 modules.order
+-rw-r--r-- 1 gsim gsim 21612 2018-03-13 14:40:54.091043342 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim 56159 2018-03-13 14:40:54.091043342 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim  1548 2018-03-13 14:40:54.091043342 +0300 ssdc_t.h
+-rw-r--r-- 1 gsim gsim  7641 2018-03-13 14:40:54.087043345 +0300 lun_t.h
+-rwxr-xr-x 1 gsim gsim   348 2018-03-13 14:40:54.087043345 +0300 map_drive.sh
+-rw-r--r-- 1 gsim gsim   314 2018-03-13 14:40:54.087043345 +0300 mill_log_t.h
+-rwxr-xr-x 1 gsim gsim   276 2018-03-13 14:40:54.087043345 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim    94 2018-03-13 14:40:54.087043345 +0300 pk-192.sh
+-rw-r--r-- 1 gsim gsim 32092 2018-03-13 14:40:54.087043345 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  2737 2018-03-13 14:40:54.087043345 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim  3367 2018-03-13 14:40:54.087043345 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim  7319 2018-03-13 14:40:54.087043345 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim   953 2018-03-13 14:40:54.083043349 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim  2736 2018-03-13 14:40:54.083043349 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim  4343 2018-03-13 14:40:54.083043349 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim     9 2018-03-13 14:40:54.083043349 +0300 init
+-rw-r--r-- 1 gsim gsim  2450 2018-03-13 14:40:54.083043349 +0300 raid.c
+-rw-r--r-- 1 gsim gsim  4547 2018-03-13 14:40:54.079043352 +0300 mill_log_t.c
+drwxr-xr-x 4 gsim gsim  4096 2018-03-13 14:40:54.079043352 +0300 tests
+-rw-r--r-- 1 gsim gsim 36102 2018-03-13 14:40:54.071043360 +0300 lun_t.c
+-rwxr-xr-x 1 gsim gsim   108 2018-03-13 14:40:54.067043362 +0300 pk-204.sh
+-rw-r--r-- 1 gsim gsim 34593 2018-03-13 14:40:54.067043362 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim 14359 2018-03-13 14:40:54.067043362 +0300 ssdc_t.c
+
+/home/gsim/Milldrv/milldrv__m/util:
+итого 96
+-rw-r--r-- 1 gsim gsim 3126 2018-03-14 17:23:25.951682366 +0300 millstatblk.c
+-rw-r--r-- 1 gsim gsim 5025 2018-03-14 17:23:17.915692301 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim 8192 2018-03-14 17:23:06.335706669 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim 3009 2018-03-14 17:22:52.299724166 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim  621 2018-03-13 14:40:54.103043332 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 3263 2018-03-13 14:40:54.103043332 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim 1481 2018-03-13 14:40:54.103043332 +0300 millerr.c
+-rwxr-xr-x 1 gsim gsim 1476 2018-03-13 14:40:54.103043332 +0300 o_lunstat.py
+-rwxr-xr-x 1 gsim gsim 2389 2018-03-13 14:40:54.103043332 +0300 stats_all_lun.py
+-rwxr-xr-x 1 gsim gsim 6643 2018-03-13 14:40:54.099043336 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim 1814 2018-03-13 14:40:54.099043336 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim   12 2018-03-13 14:40:54.099043336 +0300 init
+-rw-r--r-- 1 gsim gsim   35 2018-03-13 14:40:54.099043336 +0300 mill_list_dsk.ini
+-rw-r--r-- 1 gsim gsim   20 2018-03-13 14:40:54.099043336 +0300 mill_list_luns.ini
+-rwxr-xr-x 1 gsim gsim 9259 2018-03-13 14:40:54.099043336 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim   36 2018-03-13 14:40:54.099043336 +0300 mk.sh
+-rw-r--r-- 1 gsim gsim 1633 2018-03-13 14:40:54.099043336 +0300 rebuild.c
+-rwxr-xr-x 1 gsim gsim 4992 2018-03-13 14:40:54.099043336 +0300 sctiering.py
+
+/home/gsim/Milldrv/milldrv__m/tests:
+итого 8
+drwxr-xr-x 2 gsim gsim 4096 2018-03-13 14:40:54.079043352 +0300 use_raid_md
+drwxr-xr-x 2 gsim gsim 4096 2018-03-13 14:40:54.071043360 +0300 test512
+
+/home/gsim/Milldrv/milldrv__m/tests/use_raid_md:
+итого 444
+-rwxr-xr-x 1 gsim gsim     60 2018-03-13 14:40:54.079043352 +0300 0-ins.sh
+-rwxr-xr-x 1 gsim gsim     31 2018-03-13 14:40:54.079043352 +0300 1-rm.sh
+-rwxr-xr-x 1 gsim gsim     33 2018-03-13 14:40:54.079043352 +0300 9-rm-raid6.sh
+-rwxr-xr-x 1 gsim gsim     56 2018-03-13 14:40:54.079043352 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim    335 2018-03-13 14:40:54.079043352 +0300 Makefile
+-rwxr-xr-x 1 gsim gsim    105 2018-03-13 14:40:54.079043352 +0300 pk-050.sh
+-rw-r--r-- 1 gsim gsim 391632 2018-03-13 14:40:54.079043352 +0300 use_md.ko
+-rw-r--r-- 1 gsim gsim    652 2018-03-13 14:40:54.079043352 +0300 xor.h
+-rwxr-xr-x 1 gsim gsim     81 2018-03-13 14:40:54.075043355 +0300 9-ins-raid6.sh
+-rwxr-xr-x 1 gsim gsim     62 2018-03-13 14:40:54.075043355 +0300 mk.sh
+-rw-r--r-- 1 gsim gsim   4602 2018-03-13 14:40:54.075043355 +0300 neon.c
+-rw-r--r-- 1 gsim gsim   2478 2018-03-13 14:40:54.075043355 +0300 x86.h
+-rw-r--r-- 1 gsim gsim   5959 2018-03-13 14:40:54.071043360 +0300 pq.h
+-rw-r--r-- 1 gsim gsim   3735 2018-03-13 14:40:54.071043360 +0300 use_md.c
+
+/home/gsim/Milldrv/milldrv__m/tests/test512:
+итого 24
+-rwxr-xr-x 1 gsim gsim  227 2018-03-13 14:40:54.071043360 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  763 2018-03-13 14:40:54.071043360 +0300 Makefile
+-rwxr-xr-x 1 gsim gsim   44 2018-03-13 14:40:54.071043360 +0300 modules.order
+-rwxr-xr-x 1 gsim gsim    0 2018-03-13 14:40:54.071043360 +0300 Module.symvers
+-rw-r--r-- 1 gsim gsim 4422 2018-03-13 14:40:54.071043360 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-03-13 14:40:54.071043360 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/50_cur:
+итого 4
+drwxr-xr-x 6 gsim gsim 4096 2018-02-28 12:04:38.028112175 +0300 Milldrv
+
+/home/gsim/Milldrv/50_cur/Milldrv:
+итого 23268
+-rw-r--r-- 1 gsim gsim   33900 2018-02-28 12:04:38.028112175 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim   34338 2018-02-28 12:03:27.692261571 +0300 raid5.c
+-rw-r--r-- 1 gsim gsim  334096 2018-02-28 12:02:01.224455275 +0300 chunk_t.o
+-rw-r--r-- 1 gsim gsim  350888 2018-02-28 12:02:01.180455376 +0300 procfs.o
+-rw-r--r-- 1 gsim gsim  303576 2018-02-28 12:02:01.148455451 +0300 tier_t.o
+-rw-r--r-- 1 gsim gsim  291920 2018-02-28 12:02:01.116455524 +0300 nam_t.o
+-rwxr-xr-x 1 gsim gsim      63 2018-02-28 12:02:01.088455589 +0300 37-rm_lun03.sh
+-rw-r--r-- 1 gsim gsim     336 2018-02-28 12:02:01.084455598 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim    4261 2018-02-28 12:02:01.072455626 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim    7351 2018-02-28 12:02:01.064455644 +0300 lun_t.h
+-rwxrwx--- 1 gsim gsim      63 2018-02-28 12:02:01.052455673 +0300 ts_l02_r01G.sh
+-rw-r--r-- 1 gsim gsim  286600 2018-02-28 12:02:01.048455682 +0300 distrib_t.o
+-rw-r--r-- 1 gsim gsim  288312 2018-02-28 12:02:01.016455756 +0300 mill_idr.o
+-rw-r--r-- 1 gsim gsim    4547 2018-02-28 12:02:00.988455820 +0300 mill_log_t.c
+-rw-r--r-- 1 gsim gsim  301296 2018-02-28 12:02:00.984455829 +0300 mill_scsi.o
+-rw-r--r-- 1 gsim gsim    3783 2018-02-28 12:02:00.904456014 +0300 chunk_lsync.h
+-rwxr-xr-x 1 gsim gsim     108 2018-02-28 12:02:00.900456024 +0300 pk-204.sh
+-rw-r--r-- 1 gsim gsim   34689 2018-02-28 12:02:00.896456033 +0300 utiln.tgz
+-rw-r--r-- 1 gsim gsim     463 2018-02-28 12:02:00.880456070 +0300 mill_check.h
+-rw-r--r-- 1 gsim gsim    2736 2018-02-28 12:02:00.876456079 +0300 chunk_list.h
+-rw-r--r-- 1 gsim gsim    1548 2018-02-28 12:02:00.868456097 +0300 ssdc_t.h
+-rwxr-xr-x 1 gsim gsim     109 2018-02-28 12:02:00.864456107 +0300 pk-050.sh
+-rw-r--r-- 1 gsim gsim  288680 2018-02-28 12:02:00.836456172 +0300 job_req.o
+-rw-r--r-- 1 gsim gsim     655 2018-02-28 12:02:00.804456246 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim    2737 2018-02-28 12:02:00.800456255 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim   30689 2018-02-28 12:02:00.744456385 +0300 chunk_t.c
+-rwxrwx--- 1 gsim gsim      63 2018-02-28 12:02:00.736456403 +0300 ts_l01_r01G.sh
+-rw-r--r-- 1 gsim gsim   40314 2018-02-28 12:02:00.708456467 +0300 disk_t.c
+-rwxr-xr-x 1 gsim gsim    1006 2018-02-28 12:02:00.700456486 +0300 23-lun02-r5_5.sh
+-rwxr-xr-x 1 gsim gsim      94 2018-02-28 12:02:00.696456495 +0300 pk-192.sh
+-rw-r--r-- 1 gsim gsim     523 2018-02-28 12:02:00.692456504 +0300 tier_t.h
+-rw-r--r-- 1 gsim gsim     953 2018-02-28 12:02:00.684456523 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim      26 2018-02-28 12:02:00.680456533 +0300 mill_magic.h
+-rw-r--r-- 1 gsim gsim  288320 2018-02-28 12:02:00.668456560 +0300 stat_t.o
+-rw-r--r-- 1 gsim gsim    2244 2018-02-28 12:02:00.640456625 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim    2758 2018-02-28 12:02:00.632456643 +0300 m2bio_t.c
+-rw-r--r-- 1 gsim gsim   39697 2018-02-28 12:02:00.616456680 +0300 1q
+-rw-r--r-- 1 gsim gsim      39 2018-02-28 12:02:00.604456708 +0300 modules.order
+-rw-r--r-- 1 gsim gsim    2561 2018-02-28 12:02:00.600456717 +0300 distrib_t.c
+-rw-r--r-- 1 gsim gsim       0 2018-02-28 12:02:00.596456726 +0300 Module.symvers
+-rw-r--r-- 1 gsim gsim 7625048 2018-02-28 12:02:00.588456745 +0300 milldrv.ko
+-rw-r--r-- 1 gsim gsim     604 2018-02-28 12:01:59.932458262 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim    2450 2018-02-28 12:01:59.924458280 +0300 raid.c
+-rw-r--r-- 1 gsim gsim  292592 2018-02-28 12:01:59.920458290 +0300 mill_check.o
+-rw-r--r-- 1 gsim gsim    7319 2018-02-28 12:01:59.888458364 +0300 tier_t.c
+-rw-r--r-- 1 gsim gsim     802 2018-02-28 12:01:59.884458373 +0300 distrib_t.h
+-rw-r--r-- 1 gsim gsim     303 2018-02-28 12:01:59.876458392 +0300 mill_scsi.h
+-rw-r--r-- 1 gsim gsim    5105 2018-02-28 12:01:59.872458401 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim    8052 2018-02-28 12:01:59.864458419 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim    2518 2018-02-28 12:01:59.860458429 +0300 job_req.c
+-rw-r--r-- 1 gsim gsim    1288 2018-02-28 12:01:59.852458447 +0300 nam_t.c
+-rwxr-xr-x 1 gsim gsim     990 2018-02-28 12:01:59.844458465 +0300 10-disks.sh
+-rwxr-xr-x 1 gsim gsim      78 2018-02-28 12:01:59.840458475 +0300 in.sh
+-rwxr-xr-x 1 gsim gsim      97 2018-02-28 12:01:59.836458484 +0300 00-ins.sh
+-rw-r--r-- 1 gsim gsim   75473 2018-02-28 12:01:59.784458604 +0300 milld.c
+-rw-r--r-- 1 gsim gsim  389464 2018-02-28 12:01:59.772458632 +0300 disk_t.o
+-rw-r--r-- 1 gsim gsim  313880 2018-02-28 12:01:59.732458725 +0300 raid10.o
+-rwxrwx--- 1 gsim gsim      71 2018-02-28 12:01:59.696458808 +0300 ts_l01_w01G.sh
+-rw-r--r-- 1 gsim gsim    1963 2018-02-28 12:01:59.692458817 +0300 job_req.h
+-rwxr-xr-x 1 gsim gsim    1006 2018-02-28 12:01:59.684458836 +0300 27-lun03-r6_9.sh
+-rw-r--r-- 1 gsim gsim    6429 2018-02-28 12:01:59.680458846 +0300 milldrv.mod.c
+-rw-r--r-- 1 gsim gsim    1262 2018-02-28 12:01:59.672458864 +0300 Makefile
+drwxr-xr-x 2 gsim gsim    4096 2018-02-28 12:01:59.668458873 +0300 util
+-rw-r--r-- 1 gsim gsim  328648 2018-02-28 12:01:59.452459373 +0300 mill_t.o
+-rw-rw---- 1 gsim gsim    4736 2018-02-28 12:01:59.416459456 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim  292960 2018-02-28 12:01:59.412459465 +0300 raid.o
+-rw-r--r-- 1 gsim gsim   31494 2018-02-28 12:01:59.360459586 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  150880 2018-02-28 12:01:59.352459604 +0300 milldrv.mod.o
+-rw-r--r-- 1 gsim gsim    2365 2018-02-28 12:01:59.320459678 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim   28454 2018-02-28 12:01:59.316459687 +0300 procfs.c
+-rwxrwx--- 1 gsim gsim      71 2018-02-28 12:01:59.300459725 +0300 ts_l02_w01G.sh
+-rwxr-xr-x 1 gsim gsim    1006 2018-02-28 12:01:59.236459874 +0300 25-lun03-r6_5.sh
+-rw-r--r-- 1 gsim gsim   14359 2018-02-28 12:01:59.232459882 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim    7788 2018-02-28 12:01:59.228459891 +0300 disk_t.h
+-rw-r--r-- 1 gsim gsim    1922 2018-02-28 12:01:59.224459901 +0300 raid.h
+-rw-r--r-- 1 gsim gsim    4209 2018-02-28 12:01:57.976462790 +0300 mill_t.h
+-rw-r--r-- 1 gsim gsim     314 2018-02-28 12:01:57.960462827 +0300 mill_log_t.h
+-rw-r--r-- 1 gsim gsim   15115 2018-02-28 12:01:57.956462836 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim  291424 2018-02-28 12:01:57.948462855 +0300 mill_log_t.o
+-rwxrwx--- 1 gsim gsim     292 2018-02-28 12:01:57.904462957 +0300 mk2.sh
+-rwxr-xr-x 1 gsim gsim     997 2018-02-28 12:01:57.896462975 +0300 20-lun.sh
+-rw-r--r-- 1 gsim gsim   26223 2018-02-28 12:01:57.884463004 +0300 remap_req.c
+-rw-r--r-- 1 gsim gsim    7246 2018-02-28 12:01:57.868463040 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim   55887 2018-02-28 12:01:57.860463059 +0300 raid6.c
+-rwxr-xr-x 1 gsim gsim      62 2018-02-28 12:01:57.848463087 +0300 39-rm_lun01.sh
+-rw-r--r-- 1 gsim gsim  456688 2018-02-28 12:01:57.844463096 +0300 milld.o
+-rw-r--r-- 1 gsim gsim     254 2018-02-28 12:01:57.800463198 +0300 vm.tgz
+-rwxr-xr-x 1 gsim gsim    1006 2018-02-28 12:01:57.792463216 +0300 26-lun03-r6_7.sh
+-rw-r--r-- 1 gsim gsim    1887 2018-02-28 12:01:57.788463226 +0300 remap_req.h
+-rwxr-xr-x 1 gsim gsim    1006 2018-02-28 12:01:57.780463244 +0300 22-lun02-r5_3.sh
+-rw-r--r-- 1 gsim gsim  440144 2018-02-28 12:01:57.776463255 +0300 mill_meta.o
+-rw-rw---- 1 gsim gsim   25466 2018-02-28 12:01:57.732463355 +0300 mxbio_t.c
+-rw-r--r-- 1 gsim gsim  373200 2018-02-28 12:01:57.728463365 +0300 raid6.o
+-rw-r--r-- 1 gsim gsim    3715 2018-02-28 12:01:57.688463457 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim       9 2018-02-28 12:01:57.672463494 +0300 init
+-rwxr-xr-x 1 gsim gsim     276 2018-02-28 12:01:57.668463505 +0300 mk.sh
+-rw-r--r-- 1 gsim gsim  313344 2018-02-28 12:01:57.640463569 +0300 ssdc_t.o
+-rw-r--r-- 1 gsim gsim  337296 2018-02-28 12:01:57.608463643 +0300 mxbio_t.o
+-rwxr-xr-x 1 gsim gsim    1006 2018-02-28 12:01:57.532463819 +0300 21-lun01-r10.sh
+-rwxr-xr-x 1 gsim gsim      56 2018-02-28 12:01:57.532463819 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim  337896 2018-02-28 12:01:57.528463828 +0300 remap_req.o
+drwxr-xr-x 3 gsim gsim    4096 2018-02-28 12:01:57.492463912 +0300 tests
+-rwxr-xr-x 1 gsim gsim     987 2018-02-28 12:01:57.440464033 +0300 cr.sh
+-rwxr-xr-x 1 gsim gsim     771 2018-02-28 12:01:57.436464042 +0300 49-rm_disks.sh
+-rw-r--r-- 1 gsim gsim    3367 2018-02-28 12:01:57.428464060 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim  373144 2018-02-28 12:01:57.424464069 +0300 lun_t.o
+-rwxr-xr-x 1 gsim gsim    1006 2018-02-28 12:01:57.388464153 +0300 24-lun02-r5_7.sh
+-rw-r--r-- 1 gsim gsim    4969 2018-02-28 12:01:57.380464172 +0300 mill_check.c
+-rw-r--r-- 1 gsim gsim     676 2018-02-28 12:01:57.376464181 +0300 m2bio_t.h
+-rw-r--r-- 1 gsim gsim   54551 2018-02-28 12:01:57.372464190 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim 7475776 2018-02-28 12:01:57.360464218 +0300 milldrv.o
+-rwxr-xr-x 1 gsim gsim      62 2018-02-28 12:01:56.712465721 +0300 38-rm_lun02.sh
+-rw-r--r-- 1 gsim gsim  325888 2018-02-28 12:01:56.704465739 +0300 raid5.o
+-rwxr-xr-x 1 gsim gsim     348 2018-02-28 12:01:56.660465841 +0300 map_drive.sh
+
+/home/gsim/Milldrv/50_cur/Milldrv/util:
+итого 96
+-rwxr-xr-x 1 gsim gsim 1476 2018-02-28 12:01:59.668458873 +0300 o_lunstat.py
+-rwxr-xr-x 1 gsim gsim    0 2018-02-28 12:01:59.660458892 +0300 millconf
+-rwxr-xr-x 1 gsim gsim    0 2018-02-28 12:01:59.652458910 +0300 millerr
+-rwxr-xr-x 1 gsim gsim    0 2018-02-28 12:01:59.648458919 +0300 lunstats
+-rw-r--r-- 1 gsim gsim    0 2018-02-28 12:01:59.644458929 +0300 lunstats.o
+-rw-r--r-- 1 gsim gsim 2948 2018-02-28 12:01:59.636458947 +0300 millstatblk.c
+-rwxr-xr-x 1 gsim gsim    0 2018-02-28 12:01:59.632458956 +0300 millinfolun
+-rw-r--r-- 1 gsim gsim    0 2018-02-28 12:01:59.624458975 +0300 millconf.o
+-rwxr-xr-x 1 gsim gsim 9259 2018-02-28 12:01:59.616458993 +0300 mill_test.py
+-rwxr-xr-x 1 gsim gsim 4992 2018-02-28 12:01:59.612459002 +0300 sctiering.py
+-rw-r--r-- 1 gsim gsim  533 2018-02-28 12:01:59.604459022 +0300 Makefile
+-rwxr-xr-x 1 gsim gsim    0 2018-02-28 12:01:59.600459031 +0300 millstatblk
+-rwxr-xr-x 1 gsim gsim 2389 2018-02-28 12:01:59.592459049 +0300 stats_all_lun.py
+-rw-r--r-- 1 gsim gsim 2674 2018-02-28 12:01:59.544459160 +0300 lunstats.c
+-rw-r--r-- 1 gsim gsim 1408 2018-02-28 12:01:59.540459169 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim 3181 2018-02-28 12:01:59.532459189 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim    0 2018-02-28 12:01:59.528459197 +0300 millinfolun.o
+-rwxr-xr-x 1 gsim gsim 1747 2018-02-28 12:01:59.520459216 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim    0 2018-02-28 12:01:59.516459225 +0300 millstatblk.o
+-rw-r--r-- 1 gsim gsim   46 2018-02-28 12:01:59.508459243 +0300 mill_list_luns.ini
+-rw-r--r-- 1 gsim gsim   12 2018-02-28 12:01:59.504459253 +0300 init
+-rwxr-xr-x 1 gsim gsim   36 2018-02-28 12:01:59.496459271 +0300 mk.sh
+-rw-r--r-- 1 gsim gsim 8019 2018-02-28 12:01:59.492459280 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim    0 2018-02-28 12:01:59.484459299 +0300 millerr.o
+-rwxr-xr-x 1 gsim gsim 1746 2018-02-28 12:01:59.480459308 +0300 getlinkinf.py.save
+-rwxr-xr-x 1 gsim gsim 6643 2018-02-28 12:01:59.472459326 +0300 dsk_stats.py
+-rw-r--r-- 1 gsim gsim 4885 2018-02-28 12:01:59.468459335 +0300 millinfolun.c
+-rw-r--r-- 1 gsim gsim  180 2018-02-28 12:01:59.460459354 +0300 mill_list_dsk.ini
+
+/home/gsim/Milldrv/50_cur/Milldrv/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-02-28 12:01:57.492463912 +0300 test512
+
+/home/gsim/Milldrv/50_cur/Milldrv/tests/test512:
+итого 28
+-rwxr-xr-x 1 gsim gsim  227 2018-02-28 12:01:57.492463912 +0300 loadNoZero.sh
+-rwxr-xr-x 1 gsim gsim   44 2018-02-28 12:01:57.488463921 +0300 modules.order
+-rwxr-xr-x 1 gsim gsim    0 2018-02-28 12:01:57.484463930 +0300 Module.symvers
+-rwxr-xr-x 1 gsim gsim  763 2018-02-28 12:01:57.480463940 +0300 Makefile
+-rw-r--r-- 1 gsim gsim 4422 2018-02-28 12:01:57.472463958 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim   56 2018-02-28 12:01:57.468463967 +0300 clr.sh
+-rwxr-xr-x 1 gsim gsim  100 2018-02-28 12:01:57.460463986 +0300 unloadNoZero.sh
+
+/home/gsim/Milldrv/192_cur:
+итого 4
+drwxr-xr-x 6 gsim gsim 4096 2018-02-14 10:57:02.289637143 +0300 Milldrv
+
+/home/gsim/Milldrv/192_cur/Milldrv:
+итого 22656
+-rw-r--r-- 1 gsim gsim   18621 2018-02-14 10:57:02.289637143 +0300 raid6.c
+-rw-r--r-- 1 gsim gsim   18566 2018-02-14 10:55:55.481674337 +0300 raid5.c
+drwxr-xr-x 2 gsim gsim    4096 2018-02-14 10:54:06.505735005 +0300 util
+-rw-r--r-- 1 gsim gsim   30689 2018-02-14 10:52:59.609772247 +0300 chunk_t.c
+-rw-r--r-- 1 gsim gsim   38986 2018-02-14 10:44:14.222064712 +0300 disk_t.c
+-rw-r--r-- 1 gsim gsim   27701 2018-02-14 10:43:25.162092020 +0300 procfs.c
+-rw-r--r-- 1 gsim gsim   32563 2018-02-13 18:15:32.942263707 +0300 lun_t.c
+-rw-r--r-- 1 gsim gsim    7199 2018-02-13 18:11:17.750643762 +0300 lun_t.h
+-rw-r--r-- 1 gsim gsim   38610 2018-02-13 18:11:05.806664698 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim   70987 2018-02-13 18:09:21.434862810 +0300 milld.c
+-rw-rw---- 1 gsim gsim   26184 2018-02-13 18:07:53.063054907 +0300 mxbio_t.c
+-rw-rw---- 1 gsim gsim    4410 2018-02-13 18:07:14.887145910 +0300 mxbio_t.h
+-rw-r--r-- 1 gsim gsim  447144 2018-02-13 17:53:54.095422324 +0300 milld.o
+-rwxr-xr-x 1 gsim gsim      78 2018-02-13 17:53:54.051422317 +0300 in.sh
+-rw-r--r-- 1 gsim gsim   28693 2018-02-13 17:53:54.051422317 +0300 raid5_old.c
+-rw-r--r-- 1 gsim gsim    1262 2018-02-13 17:53:54.039422315 +0300 Makefile
+-rwxr-xr-x 1 gsim gsim      32 2018-02-13 17:53:54.035422315 +0300 99-rmmod.sh
+-rw-r--r-- 1 gsim gsim   28693 2018-02-13 17:53:54.031422314 +0300 raid6_old.c
+-rw-r--r-- 1 gsim gsim  312832 2018-02-13 17:53:54.027422314 +0300 ssdc_t.o
+-rw-r--r-- 1 gsim gsim    4220 2018-02-13 17:53:53.995422309 +0300 chunk_t.h
+-rw-r--r-- 1 gsim gsim    5239 2018-02-13 17:53:53.995422309 +0300 mill_check.c
+-rwxr-xr-x 1 gsim gsim     241 2018-02-13 17:53:53.983422307 +0300 05-set_sdf.sh
+-rw-r--r-- 1 gsim gsim  333536 2018-02-13 17:53:53.979422306 +0300 chunk_t.o
+-rw-r--r-- 1 gsim gsim  287752 2018-02-13 17:53:53.947422302 +0300 mill_idr.o
+-rw-r--r-- 1 gsim gsim  150464 2018-02-13 17:53:53.919422298 +0300 milldrv.mod.o
+-rwxr-xr-x 1 gsim gsim     276 2018-02-13 17:53:53.899422294 +0300 mk.sh
+-rw-r--r-- 1 gsim gsim    3367 2018-02-13 17:53:53.887422292 +0300 remap_info_lsync.h
+-rw-r--r-- 1 gsim gsim 7444352 2018-02-13 17:53:53.883422292 +0300 milldrv.ko
+-rw-r--r-- 1 gsim gsim     953 2018-02-13 17:53:53.239422195 +0300 all_h.h
+-rw-r--r-- 1 gsim gsim  388760 2018-02-13 17:53:53.239422195 +0300 disk_t.o
+-rw-r--r-- 1 gsim gsim     655 2018-02-13 17:53:53.199422189 +0300 stat_t.h
+-rw-r--r-- 1 gsim gsim  287768 2018-02-13 17:53:53.199422189 +0300 stat_t.o
+-rw-r--r-- 1 gsim gsim   31028 2018-02-13 17:53:53.103422175 +0300 raid10.c
+-rw-r--r-- 1 gsim gsim  284536 2018-02-13 17:53:53.095422173 +0300 mill_scsi.o
+-rw-r--r-- 1 gsim gsim    7637 2018-02-13 17:53:52.947422151 +0300 disk_t.h
+-rwxr-xr-x 1 gsim gsim      36 2018-02-13 17:53:52.943422150 +0300 00-insmod.sh
+-rw-r--r-- 1 gsim gsim     336 2018-02-13 17:53:52.939422150 +0300 nam_t.h
+-rw-r--r-- 1 gsim gsim     443 2018-02-13 17:53:52.935422149 +0300 mill_check.h
+-rwxrwx--- 1 gsim gsim     246 2018-02-13 17:53:52.931422148 +0300 10-make_lun01.sh
+-rw-r--r-- 1 gsim gsim   15118 2018-02-13 17:53:52.931422148 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim     523 2018-02-13 17:53:52.915422146 +0300 tier_t.h
+-rwxrwx--- 1 gsim gsim      45 2018-02-13 17:53:52.903422144 +0300 83-rm_sdh.sh
+-rwxrwx--- 1 gsim gsim     118 2018-02-13 17:53:52.903422144 +0300 tsd_r01G.sh
+-rw-r--r-- 1 gsim gsim  286040 2018-02-13 17:53:52.899422144 +0300 distrib_t.o
+-rwxrwx--- 1 gsim gsim      63 2018-02-13 17:53:52.871422140 +0300 ts_r01G.sh
+-rw-r--r-- 1 gsim gsim      26 2018-02-13 17:53:52.867422139 +0300 mill_magic.h
+drwxr-xr-x 2 gsim gsim    4096 2018-02-13 17:53:52.863422138 +0300 old
+-rw-r--r-- 1 gsim gsim 7295480 2018-02-13 17:53:52.847422136 +0300 milldrv.o
+-rwxrwx--- 1 gsim gsim      72 2018-02-13 17:53:52.219422041 +0300 xx-cache_on.sh
+-rw-r--r-- 1 gsim gsim  291408 2018-02-13 17:53:52.215422041 +0300 nam_t.o
+-rw-r--r-- 1 gsim gsim  326944 2018-02-13 17:53:52.187422036 +0300 remap_req.o
+-rw-r--r-- 1 gsim gsim      32 2018-02-13 17:53:52.155422031 +0300 modules.order
+-rw-r--r-- 1 gsim gsim  372520 2018-02-13 17:53:52.151422031 +0300 lun_t.o
+-rwxr-xr-x 1 gsim gsim     241 2018-02-13 17:53:52.115422025 +0300 01-set_sdb.sh
+-rwxr-xr-x 1 gsim gsim     241 2018-02-13 17:53:52.115422025 +0300 02-set_sdc.sh
+-rw-r--r-- 1 gsim gsim     294 2018-02-13 17:53:52.111422024 +0300 mill_log_t.h
+-rwxr-xr-x 1 gsim gsim     108 2018-02-13 17:53:52.107422024 +0300 pk-204.sh
+-rwxr-xr-x 1 gsim gsim     241 2018-02-13 17:53:52.103422024 +0300 03-set_sdd.sh
+-rw-r--r-- 1 gsim gsim    6049 2018-02-13 17:53:52.103422024 +0300 milldrv.mod.c
+-rw-r--r-- 1 gsim gsim  315248 2018-02-13 17:53:52.099422023 +0300 raid6.o
+-rw-r--r-- 1 gsim gsim  401472 2018-02-13 17:53:52.067422018 +0300 mill_meta.o
+-rw-r--r-- 1 gsim gsim   14359 2018-02-13 17:53:52.027422012 +0300 ssdc_t.c
+-rw-r--r-- 1 gsim gsim    2736 2018-02-13 17:53:52.015422010 +0300 chunk_list.h
+-rwxr-xr-x 1 gsim gsim      71 2018-02-13 17:53:52.007422009 +0300 clr.sh
+-rw-r--r-- 1 gsim gsim    3783 2018-02-13 17:53:52.003422008 +0300 chunk_lsync.h
+-rw-r--r-- 1 gsim gsim  288120 2018-02-13 17:53:51.999422008 +0300 job_req.o
+-rw-r--r-- 1 gsim gsim    2365 2018-02-13 17:53:51.971422004 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim  291128 2018-02-13 17:53:51.959422002 +0300 raid.o
+-rw-r--r-- 1 gsim gsim    1660 2018-02-13 17:53:51.927421997 +0300 remap_req.h
+drwxr-xr-x 3 gsim gsim    4096 2018-02-13 17:53:51.915421995 +0300 tests
+-rw-r--r-- 1 gsim gsim    1288 2018-02-13 17:53:51.895421992 +0300 nam_t.c
+-rwxr-xr-x 1 gsim gsim      45 2018-02-13 17:53:51.891421992 +0300 86-rm_sde.sh
+-rw-r--r-- 1 gsim gsim    2547 2018-02-13 17:53:51.891421992 +0300 mill_scsi.c
+-rw-r--r-- 1 gsim gsim    6329 2018-02-13 17:53:51.883421990 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim    1548 2018-02-13 17:53:51.883421990 +0300 ssdc_t.h
+-rwxr-xr-x 1 gsim gsim      43 2018-02-13 17:53:51.879421990 +0300 79-rm_lun01.sh
+-rw-r--r-- 1 gsim gsim  348928 2018-02-13 17:53:51.875421989 +0300 procfs.o
+-rw-r--r-- 1 gsim gsim    7319 2018-02-13 17:53:51.839421984 +0300 tier_t.c
+-rwxr-xr-x 1 gsim gsim     139 2018-02-13 17:53:51.795421977 +0300 50-info.sh
+-rw-r--r-- 1 gsim gsim     604 2018-02-13 17:53:51.791421976 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim   21450 2018-02-13 17:53:51.787421976 +0300 remap_req.c
+-rwxr-xr-x 1 gsim gsim      45 2018-02-13 17:53:51.779421974 +0300 85-rm_sdf.sh
+-rw-r--r-- 1 gsim gsim  303064 2018-02-13 17:53:51.767421973 +0300 tier_t.o
+-rw-r--r-- 1 gsim gsim     255 2018-02-13 17:53:51.739421968 +0300 mill_scsi.h
+-rwxr-xr-x 1 gsim gsim     251 2018-02-13 17:53:51.735421968 +0300 04-set_sde.sh
+-rw-r--r-- 1 gsim gsim  328008 2018-02-13 17:53:51.723421966 +0300 mill_t.o
+-rw-r--r-- 1 gsim gsim  314992 2018-02-13 17:53:51.691421961 +0300 raid5.o
+-rwxrwx--- 1 gsim gsim      41 2018-02-13 17:53:51.659421956 +0300 xx-cache_show.sh
+-rw-r--r-- 1 gsim gsim    3715 2018-02-13 17:53:51.639421954 +0300 job_lsync.h
+-rw-r--r-- 1 gsim gsim    1804 2018-02-13 17:53:51.611421949 +0300 raid.h
+-rwxrwx--- 1 gsim gsim      63 2018-02-13 17:53:51.607421948 +0300 ts_w01G.sh
+-rw-r--r-- 1 gsim gsim  289296 2018-02-13 17:53:51.603421947 +0300 mill_log_t.o
+-rw-r--r-- 1 gsim gsim    2518 2018-02-13 17:53:51.575421943 +0300 job_req.c
+-rwxr-xr-x 1 gsim gsim      45 2018-02-13 17:53:51.571421943 +0300 87-rm_sdd.sh
+-rwxr-xr-x 1 gsim gsim      45 2018-02-13 17:53:51.567421942 +0300 88-rm_sdc.sh
+-rwxr-xr-x 1 gsim gsim     241 2018-02-13 17:53:51.563421941 +0300 06-set_sdg.sh
+-rwxrwx--- 1 gsim gsim     241 2018-02-13 17:53:51.563421941 +0300 07-set_sdh.sh
+-rw-r--r-- 1 gsim gsim    4173 2018-02-13 17:53:51.559421942 +0300 mill_t.h
+-rwxr-xr-x 1 gsim gsim     109 2018-02-13 17:53:51.555421941 +0300 pk-050.sh
+-rw-r--r-- 1 gsim gsim  312968 2018-02-13 17:53:51.551421940 +0300 raid10.o
+-rw-r--r-- 1 gsim gsim  291440 2018-02-13 17:53:51.519421935 +0300 mill_check.o
+-rw-r--r-- 1 gsim gsim  314736 2018-02-13 17:53:51.483421929 +0300 mxbio_t.o
+-rwxrwx--- 1 gsim gsim     292 2018-02-13 17:53:51.455421925 +0300 mk2.sh
+-rw-r--r-- 1 gsim gsim    7152 2018-02-13 17:53:51.443421923 +0300 milldrv.h
+-rwxrwx--- 1 gsim gsim     188 2018-02-13 17:53:51.439421923 +0300 cp_from_Share.sh
+-rw-r--r-- 1 gsim gsim    2737 2018-02-13 17:53:51.435421922 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim    2244 2018-02-13 17:53:51.435421922 +0300 stat_t.c
+-rw-r--r-- 1 gsim gsim    4367 2018-02-13 17:53:51.415421919 +0300 mill_log_t.c
+-rwxrwx--- 1 gsim gsim     117 2018-02-13 17:53:51.411421919 +0300 tsd_rw01G.sh
+-rw-r--r-- 1 gsim gsim    2066 2018-02-13 17:53:51.407421918 +0300 raid.c
+-rw-r--r-- 1 gsim gsim    2561 2018-02-13 17:53:51.403421917 +0300 distrib_t.c
+-rwxr-xr-x 1 gsim gsim      56 2018-02-13 17:53:51.395421916 +0300 89-rm_sdb.sh
+-rwxrwx--- 1 gsim gsim      19 2018-02-13 17:53:51.391421915 +0300 tier_start.sh
+-rwxr-xr-x 1 gsim gsim     190 2018-02-13 17:53:51.379421914 +0300 40-set_err.sh
+-rw-r--r-- 1 gsim gsim       0 2018-02-13 17:53:51.363421911 +0300 Module.symvers
+-rwxr-xr-x 1 gsim gsim     198 2018-02-13 17:53:51.359421911 +0300 41-set_err.sh
+-rw-r--r-- 1 gsim gsim    1943 2018-02-13 17:53:51.355421910 +0300 job_req.h
+-rwxr-xr-x 1 gsim gsim      45 2018-02-13 17:53:51.347421909 +0300 84-rm_sdg.sh
+-rw-r--r-- 1 gsim gsim     802 2018-02-13 17:53:51.331421907 +0300 distrib_t.h
+
+/home/gsim/Milldrv/192_cur/Milldrv/util:
+итого 216
+-rwxr-xr-x 1 gsim gsim  9259 2018-02-14 10:54:06.505735005 +0300 mill_test.py
+-rw-r--r-- 1 gsim gsim  7845 2018-02-14 10:53:38.437750630 +0300 millconf.c
+-rw-r--r-- 1 gsim gsim  1408 2018-02-13 17:53:53.067422169 +0300 millerr.c
+-rw-r--r-- 1 gsim gsim   533 2018-02-13 17:53:53.059422168 +0300 Makefile
+-rw-r--r-- 1 gsim gsim  2674 2018-02-13 17:53:53.055422167 +0300 lunstats.c
+-rwxr-xr-x 1 gsim gsim    36 2018-02-13 17:53:53.055422167 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim 17752 2018-02-13 17:53:53.051422166 +0300 millconf
+-rw-r--r-- 1 gsim gsim    12 2018-02-13 17:53:53.043422166 +0300 init
+-rw-r--r-- 1 gsim gsim  4885 2018-02-13 17:53:53.039422165 +0300 millinfolun.c
+-rwxr-xr-x 1 gsim gsim  1476 2018-02-13 17:53:53.031422164 +0300 o_lunstat.py
+-rwxr-xr-x 1 gsim gsim 13080 2018-02-13 17:53:53.027422163 +0300 lunstats
+-rw-r--r-- 1 gsim gsim  5088 2018-02-13 17:53:53.019422162 +0300 lunstats.o
+-rw-r--r-- 1 gsim gsim    20 2018-02-13 17:53:53.015422161 +0300 mill_list_luns.ini
+-rwxr-xr-x 1 gsim gsim 13208 2018-02-13 17:53:53.007422160 +0300 millstatblk
+-rw-r--r-- 1 gsim gsim  7984 2018-02-13 17:53:53.003422160 +0300 millinfolun.o
+-rw-r--r-- 1 gsim gsim  3088 2018-02-13 17:53:52.999422159 +0300 millerr.o
+-rw-r--r-- 1 gsim gsim    35 2018-02-13 17:53:52.995422158 +0300 mill_list_dsk.ini
+-rwxr-xr-x 1 gsim gsim  8936 2018-02-13 17:53:52.991422158 +0300 millerr
+-rwxr-xr-x 1 gsim gsim  6643 2018-02-13 17:53:52.987422157 +0300 dsk_stats.py
+-rwxr-xr-x 1 gsim gsim  4992 2018-02-13 17:53:52.983422156 +0300 sctiering.py
+-rw-r--r-- 1 gsim gsim 12168 2018-02-13 17:53:52.979422156 +0300 millconf.o
+-rwxr-xr-x 1 gsim gsim  2389 2018-02-13 17:53:52.975422155 +0300 stats_all_lun.py
+-rwxr-xr-x 1 gsim gsim  1747 2018-02-13 17:53:52.967422154 +0300 getlinkinf.py
+-rw-r--r-- 1 gsim gsim  2948 2018-02-13 17:53:52.967422154 +0300 millstatblk.c
+-rw-r--r-- 1 gsim gsim  3120 2018-02-13 17:53:52.963422154 +0300 milldrv.h
+-rw-r--r-- 1 gsim gsim  4584 2018-02-13 17:53:52.959422153 +0300 millstatblk.o
+-rwxrwx--- 1 gsim gsim   296 2018-02-13 17:53:52.955422152 +0300 cp_from_Share.sh
+-rwxr-xr-x 1 gsim gsim 13168 2018-02-13 17:53:52.951422152 +0300 millinfolun
+
+/home/gsim/Milldrv/192_cur/Milldrv/old:
+итого 16
+-rw-r--r-- 1 gsim gsim  882 2018-02-13 17:53:52.863422138 +0300 mlbio_t.h
+-rw-r--r-- 1 gsim gsim 3485 2018-02-13 17:53:52.859422138 +0300 mlbio_t.c
+-rw-rw---- 1 gsim gsim 2758 2018-02-13 17:53:52.855422137 +0300 m2bio_t.c
+-rw-rw---- 1 gsim gsim  676 2018-02-13 17:53:52.851422136 +0300 m2bio_t.h
+
+/home/gsim/Milldrv/192_cur/Milldrv/tests:
+итого 4
+drwxr-xr-x 2 gsim gsim 4096 2018-02-13 17:53:51.915421995 +0300 test512
+
+/home/gsim/Milldrv/192_cur/Milldrv/tests/test512:
+итого 20
+-rw-r--r-- 1 gsim gsim  763 2018-02-13 17:53:51.915421995 +0300 Makefile
+-rw-rw---- 1 gsim gsim 4422 2018-02-13 17:53:51.911421994 +0300 nozero.c
+-rwxr-xr-x 1 gsim gsim  100 2018-02-13 17:53:51.907421994 +0300 unloadNoZero.sh
+-rwxr-xr-x 1 gsim gsim  227 2018-02-13 17:53:51.903421993 +0300 loadNoZero.sh
+
+/home/gsim/Milldrv/50:
+итого 520
+-rw-r--r-- 1 gsim gsim  1148 2017-12-11 10:18:44.575187506 +0300 Makefile
+-rw-r--r-- 1 gsim gsim   355 2017-12-11 10:18:35.103200972 +0300 tier_t.h
+-rw-r--r-- 1 gsim gsim  6872 2017-12-11 10:18:35.095200983 +0300 tier_t.c
+-rw-r----- 1 gsim gsim  1665 2017-12-11 10:18:35.091200989 +0300 remap_req.h
+-rw-r----- 1 gsim gsim 24422 2017-12-11 10:18:35.087200994 +0300 remap_req.c
+-rw-rw---- 1 gsim gsim  3367 2017-12-11 10:18:35.079201006 +0300 remap_info_lsync.h
+-rw-rw---- 1 gsim gsim  2737 2017-12-11 10:18:35.075201011 +0300 remap_info_list.h
+-rw-r--r-- 1 gsim gsim 21237 2017-12-11 10:18:35.067201023 +0300 procfs.c
+-rw-rw---- 1 gsim gsim   336 2017-12-11 10:18:35.063201028 +0300 nam_t.h
+-rw-rw---- 1 gsim gsim  1245 2017-12-11 10:18:35.059201034 +0300 nam_t.c
+-rw-rw---- 1 gsim gsim   867 2017-12-11 10:18:35.055201040 +0300 mlbio_t.h
+-rw-rw---- 1 gsim gsim  3371 2017-12-11 10:18:35.051201045 +0300 mlbio_t.c
+-rw-r----- 1 gsim gsim  6638 2017-12-11 10:18:35.047201051 +0300 milldrv_.h
+-rw-r--r-- 1 gsim gsim  5411 2017-12-11 10:18:35.039201062 +0300 milldrv.mod.c
+-rw-rw---- 1 gsim gsim  4209 2017-12-11 10:18:35.035201068 +0300 milldrv.h
+-rw-rw---- 1 gsim gsim 82432 2017-12-11 10:18:35.031201074 +0300 milld.c
+-rw-r--r-- 1 gsim gsim  5077 2017-12-11 10:18:35.019201091 +0300 millconf.c
+-rw-rw---- 1 gsim gsim  3363 2017-12-11 10:18:35.015201097 +0300 mill_t.h
+-rw-rw---- 1 gsim gsim 13215 2017-12-11 10:18:35.007201108 +0300 mill_t.c
+-rw-r--r-- 1 gsim gsim  4013 2017-12-11 10:18:34.995201125 +0300 mill_meta.h
+-rw-r--r-- 1 gsim gsim 14183 2017-12-11 10:18:34.987201136 +0300 mill_meta.c
+-rw-r--r-- 1 gsim gsim    26 2017-12-11 10:18:34.983201142 +0300 mill_magic.h
+-rw-r--r-- 1 gsim gsim   604 2017-12-11 10:18:34.979201148 +0300 mill_idr.h
+-rw-r--r-- 1 gsim gsim  2283 2017-12-11 10:18:34.971201159 +0300 mill_idr.c
+-rw-r--r-- 1 gsim gsim  1696 2017-12-11 10:18:34.967201165 +0300 lunstats.c
+-rw-rw---- 1 gsim gsim  3971 2017-12-11 10:18:34.963201170 +0300 lun_t.h
+-rw-rw---- 1 gsim gsim 23693 2017-12-11 10:18:34.959201176 +0300 lun_t.c
+-rw-r----- 1 gsim gsim  1943 2017-12-11 10:18:34.951201187 +0300 job_req.h
+-rw-r----- 1 gsim gsim  2302 2017-12-11 10:18:34.947201193 +0300 job_req.c
+-rw-r----- 1 gsim gsim  3715 2017-12-11 10:18:34.943201199 +0300 job_lsync.h
+-rw-rw---- 1 gsim gsim   802 2017-12-11 10:18:34.935201210 +0300 distrib_t.h
+-rw-rw---- 1 gsim gsim  2493 2017-12-11 10:18:34.931201216 +0300 distrib_t.c
+-rw-r----- 1 gsim gsim  1636 2017-12-11 10:18:34.923201227 +0300 disk_t_2.c
+-rw-r----- 1 gsim gsim   851 2017-12-11 10:18:34.919201233 +0300 disk_t_1.c
+-rw-rw---- 1 gsim gsim  6350 2017-12-11 10:18:34.915201238 +0300 disk_t.h
+-rw-rw---- 1 gsim gsim 29534 2017-12-11 10:18:34.907201250 +0300 disk_t.c
+-rw-rw---- 1 gsim gsim  3800 2017-12-11 10:18:34.903201255 +0300 chunk_t.h
+-rw-rw---- 1 gsim gsim 21357 2017-12-11 10:18:34.895201267 +0300 chunk_t.c
+-rw-r----- 1 gsim gsim  3781 2017-12-11 10:18:34.887201278 +0300 chunk_lsync.h
+-rw-rw---- 1 gsim gsim  2722 2017-12-11 10:18:34.883201284 +0300 chunk_list.h
+-rw-rw---- 1 gsim gsim   758 2017-12-11 10:18:34.879201289 +0300 all_h.h
+-rwxr-xr-x 1 gsim gsim    64 2017-12-07 09:41:59.479939042 +0300 ts_r.sh
+-rwxr-xr-x 1 gsim gsim    59 2017-12-07 09:41:59.475939050 +0300 ts1.sh
+-rwxr-xr-x 1 gsim gsim    63 2017-12-07 09:41:59.471939059 +0300 ts0.sh
+-rwxr-xr-x 1 gsim gsim    68 2017-12-07 09:41:59.467939069 +0300 ts.sh
+-rwxr-xr-x 1 gsim gsim   296 2017-12-07 09:41:59.463939077 +0300 mk2.sh
+-rwxr-xr-x 1 gsim gsim   274 2017-12-07 09:41:59.459939085 +0300 mk.sh
+-rwxr-xr-x 1 gsim gsim   666 2017-12-07 09:41:59.455939095 +0300 cr.sh
+-rwxr-xr-x 1 gsim gsim    27 2017-12-07 09:41:59.451939103 +0300 5-rm.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.447939111 +0300 4.8-rm_disk_1.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.443939120 +0300 4.7-rm_disk_2.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.439939130 +0300 4.6-rm_disk_3.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.435939137 +0300 4.5-rm_disk_4.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.431939146 +0300 4.4-rm_disk_5.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.427939156 +0300 4.2-rm_disk_7.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.427939156 +0300 4.3-rm_disk_6.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.423939163 +0300 4.1-rm_disk_8.sh
+-rwxr-xr-x 1 gsim gsim    59 2017-12-07 09:41:59.419939172 +0300 3-rm_lun01.sh
+-rwxr-xr-x 1 gsim gsim    79 2017-12-07 09:41:59.415939180 +0300 2-lun01.sh
+-rwxr-xr-x 1 gsim gsim   824 2017-12-07 09:41:59.411939190 +0300 1-disk_9.sh
+-rwxr-xr-x 1 gsim gsim   824 2017-12-07 09:41:59.407939198 +0300 1-disk_8.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.403939206 +0300 1-disk_7.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.399939216 +0300 1-disk_6.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.395939224 +0300 1-disk_5.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.391939233 +0300 1-disk_4.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.387939241 +0300 1-disk_3.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.383939251 +0300 1-disk_2.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.379939259 +0300 1-disk_1.sh
+-rwxr-xr-x 1 gsim gsim   674 2017-12-07 09:41:59.375939267 +0300 1-disk_0.sh
+-rwxr-xr-x 1 gsim gsim   873 2017-12-07 09:41:59.371939276 +0300 1-cr.sh
+-rwxr-xr-x 1 gsim gsim    62 2017-12-07 09:41:59.367939284 +0300 0-inst.sh

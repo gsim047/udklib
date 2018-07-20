@@ -1,0 +1,51 @@
+// This file was created by MkExe ver. %VER% [%DATE% %TIME%]
+
+#define VERSIONINFO_1 1
+VERSIONINFO_1 VERSIONINFO
+
+FILEVERSION 1, 0, 0, 1
+PRODUCTVERSION 1, 0, 0, 1
+
+FILEOS 0x40004L
+// FILEOS 0x0L - 
+// FILEOS 0x1L - DOS
+// FILEOS 0x2L - for 16-bit Presentation Manager
+// FILEOS 0x3L - for 32-bit Presentation Manager
+// FILEOS 0x4L - NT
+
+%RCEXE%FILETYPE 0x01L
+%RCDLL%FILETYPE 0x02L
+// FILETYPE 0x00L - unknown
+// FILETYPE 0x01L - Application
+// FILETYPE 0x02L - DLL
+// FILETYPE 0x03L - Device Driver
+// FILETYPE 0x04L - Font
+// FILETYPE 0x05L - Virtual Device
+// FILETYPE 0x07L - Static link Library
+FILESUBTYPE    0x0L
+
+{
+	BLOCK "StringFileInfo"
+	{
+		BLOCK "040904E4"
+		{
+			VALUE "CompanyName", "Gerasim#\0"
+			VALUE "FileDescription", "%NAME%\0"
+			VALUE "FileVersion", "1.0.0.1\0"
+			VALUE "Date", "%DATE%\0"
+			VALUE "Time", "%TIME%\0"
+			VALUE "ProductName", "%NAME%\0"
+			VALUE "ProductVersion", "1.0.0.1\0"
+			VALUE "InternalName", "%NAME%\0"
+			VALUE "LegalCopyright", "Copyright (c)  Gerasim# %YEAR%\0"
+			VALUE "OriginalFilename", "%NAME%.exe\0"
+		}
+	}
+
+	BLOCK "VarFileInfo"
+	{
+		VALUE "Translation", 0x409, 0x04E4
+	}
+}
+
+128           ICON    DISCARDABLE     "%NAME%.ico"

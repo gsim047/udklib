@@ -1,0 +1,65 @@
+
+NAME=cMain
+MKFILE=Makefile.gmk
+
+CC=g++
+CPPFLAGS=-c -I ~/include -std=c++11
+CFLAGS=$(CPPFLAGS)
+LIBO=$(NAME)
+LIBN=$(LIBO)
+LIBP=lib$(LIBN)
+LIBPE=$(LIBP).a
+ARC=$(LIBN)_src
+ARL=$(LIBO)_lib
+MYLIB=~/lib
+MYH=~/include
+LIB32=ar
+LIB32_FLAGS=-r -s "$(LIBPE)" 
+DEP=$(LIBO).d
+
+
+OBJS = \
+	cMain.o             
+
+
+all: $(DEP) $(LIBPE) $(OBJS) 
+#$(ARC).rar
+
+include $(DEP)
+
+$(DEP): *.cpp *.h $(MKFILE)
+	$(CC) $(CPPFLAGS) -MM *.cpp > $(DEP)
+
+
+
+clean: 
+	-rm $(LIBPE)
+	-rm $(OBJS)
+
+build: clean all
+
+copy:
+	@cp -v -u *.h $(MYH)
+	@cp -v -u $(LIBPE) $(MYLIB)
+
+install: all copy
+
+
+
+$(LIBPE) : $(MKFILE) $(OBJS)
+	$(LIB32) $(LIB32_FLAGS) $(OBJS)
+
+
+%.o : %.cpp
+	$(CC) $(CPPFLAGS) $< -o $@
+
+%.o : %.c
+	$(CC) $(CFLAGS) $< -o $@
+
+$(ARL).rar : $(LIBPE)
+	-1 @rar u -r $(ARL) *.lib
+
+$(ARC).rar : $(OBJS) Makefile*.*
+	-1 @rar u $(ARC) *.h *.cpp *.c *.bat Makefile*.*
+	if exist c:/doc cp -f $(ARC).rar c:/doc/h/
+
