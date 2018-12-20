@@ -3,7 +3,7 @@
 #include "fRand.h"
 #include "fPid.h"
 #include "tTimer.h"
-#include "mt19937ar.h"
+#include "mt19937ar_h.cpp"
 
 #ifdef __GNUG__
 #include <sys/time.h>
