@@ -16,7 +16,7 @@ UNAME_O = $(shell uname -o)
 ifeq ($(UNAME_O),Cygwin)
 TARGET=$(NAME).exe
 RES=$(NAME)_res.o
-LIBS=-L ~/lib %LIB% -lversion
+LIBS=-L ~/lib %LIB%
 RCCCMD=$(RCC) -o $(RES) $(RC)
 else
 TARGET=$(NAME)

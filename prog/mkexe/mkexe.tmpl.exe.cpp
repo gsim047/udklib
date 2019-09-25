@@ -40,7 +40,7 @@ static void About()
 
 int Main()
 {
-	cout << "###.  ver " << GetVer() << "   (c) Gerasim#  [" 
+	cout << "%NAME%.  ver " << GetVer() << "   (c) Gerasim#  [" 
 	     << GetVer("Date") << " " << GetVer("Time") << "]" << endl << endl;
 	if ( config.getBool("option", "?", false) )  About(); 
 
