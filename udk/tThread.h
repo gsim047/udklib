@@ -17,14 +17,6 @@ public:
 	tThread(const string &name);
 	virtual ~tThread();
 
-/*
-#ifdef __GNUG__
-	friend void *run_thread_item(void *attr);
-#endif // __GNUG__
-#ifdef _WIN32
-	friend DWORD run_thread_item(LPDWORD attr);
-#endif // _WIN32
-*/
 	friend void run_thread_item(tThread *thr);
 
 private:
@@ -42,14 +34,12 @@ public:
 	int getPriority() const;
 	void setPriority(int new_priority);
 
-	//void interrupt();                                    // ???
-	//static bool interrupted();                           // ???
 	bool isAlive() const { return _ok; };
 	bool isDaemon() const { return _detach; };
 	bool isInterrupted() const;
 	void join();
 	bool join(int timeout);
-	void setDaemon(bool on = true) { _detach = (on && _heap); };
+	void setDaemon(bool on = true) { _detach = on; };
 	void start();
 	void stop() { stopFlag = true; };                    // ---
 	void suspend();                                      // ---
@@ -64,31 +54,25 @@ public:
 	static void stopAll() { stopAllFlag = true; };       // ---
 	static void joinAll();
 
-	void *operator new(size_t size) { setHeap(); return ::operator new(size); };
+//	void *operator new(size_t size) { setHeap(); return ::operator new(size); };
 
 protected:
 	bool testStop() const { return stopAllFlag || stopFlag; };
 
 	static void yield();
+
+//	virtual void begin() {}
 	virtual void run() = 0;
+//	virtual void end() {}
 
 //	static void exit();
 	bool sleep(int timeout) const;   // in milliseconds, ret false if thread stopping
 
 private:
 	bool _ok;
-	bool _heap;
+//	bool _heap;
 	bool _detach;
 
-/*
-#ifdef __GNUG__
-	pthread_t thread;
-#endif // __GNUG__
-#ifdef _WIN32
-	DWORD ThreadId;
-	HANDLE hThread;
-#endif // _WIN32
-*/
 	std::thread *th = nullptr;
 
 	unsigned tid;
@@ -98,10 +82,10 @@ private:
 
 protected:
 	static bool stopAllFlag;
-	static std::mutex listLock;
+//	static std::mutex listLock;
 
 private:
-	static void setHeap();
+//	static void setHeap();
 };// class tThread 
 
 

@@ -19,19 +19,11 @@ DEP=$(LIBO).d
 
 
 OBJS = \
-	_sha.o                \
-	tAutoThread.o         \
-	fBase64.o             \
-	fKey.o                \
-	fLong.o               \
-	fRand.o               \
-	fString.o             \
-	fVector.o             \
-	mt19937ar.o           \
-	nError.o              \
-	tConfiguration.o      \
-	tCrc32.o              \
-	tCrc64.o              \
+	tByteArray.o          \
+	fConnection.o         \
+	tPk.o                 \
+	tServerSocket.o       \
+	tSockConn.o           \
 	tDateTime.o           \
 	tDebug.o              \
 	tFList.o              \

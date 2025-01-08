@@ -1,15 +1,12 @@
-#define _WINSOCK_DEPRECATED_NO_WARNINGS
-
 #include "tSocket.h"
+//#include "fTime.h"
 #include "tTimer.h"
 
 #include <errno.h>
 #include <stdio.h>
-#include <string.h>
 
 #ifdef __GNUG__
 #include <unistd.h>
-#include <sys/select.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <netdb.h>
@@ -35,48 +32,20 @@
 #include <list>
 #include <vector>
 #include <algorithm>
-#include <mutex>
 
 #include "__tSocket.cpp"
 #include "fString.h"
 //#include "tThread.h"
 //#include "tPList.h"
+#include "tMutex.h"
 #include "tDebug.h"
 
 
 
-//static void debugLog(const string &s)
-//{
-//}//
 
-
-
-static bool __getpeername(int s, string &addr, int &port)
-{
-	struct sockaddr_in name;
-	memset(&name, 0, sizeof(name));
-	__tSocket::elmlen plen = sizeof(name);
-	if ( ::getpeername(s, (struct sockaddr *)&name, &plen) < 0 )  return false;
-	addr = inet_ntoa(name.sin_addr);
-	port = (int) ntohs(name.sin_port);
-	printf("::peername for socket [%d] - %s:%d [[]]\n", s, addr.c_str(), port);
-	return true;
-}// __getpeername
-
-
-static bool __getsockname(int s, string &adr, int &port)
-{
-	struct sockaddr addr;
-	__tSocket::elmlen adrlen = sizeof(addr);
-	if ( ::getsockname(s, &addr, &adrlen ) < 0 )  return false;
-	struct sockaddr_in *nptr = (struct sockaddr_in *) &addr;
-	adr = inet_ntoa(nptr->sin_addr);
-	port = (int) ntohs(nptr->sin_port);
-	printf("::sockname for socket [%d] - %s:%d [[]]\n", s, adr.c_str(), port);
-	return true;
-}// __getsockname
-
-
+//tMutex __tSocket::_listMutex;
+//tPList<__tSocket> __tSocket::_list;
+//std::list<__tSocket *> __tSocket::_list;
 
 
 static void __init_WSA()
@@ -293,9 +262,9 @@ bool __tSocket::usezip = true;
 
 
 __tSocket::__tSocket(bool Tcp) :
-	s(_socket(Tcp)),
-	tcp(Tcp),
-	alive(false)
+  s(_socket(Tcp)),
+  tcp(Tcp),
+  alive(false)
 {
 	if ( s <= 0 ){
 		lasterror = "Can't open socket";  return;
@@ -309,9 +278,9 @@ __tSocket::__tSocket(bool Tcp) :
 
 
 __tSocket::__tSocket(int i) :
-	s(i),
-	tcp(true),
-	alive(false)
+  s(i),
+  tcp(true),
+  alive(false)
 {
 	if ( s <= 0 ){
 		lasterror = "Can't open socket";  return;
@@ -448,7 +417,7 @@ bool __tSocket::listen()
 
 int __tSocket::accept(int tm)
 {
-	std::lock_guard<std::mutex> mr(m2);
+	tMutexLock mr(m2);
 	if ( !Alive() )  return -1;
 	if ( tm < 0 )  return -1;
 
@@ -474,10 +443,6 @@ int __tSocket::accept(int tm)
 		elmlen sa_size = sizeof(c_addr);
 		int rc = ::accept(s, (struct sockaddr*) &c_addr, &sa_size);
 		if ( rc < 0 )  _Throw("accept error");
-		printf("::accept %d [[[]]]\n", rc);
-		string addr; int port;
-		__getpeername(rc, addr, port);
-		__getsockname(rc, addr, port);
 		return rc;
 	}
 	return -1;
@@ -557,21 +522,21 @@ string __tSocket::_read(unsigned n)   // read n bytes
 
 int __tSocket::read()
 {
-	std::lock_guard<std::mutex> mr(m2);
+	tMutexLock mr(m2);
 	return _read();
 }// __tSocket::read
 
 
 string __tSocket::read(unsigned i)
 {
-	std::lock_guard<std::mutex> mr(m2);
+	tMutexLock mr(m2);
 	return _read(i);
 }// __tSocket::read
 
 
 int __tSocket::readtm(int tm)         // read 1 byte with timeout
 {
-	std::lock_guard<std::mutex> mr(m2);
+	tMutexLock mr(m2);
 	if ( availableRead(tm) )  return _read();
 	return -1;
 }// __tSocket::readtm
@@ -581,7 +546,7 @@ string __tSocket::readtm(unsigned n, int tm)  // read n bytes with timeout
 {
 	if ( n < 1 || tm < 0 )  return "";
 	char *r = new char[n];
-	std::lock_guard<std::mutex> mr(m2);
+	tMutexLock mr(m2);
 
 	unsigned i = 0;
 	for ( tTimer t; i < n; ){
@@ -628,7 +593,7 @@ string __tSocket::readFrom(string &addr, int &port)
 	unsigned n = getMaxMsgSize();
 	if ( n < 1 )  return "";
 	char *r = new char[n];
-	std::lock_guard<std::mutex> mr(m2);
+	tMutexLock mr(m2);
 
 	unsigned i = 0;
 	bool ar;
@@ -703,14 +668,14 @@ int __tSocket::_write(const string &q)
 
 int __tSocket::write(char r)
 {
-	std::lock_guard<std::mutex> mw(m3);
+	tMutexLock mw(m3);
 	return _write(r);
 }// __tSocket::write
 
 
 int __tSocket::write(const string &b)
 {
-	std::lock_guard<std::mutex> mw(m3);
+	tMutexLock mw(m3);
 	return _write(b);
 }// __tSocket::write
 
@@ -726,7 +691,7 @@ int __tSocket::_writetm(char r, int tm)
 int __tSocket::writetm(char r, int tm)
 {
 	if( tm < 0 ) return 0;
-	std::lock_guard<std::mutex> mw(m3);
+	tMutexLock mw(m3);
 	return _writetm(r, tm);
 }// __tSocket::writetm
 
@@ -735,7 +700,7 @@ int __tSocket::writetm(const string &q, int tm)
 {
 	if ( tm < 0 || q.empty() ) return 0;
 
-	std::lock_guard<std::mutex> mw(m3);
+	tMutexLock mw(m3);
 	string w = q;
 	for ( tTimer t; !w.empty(); ){
 		if ( availableWrite(0) ){
@@ -766,7 +731,7 @@ int __tSocket::writeTo(const string &q, const string &addr, int port)
 		_Throw("writeTo error: buffer size=" + ToString(q.size()) + " > maxmsg=" + ToString(maxmsg)); 
 	}
 
-	std::lock_guard<std::mutex> mw(m3);
+	tMutexLock mw(m3);
 	string w = q;
 
 	int err = 0;
@@ -836,6 +801,9 @@ bool __tSocket::availableWrite(int tm) const
 
 __tSocket::~__tSocket()
 {
+	//tMutexLock l1(m1);
+	//tMutexLock l2(m2);
+	//tMutexLock l3(m3);
 	close();
 }// __tSocket::~__tSocket
 
@@ -843,19 +811,17 @@ __tSocket::~__tSocket()
 void __tSocket::close()
 {
 	if ( s != -1 ){
-//		shutdown(s, 2);
+		shutdown(s, 2);
 #ifdef __GNUG__
-		shutdown(s, SHUT_RDWR);
 		::close(s);
 #endif
 #ifdef _WIN32
-		shutdown(s, SD_BOTH);
 		::closesocket(s);
 #endif
 		s = -1;
 		debugLog("close socket [" + ToString(s) + "]");
 	}else{
-		debugLog("close socket (INVALID_SOCKET)");
+		debugLog("close socket -1");
 	}
 	alive = false;
 }// __tSocket::close
@@ -865,7 +831,7 @@ bool __tSocket::setOption(int opt, int val)
 {
 	int ret;
 	{
-		std::lock_guard<std::mutex> m(m1);
+		tMutexLock m(m1);
 		int optval = val;
 		ret = setsockopt(s, SOL_SOCKET, opt, (char *)&optval, sizeof(optval));
 	}
@@ -877,7 +843,7 @@ bool __tSocket::setOption(int proto, int opt, int val)
 {
 	int ret;
 	{
-		std::lock_guard<std::mutex> m(m1);
+		tMutexLock m(m1);
 		int optval = val;
 		ret = setsockopt(s, proto, opt, (char *)&optval, sizeof(optval));
 	}
@@ -939,7 +905,7 @@ bool __tSocket::setKeepAlive(int v)
 
 bool __tSocket::setNoDelay(int v)
 {
-	return ( tcp ) ? setOption(IPPROTO_TCP, 1 /*TCP_NODELAY*/, v) : false;
+	return ( tcp ) ? setOption(IPPROTO_TCP, TCP_NODELAY, v) : false;
 }// __tSocket::setNoDelay
 
 
@@ -953,7 +919,7 @@ bool __tSocket::setNoBlock(int v)
 {
 	int ret;
 	{
-		std::lock_guard<std::mutex> m(m1);
+		tMutexLock m(m1);
 #ifdef __GNUG__
 		int dontblock = v;
 		ret = ioctl(s, FIONBIO, (char *) &dontblock);
@@ -987,7 +953,7 @@ int __tSocket::getMaxMsgSize() const
 bool __tSocket::erase(__tSocket *p)
 {
 	if ( p != NULL ){
-		std::lock_guard<std::mutex> ml(_listMutex);
+		tMutexLock ml(_listMutex);
 		std::list<__tSocket *>::iterator i = std::find(__tSocket::_list.begin(),
 		                                               __tSocket::_list.end(), p);
 		if ( i != __tSocket::_list.end() ){
@@ -1004,7 +970,7 @@ bool __tSocket::erase(__tSocket *p)
 
 void __tSocket::eraseAll()
 {
-	//std::lock_guard<std::mutex> ml(_listMutex);
+	//tMutexLock ml(_listMutex);
 	//printf("__tSocket::_list socket eraseAll.  __tSocket::_list.size()=%d\n", __tSocket::_list.size());
 
 	for ( std::list<__tSocket *>::iterator i = __tSocket::_list.begin();
@@ -1020,7 +986,7 @@ void __tSocket::add(__tSocket *p)
 {
 	if ( p != NULL ){
 
-		std::lock_guard<std::mutex> ml(_listMutex);
+		tMutexLock ml(_listMutex);
 		__tSocket::_list.push_back(p);
 		debugLog("__tSocket::_list socket added.  __tSocket::_list.size()=" +  
 		         ToString(__tSocket::_list.size())); 
@@ -1105,18 +1071,6 @@ string tSocket::getLocalAddress() const
 {
 	return ( p ) ? p->getLocalAddress() : string();
 }// tSocket::getLocalAddress
-
-
-bool tSocket::availableRead(int tim) const
-{
-	return ( p ) ? p->availableRead(tim) : false;
-}// tSocket::availableRead
-
-
-bool tSocket::availableWrite(int tim) const
-{
-	return ( p ) ? p->availableWrite(tim) : false;
-}// tSocket::availableWrite
 
 
 string tSocket::read(unsigned size)
@@ -1315,7 +1269,7 @@ string tSocket::getHostName()
 
 	string ret;
 	char buf[256];
-	//if ( gethostname(buf, 255) == 0 )  ret = buf;
+	if ( gethostname(buf, 255) == 0 )  ret = buf;
 	return ret;
 }// tSocket::getHostName
 

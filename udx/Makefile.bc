@@ -1,0 +1,73 @@
+.autodepend
+
+.path.obj = bcc
+.path.lib = bcc
+
+!ifndef CPPINC
+!error CPPINC must be defined !!!
+!endif	
+!ifndef BCLIB
+!error BCLIB must be defined !!!
+!endif	
+
+CC=bcc32
+OBJDIR=bcc
+LIBDIR=bcc
+CCOPT=-5 -tW -tWM -n$(OBJDIR) -I..\udk
+CF_C=-c
+TLOPT=/C /P64
+LIBN=udx
+LIBP=$(LIBDIR)\$(LIBN)
+LIBPE=$(LIBP).lib
+MYLIB=$(BCLIB)
+MYH=$(CPPINC)
+
+
+OBJS = \
+	tByteArray.obj     \
+	tCfg.obj           \
+	tCfgKey.obj        \
+	tConnection.obj    \
+	tDbf.obj           \
+	tIp.obj            \
+	tIPC.obj           \
+	tIPCConn.obj       \
+	tJob.obj           \
+	tPk.obj            \
+	tSem.obj           \
+	tServerSocket.obj  \
+	tShMem.obj         \
+	tSockConn.obj      \
+	tSocket.obj        \
+	tStrHash.obj       \
+	tSvSocket.obj      \
+	tXml.obj
+
+
+all: $(LIBPE) $(OBJS) 
+
+clean: 
+	del *.lib
+	del *.obj
+
+build: clean all
+
+copy:
+	@xcopy /Y /D /R *.h $(MYH)\*.*
+	@xcopy /Y /D /R $(LIBPE) $(MYLIB)\*.*
+
+install: all copy
+
+
+$(LIBPE) : $(OBJS)
+# cd $(OBJDIR)
+	&tlib $(LIBPE) $(TLOPT) -+$?
+	if exist $(LIBP).bak del $(LIBP).bak
+# cd ..
+
+.cpp.obj:
+	$(CC) $(CCOPT) $(CF_C) $<
+
+.c.obj:
+	$(CC) $(CCOPT) $(CF_C) $<
+
