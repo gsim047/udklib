@@ -77,12 +77,6 @@ function buts($ex = "")
 }
 
 
-function scannerAddr()
-{
-	return "snapscan:libusb:001:006";
-}
-
-
 function colorBg()
 {
 	return "202020";
@@ -192,6 +186,14 @@ function findCfg()
 	//echo "Not found!\n";
 	return "";
 }
+
+
+function scannerAddr()
+{
+	$cfg = readCfg();
+	return "snapscan:libusb:" . $cfg; //001:006";
+}
+
 
 
 
