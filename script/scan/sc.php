@@ -156,7 +156,7 @@ function chkDir($dir)
 	$wwwdir = "/scan_";
 	$basedir = dirname(__FILE__).$wwwdir;
 
-	$dir = get_pg_string("gal");
+	$dir = "scan"; //get_pg_string("gal");
 	$cols = get_pg_int("n", 6);
 
 

@@ -1,8 +1,4 @@
 <?php
-//define("DBHOST",'localhost');
-//define("DBUSER",'root');
-//define("DBPASS",'rrtt');
-//define("DBNAME",'betatest');
 
 if ( !defined('ABS_PATH') )
 	define('ABS_PATH', dirname(__FILE__) . '/');
@@ -11,6 +7,12 @@ if ( !defined('EXT_PATH') )
 	define('EXT_PATH', '');
 
 
+
+function dd($msg)
+{
+//	echo "// $msg\n";
+	return "";
+}
 
 
 function dp($msg)
@@ -63,16 +65,16 @@ function readLst($fname)
 
 function buts($ex = "")
 {
-	echo "<a href='/'><img src='/home.png' alt='' style='border:2px solid black'></a>&nbsp;";
-	echo "<a href='/ex.php?gal=scan'><img src='/pics.png' alt='Сканы' style='border:2px solid black'></a>&nbsp;";
-	echo "<a href='/scan300.php'><img src='/scan300.png' alt='Сканировать на 300 dpi' style='border:2px solid black'></a>&nbsp;";
-	echo "<a href='/scan400.php'><img src='/scan400.png' alt='Сканировать на 400 dpi' style='border:2px solid black'></a>&nbsp;";
-	echo "<a href='/scan600.php'><img src='/scan600.png' alt='Сканировать на 600 dpi' style='border:2px solid black'></a>&nbsp;";
+	echo "<a href='/'><img src='home.png' alt='' style='border:2px solid black'></a>&nbsp;";
+	echo "<a href='index.php'><img src='pics.png' alt='Сканы' style='border:2px solid black'></a>&nbsp;";
+	echo "<a href='scan300.php'><img src='scan300.png' alt='Сканировать на 300 dpi' style='border:2px solid black'></a>&nbsp;";
+	echo "<a href='scan400.php'><img src='scan400.png' alt='Сканировать на 400 dpi' style='border:2px solid black'></a>&nbsp;";
+	echo "<a href='scan600.php'><img src='scan600.png' alt='Сканировать на 600 dpi' style='border:2px solid black'></a>&nbsp;";
 	if ( $ex != "dl" ){
-		echo "<a href='/scan_pk.php'><img src='/dl.png' alt='Скачать все сканы' style='border:2px solid black'></a>&nbsp;";
+		echo "<a href='scan_pk.php'><img src='dl.png' alt='Скачать все сканы' style='border:2px solid black'></a>&nbsp;";
 	}
 	if ( $ex != "clear" ){
-		echo "<a href='/scan_clear.php'><img src='/clear.png' alt='Удалить все сканы' style='border:2px solid black'></a>&nbsp;";
+		echo "<a href='scan_clear.php'><img src='clear.png' alt='Удалить все сканы' style='border:2px solid black'></a>&nbsp;";
 	}
 }
 
@@ -128,13 +130,58 @@ function h2()
 }
 
 
+
+function wwwDir()
+{
+	return "/scan";
+}
+
+function fsDir()
+{
+	return dirname(__FILE__);
+}
+
+
+function thumbSampleDir()
+{
+	return "/var/www/html/";
+}
+
+function dirScans()
+{
+	return "/scan";
+}
+
+function wwwDirScans()
+{
+	return wwwDir().dirScans();
+}
+
+function fsDirScans()
+{
+	return fsDir().dirScans();
+}
+
+
+function cfgFile()
+{
+	$cfgf = fsDir()."/scan.cfg";
+	return $cfgf;
+}
+
+
 function readCfg()
 {
 	$ret = "";
-	$f = fopen("/var/www/html/scan.cfg", "r");
+	$cfgf = cfgFile();
+	dd("cfgFile: $cfgf");
+	$f = fopen($cfgf, "r");
 	if ( $f != FALSE ){
+		dd("file is OK");
 		$ret = fgets($f);
 		fclose($f);
+	}else{
+		dd("Can't open file $cfgf!");
 	}
 	return $ret;
 }
@@ -142,7 +189,8 @@ function readCfg()
 
 function writeCfg($cfg)
 {
-	$f = fopen("/var/www/html/scan.cfg", "w");
+	$cfgf = cfgFile();
+	$f = fopen($cfgf, "w");
 	if ( $f != FALSE ){
 		fwrite($f, $cfg);
 		fclose($f);
@@ -156,13 +204,16 @@ function testCfg($cfg)
 		$u1 = substr($cfg, 0, 3);
 		$u2 = substr($cfg, 4, 3);
 		$fn = "/dev/bus/usb/" . $u1 . "/" . $u2;
+		dd("test $fn");
 		$tmp = "/tmp/__tq23__.tmp";
 		if ( file_exists($fn) ){
+			dd("file exists");
 			system("cat $fn >$tmp");
 			$sz = filesize($tmp);
 			//echo "file $fn: $sz\n";
 			unlink($tmp);
 			if ( $sz == 57 ){
+				dd("size is 57!+");
 				return 1;
 			}
 		}

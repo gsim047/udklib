@@ -9,7 +9,7 @@ include_once("cfg.php");
 	//echo "scan-$dt.jpg\n\n";
 	$addr = scannerAddr(); //"snapscan:libusb:001:006";
 
-	h1("Сканирование 400 dpi");
+	h1("Сканирование 300 dpi");
 
 	echo "<h3><font color=#$colorTitle >Scanner start... <br/>Image: 'scan-$dt.jpg'<br/><br/>\n";
 	echo "Внимание! После долгого простоя, сканер прогревается до 45 секунд! Подождите немного...<br/></font></h3>\n";
@@ -17,7 +17,9 @@ include_once("cfg.php");
 	//echo "<br/><a href=\"/ex.php?gal=scan\"><b>Перейти к сканам &gt;&gt;</b></a><br/>";
 //	system("whoami");
 	$dir = fsDirScans();
-	system("/usr/bin/scanimage -d $addr --format=jpeg --resolution 400 -o $dir/scan-$dt.jpg >/dev/null 2>&1 &");
+	$cmd = "/usr/bin/scanimage -d '$addr' --format=jpeg -o $dir/scan-$dt.jpg";
+	dd($cmd);
+	system($cmd);
 
 	//system("ls -lA");
 	h2();
