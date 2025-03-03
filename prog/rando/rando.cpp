@@ -75,6 +75,7 @@ std::vector<string> loadTodoList(const string &fn_todo, const std::map<string, i
 	tRTFile fi(fn_todo);
 	while ( !fi.eof() ){
 		string s = fi.read();
+		dp(":: " + s);
 		s = trim(s);
 		if ( s.empty() )
 			continue;
@@ -153,12 +154,16 @@ std::vector<string> loadTodoList(const string &fn_todo, const std::map<string, i
 		cur = check(cur);
 
 		// split #
+		dp("split1"); 
 		size_t pos = s.find("#");
+		dp("split2 pos:" + ToString(pos)); 
 		string comm1;
 		if ( pos != string::npos ){
-			s = trim(s.substr(0, pos));
+			dp("split3");
 			comm1 = trim(s.substr(pos+1));
 			dp("s: [" + s + "] pos:" + ToString(pos));
+			s = trim(s.substr(0, pos));
+			dp("split4 s:" + s);
 		}
 
 		if ( !s.empty() ){
@@ -167,13 +172,14 @@ std::vector<string> loadTodoList(const string &fn_todo, const std::map<string, i
 
 			if ( !comm.empty() ){
 				if ( !comm1.empty() ){
-					comm1 = comm + ". " + comm1;
+					comm1 = comm + " " + comm1;
 				}else{
 					comm1 = comm;
 				}
 			}else{
 				// comm1
 			}
+			comm1 = Replace(comm1, "\"", "'");
 
 			if ( s.substr(0, 1) == "*" ){
 				tFList fl(cur, false);
@@ -300,8 +306,8 @@ int Main()
 //	dp("1 - " + fn_done);
 	std::map<string, int> dn = loadDoneList(fn_done);
 	dp("done size: " + ToString(dn.size()));
-//	dp("3 - " + fn_todo);
 	std::map<string, string> td;
+	dp("todo: " + fn_todo);
 	std::vector<string> todo = loadTodoList(fn_todo, dn, td);
 	dp("todo size: " + ToString(todo.size()));
 
@@ -315,7 +321,7 @@ int Main()
         if ( tFILE::FileExists(fn) ){
 			string cmd2 = Replace(cmd1, "%%FILE%%", fn);
 			cmd2 = Replace(cmd2, "%%COMM%%", td[fn]);
-//			dp(cmd2);
+			dp(cmd2);
 			system(cmd2.c_str());
 			break;
 		}
