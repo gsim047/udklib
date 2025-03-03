@@ -107,6 +107,10 @@ std::vector<string> loadTodoList(const string &fn_todo, const std::map<string, i
 			comm = trim(s2);
 			dp("comm: " + comm);
 		}
+		if ( beginsWith(s, "=info ", s2) ){
+			comm = trim(s2);
+			dp("comm: " + comm);
+		}
 		if ( s1 == "=" )
 			continue;
 
@@ -177,9 +181,19 @@ std::vector<string> loadTodoList(const string &fn_todo, const std::map<string, i
 				for ( size_t i = 0; i < fl2.size(); i++ ){
 					string fn = fl2[i];
 					dp("todo test*: " + fn);
-					std::map<string, int>::const_iterator it = dn.find(fn);
-					if ( it != dn.end() ){
-						if ( it->second == 1 ){
+					{
+						std::map<string, int>::const_iterator it = dn.find(fn);
+						if ( it != dn.end() ){
+							if ( it->second == 1 ){
+								n_skip++;
+								dp("skip...");
+								continue;
+							}
+						}
+					}
+					{
+						std::map<string, string>::const_iterator it = td.find(fn);
+						if ( it != td.end() ){
 							n_skip++;
 							dp("skip...");
 							continue;
@@ -290,17 +304,23 @@ int Main()
 	std::map<string, string> td;
 	std::vector<string> todo = loadTodoList(fn_todo, dn, td);
 	dp("todo size: " + ToString(todo.size()));
-	if ( !todo.empty() ){
+
+	while ( !todo.empty() ){
 		unsigned nn = Grandom32(todo.size());
 //		dp("5. " + ToString(nn));
 		string fn = todo[nn];
 		//saveTodoList(fn_todo, todo, nn);
 		saveDoneList(fn_done, fn);
     
-		string cmd2 = Replace(cmd1, "%%FILE%%", fn);
-		cmd2 = Replace(cmd2, "%%COMM%%", td[fn]);
-//		dp(cmd2);
-		system(cmd2.c_str());
+        if ( tFILE::FileExists(fn) ){
+			string cmd2 = Replace(cmd1, "%%FILE%%", fn);
+			cmd2 = Replace(cmd2, "%%COMM%%", td[fn]);
+//			dp(cmd2);
+			system(cmd2.c_str());
+			break;
+		}
+
+		todo.erase(todo.begin() + nn);
 	}
 
 	return 0;

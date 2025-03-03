@@ -3,7 +3,7 @@
 #define VERSIONINFO_1 1
 VERSIONINFO_1 VERSIONINFO
 
-FILEVERSION 1, 0, 0, 27
+FILEVERSION 1, 0, 0, 29
 PRODUCTVERSION 1, 0, 0, 1
 
 FILEOS 0x40004L
@@ -31,9 +31,9 @@ FILESUBTYPE    0x0L
 		{
 			VALUE "CompanyName", "Gerasim#\0"
 			VALUE "FileDescription", "rando\0"
-			VALUE "FileVersion", "1.0.0.27\0"
+			VALUE "FileVersion", "1.0.0.29\0"
 			VALUE "Date", "2025-03-03\0"
-			VALUE "Time", "01:03:19\0"
+			VALUE "Time", "03:10:53\0"
 			VALUE "ProductName", "rando\0"
 			VALUE "ProductVersion", "1.0.0.1\0"
 			VALUE "InternalName", "rando\0"
