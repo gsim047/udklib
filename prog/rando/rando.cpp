@@ -316,16 +316,18 @@ int Main()
 //		dp("5. " + ToString(nn));
 		string fn = todo[nn];
 		//saveTodoList(fn_todo, todo, nn);
-		saveDoneList(fn_done, fn);
     
         if ( tFILE::FileExists(fn) ){
 			string cmd2 = Replace(cmd1, "%%FILE%%", fn);
 			cmd2 = Replace(cmd2, "%%COMM%%", td[fn]);
 			dp(cmd2);
-			system(cmd2.c_str());
-			break;
+			int res = system(cmd2.c_str());
+			if ( !res ){ 
+				saveDoneList(fn_done, fn);
+				break;
+			}
 		}
-
+		saveDoneList(fn_done, fn);
 		todo.erase(todo.begin() + nn);
 	}
 
