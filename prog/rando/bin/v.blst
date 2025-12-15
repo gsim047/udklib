@@ -1,0 +1,21 @@
+#
+: skip
+
+=base ~/foto
+=comm <a href="https://fftor.ru">ФфТОР</a>
+
+./v
+*.jpg
+
+./v/021-040
+*.jpg
+
+./v/041-060
+*.jpg
+
+./v/061-080
+*.jpg
+
+./v/081-100
+*.jpg
+
